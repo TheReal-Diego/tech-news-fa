@@ -1,0 +1,38 @@
+name: به‌روزرسانی روزانه‌ی آرشیو اخبار
+
+on:
+  schedule:
+    # هر روز ساعت ۰۶:۰۰ به وقت ایران (۰۲:۳۰ UTC)
+    - cron: "30 2 * * *"
+  workflow_dispatch:  # امکان اجرای دستی از تب Actions در گیت‌هاب
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: دریافت کد ریپازیتوری
+        uses: actions/checkout@v4
+
+      - name: نصب پایتون
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: نصب نیازمندی‌ها
+        run: pip install requests feedparser
+
+      - name: اجرای اسکریپت به‌روزرسانی اخبار
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python update_news.py
+
+      - name: کامیت و push تغییرات (در صورت وجود خبر تازه)
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news-dataset.json
+          git diff --staged --quiet || git commit -m "به‌روزرسانی خودکار آرشیو اخبار - $(date +'%Y-%m-%d')"
+          git push
