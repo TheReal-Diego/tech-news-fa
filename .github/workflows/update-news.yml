@@ -12,6 +12,7 @@ permissions:
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: دریافت کد ریپازیتوری
         uses: actions/checkout@v4
