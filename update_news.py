@@ -45,10 +45,10 @@ FEEDS = {
 }
 
 # هر فید حداکثر چند آیتم تازه را در یک اجرا پردازش کند (برای کنترل مصرف API رایگان)
-MAX_ITEMS_PER_FEED = 8
+MAX_ITEMS_PER_FEED = 6
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"  # سریع، رایگان در حد سهمیه‌ی روزانه
+GEMINI_MODEL = "gemini-2.5-flash"  # نسخه‌ی فعال و رایگان (2.0-flash از ۱ ژوئن ۲۰۲۶ منسوخ شده)
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/"
     f"{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
@@ -175,15 +175,26 @@ def translate_with_gemini(title_en: str, raw_summary_en: str) -> dict:
     prompt = TRANSLATE_PROMPT_TEMPLATE.format(title=title_en, summary=raw_summary_en)
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
-    resp = requests.post(GEMINI_URL, json=payload, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
+    max_retries = 3
+    backoff = 8  # ثانیه - افزایش تدریجی در صورت برخورد مجدد با 429
 
-    text = data["candidates"][0]["content"]["parts"][0]["text"]
-    text = text.strip()
-    text = re.sub(r"^```json\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
+    for attempt in range(1, max_retries + 1):
+        resp = requests.post(GEMINI_URL, json=payload, timeout=30)
+        if resp.status_code == 429:
+            if attempt == max_retries:
+                resp.raise_for_status()
+            print(f"    [محدودیت نرخ] تلاش {attempt} ناموفق، {backoff} ثانیه صبر می‌کنم...")
+            time.sleep(backoff)
+            backoff *= 2
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        text = data["candidates"][0]["content"]["parts"][0]["text"]
+        text = text.strip()
+        text = re.sub(r"^```json\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
+        return json.loads(text)
 
-    return json.loads(text)
+    raise RuntimeError("تمام تلاش‌های ترجمه با خطای محدودیت نرخ مواجه شدند.")
 
 
 # ----------------------------------------------------------------------------
@@ -222,7 +233,7 @@ def main():
         data["articles"].append(article)
         added += 1
         print(f"  + {article['title_fa']}")
-        time.sleep(1.5)  # احترام به محدودیت نرخ سهمیه‌ی رایگان Gemini
+        time.sleep(6.5)  # احترام به محدودیت نرخ ۱۰ درخواست در دقیقه‌ی Gemini 2.5 Flash
 
     if added > 0:
         save_dataset(data)
