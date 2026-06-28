@@ -3,412 +3,417 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>رصدخانه — اخبار تکنولوژی و هوش مصنوعی</title>
+<title>فرکانس — اخبار تکنولوژی و هوش مصنوعی</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <style>
-@font-face {
-  font-family: 'Vazirmatn';
-  src: local('Vazirmatn');
-}
 @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/JetBrains-Mono/2.304/css/jetbrains-mono.min.css');
 
 :root{
-  --bg:           #0B0F1A;
-  --bg-soft:      #0F1626;
-  --panel:        #141C2E;
-  --panel-hi:     #1B2538;
-  --line:         #232E45;
-  --text:         #E8ECF4;
-  --text-dim:     #94A0BD;
-  --text-faint:   #5C6680;
-  --signal:       #3DDC97;
-  --signal-soft:  rgba(61,220,151,.12);
-  --hot:          #FF6B4A;
-  --hot-soft:     rgba(255,107,74,.13);
-  --gold:         #E8B84B;
+  --ink:      #0A0A0F;
+  --paper:    #15151D;
+  --paper-2:  #1D1D28;
+  --line:     #262635;
+  --text:     #EDEDF2;
+  --muted:    #6B6B7A;
+  --faint:    #45454F;
+  --ember:    #FF8A4C;
+  --ember-dim: rgba(255,138,76,.13);
+  --signal:   #B8FF9F;
+  --signal-dim: rgba(184,255,159,.12);
 
-  --font-fa: 'Vazirmatn', 'Tahoma', sans-serif;
-  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --serif: 'Vazirmatn', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
 }
 
-*{ box-sizing:border-box; margin:0; padding:0; }
+*{ margin:0; padding:0; box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
-
 body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:var(--font-fa);
-  line-height:1.75;
-  min-height:100vh;
-  background-image:
-    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(61,220,151,.06), transparent 60%),
-    radial-gradient(ellipse 700px 500px at 100% 10%, rgba(255,107,74,.05), transparent 60%);
+  background:var(--ink); color:var(--text); font-family:var(--serif);
+  line-height:1.8; -webkit-font-smoothing:antialiased; overflow-x:hidden;
 }
+::selection{ background:var(--ember-dim); color:var(--ember); }
+::-webkit-scrollbar{ width:8px; }
+::-webkit-scrollbar-track{ background:var(--ink); }
+::-webkit-scrollbar-thumb{ background:var(--line); border-radius:8px; }
+a{ color:inherit; text-decoration:none; }
 
-::selection{ background:var(--signal-soft); color:var(--signal); }
-
-/* ===== Scrollbar ===== */
-::-webkit-scrollbar{ width:10px; }
-::-webkit-scrollbar-track{ background:var(--bg); }
-::-webkit-scrollbar-thumb{ background:var(--line); border-radius:10px; }
-::-webkit-scrollbar-thumb:hover{ background:var(--text-faint); }
-
-/* ===== Layout shell ===== */
-.wrap{ max-width:1180px; margin:0 auto; padding:0 28px; }
-
-/* ===== Header ===== */
-header.top{
-  border-bottom:1px solid var(--line);
-  padding:22px 0 0;
-  position:sticky; top:0; z-index:50;
-  background:rgba(11,15,26,.88);
-  backdrop-filter: blur(14px);
+/* ===== margin rail — signature element ===== */
+.rail{
+  position:fixed; top:0; bottom:0; right:0; width:42px;
+  border-left:1px solid var(--line); z-index:30;
+  display:flex; flex-direction:column; align-items:center;
+  padding:24px 0; pointer-events:none;
 }
-.top-row{
-  display:flex; align-items:center; justify-content:space-between; gap:20px;
-  padding-bottom:18px;
+.rail-progress{
+  position:absolute; top:0; right:-1px; width:1px; background:var(--signal);
+  box-shadow:0 0 8px rgba(184,255,159,.6);
+  transition:height .1s linear;
 }
-.brand{ display:flex; align-items:center; gap:12px; }
-.brand-mark{
-  width:38px; height:38px; border-radius:10px;
-  background:linear-gradient(135deg, var(--signal), #1F8F65);
-  display:flex; align-items:center; justify-content:center;
-  position:relative; flex-shrink:0;
+.rail-label{
+  font-family:var(--mono); font-size:9.5px; color:var(--faint);
+  writing-mode:vertical-rl; letter-spacing:.15em; text-transform:uppercase;
 }
-.brand-mark::after{
-  content:''; position:absolute; width:10px; height:10px; border-radius:50%;
-  background:var(--bg); top:50%; left:50%; transform:translate(-50%,-50%);
-  box-shadow: 0 0 0 3px rgba(11,15,26,.4) inset;
-}
-.brand-mark::before{
-  content:''; position:absolute; width:6px; height:6px; border-radius:50%;
-  background:var(--signal); top:50%; left:50%; transform:translate(-50%,-50%);
-  animation: pulse-dot 2.2s ease-in-out infinite;
-}
-@keyframes pulse-dot{ 0%,100%{ opacity:1; transform:translate(-50%,-50%) scale(1); } 50%{ opacity:.4; transform:translate(-50%,-50%) scale(1.6); } }
+.rail-label.top{ margin-bottom:auto; }
+.rail-label.bottom{ margin-top:auto; color:var(--signal); }
+@media (max-width:860px){ .rail{ display:none; } }
 
-.brand-name{ font-size:19px; font-weight:700; letter-spacing:-.2px; }
-.brand-sub{ font-family:var(--font-mono); font-size:10.5px; color:var(--text-faint); letter-spacing:.06em; text-transform:uppercase; margin-top:1px; }
+.shell{ margin-right:42px; }
+@media (max-width:860px){ .shell{ margin-right:0; } }
 
-.live-pill{
-  display:flex; align-items:center; gap:8px;
-  font-family:var(--font-mono); font-size:11px; color:var(--signal);
-  background:var(--signal-soft); border:1px solid rgba(61,220,151,.25);
-  padding:7px 13px; border-radius:100px; letter-spacing:.04em;
-  white-space:nowrap;
+.wrap{ max-width:1040px; margin:0 auto; padding:0 32px; }
+
+/* ===== header ===== */
+header{
+  position:sticky; top:0; z-index:40;
+  background:rgba(10,10,15,.85); backdrop-filter:blur(20px) saturate(150%);
+  border-bottom:1px solid transparent; transition:border-color .3s;
 }
-.live-pill .dot{ width:6px; height:6px; border-radius:50%; background:var(--signal); animation:pulse-dot 2s ease-in-out infinite; }
+header.scrolled{ border-bottom-color:var(--line); }
+.head-row{
+  max-width:1040px; margin:0 auto; padding:22px 32px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.logo{ font-size:18px; font-weight:800; letter-spacing:-.2px; display:flex; align-items:center; gap:10px; }
+.logo-glyph{
+  width:9px; height:9px; background:var(--ember); border-radius:2px;
+  transform:rotate(45deg); flex-shrink:0;
+}
+.head-meta{ font-family:var(--mono); font-size:10.5px; color:var(--faint); letter-spacing:.05em; }
 
-/* ===== Hero ===== */
-.hero{ padding:46px 0 30px; border-bottom:1px solid var(--line); }
+/* ===== HERO — poster scale ===== */
+.hero{ padding:90px 0 50px; position:relative; }
 .hero-eyebrow{
-  font-family:var(--font-mono); font-size:11.5px; color:var(--text-faint);
-  letter-spacing:.08em; text-transform:uppercase; margin-bottom:14px;
+  font-family:var(--mono); font-size:11px; color:var(--signal);
+  letter-spacing:.18em; text-transform:uppercase; margin-bottom:28px;
   display:flex; align-items:center; gap:10px;
 }
-.hero-eyebrow::after{ content:''; flex:1; height:1px; background:var(--line); }
+.hero-eyebrow::before{ content:''; width:24px; height:1px; background:var(--signal); }
+
 .hero h1{
-  font-size:clamp(28px, 4vw, 42px); font-weight:800; letter-spacing:-.5px;
-  line-height:1.35; max-width:780px;
+  font-size:clamp(48px,9vw,108px); font-weight:800; letter-spacing:-3px;
+  line-height:.98; max-width:980px;
 }
-.hero h1 span{ color:var(--signal); }
-.hero p{ color:var(--text-dim); font-size:15.5px; max-width:620px; margin-top:14px; }
-
-/* ===== Pulse strip (signature element) ===== */
-.pulse-block{ padding:26px 0 8px; }
-.pulse-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px; flex-wrap:wrap; gap:6px; }
-.pulse-title{ font-size:13px; font-weight:700; color:var(--text-dim); }
-.pulse-title b{ color:var(--text); }
-.pulse-legend{ display:flex; gap:16px; font-family:var(--font-mono); font-size:10.5px; color:var(--text-faint); }
-.pulse-legend span{ display:flex; align-items:center; gap:5px; }
-.pulse-legend i{ width:8px; height:8px; border-radius:2px; display:inline-block; }
-
-.pulse-track{
-  display:flex; gap:5px; align-items:flex-end; height:64px;
-  padding:10px 14px; background:var(--panel); border:1px solid var(--line); border-radius:12px;
-  overflow-x:auto;
+.hero h1 .accent{ color:var(--ember); }
+.hero h1 .outline{
+  -webkit-text-stroke:1.5px var(--muted); color:transparent;
 }
-.pulse-day{ display:flex; flex-direction:column; align-items:center; gap:6px; min-width:30px; flex:1; }
-.pulse-bars{ display:flex; align-items:flex-end; gap:2px; height:38px; }
-.pulse-bars .seg{ width:5px; border-radius:2px 2px 0 0; background:var(--line); transition:transform .15s; }
-.pulse-day:hover .seg{ filter:brightness(1.3); }
-.pulse-date{ font-family:var(--font-mono); font-size:9px; color:var(--text-faint); white-space:nowrap; }
 
-/* ===== Filter bar ===== */
-.filters{
-  display:flex; gap:8px; flex-wrap:wrap; padding:24px 0 22px;
+.hero-foot{
+  display:flex; justify-content:space-between; align-items:flex-end;
+  margin-top:40px; padding-top:28px; border-top:1px solid var(--line);
+  gap:30px; flex-wrap:wrap;
 }
-.chip{
-  font-family:var(--font-fa); font-size:13px; color:var(--text-dim);
-  background:var(--panel); border:1px solid var(--line);
-  padding:8px 16px; border-radius:100px; cursor:pointer;
-  transition:.15s; user-select:none;
+.hero-desc{ color:var(--muted); font-size:15.5px; max-width:420px; line-height:1.9; }
+.hero-stats{ display:flex; gap:32px; }
+.hstat-num{ font-family:var(--mono); font-size:26px; font-weight:700; color:var(--signal); }
+.hstat-label{ font-family:var(--mono); font-size:9.5px; color:var(--faint); letter-spacing:.06em; text-transform:uppercase; margin-top:2px; }
+
+/* ===== category strip ===== */
+.cat-strip{
+  display:flex; gap:10px; overflow-x:auto; padding:38px 0 0;
 }
-.chip:hover{ border-color:var(--text-faint); color:var(--text); }
-.chip.active{ background:var(--signal); color:#06140D; border-color:var(--signal); font-weight:700; }
-.chip .count{ font-family:var(--font-mono); font-size:10.5px; opacity:.7; margin-right:6px; }
-
-/* ===== Feed ===== */
-.feed{ padding-bottom:60px; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-.card{
-  background:var(--panel); border:1px solid var(--line); border-radius:14px;
-  padding:22px; display:flex; flex-direction:column; gap:14px;
-  transition:.2s; position:relative; overflow:hidden;
+.cat-strip::-webkit-scrollbar{ display:none; }
+.cat-pill{
+  font-family:var(--mono); font-size:11.5px; white-space:nowrap;
+  padding:9px 18px; border-radius:100px; border:1px solid var(--line);
+  color:var(--muted); cursor:pointer; transition:.15s; background:none;
 }
-.card:hover{ border-color:rgba(61,220,151,.3); transform:translateY(-2px); }
-.card.featured{ grid-column:span 3; flex-direction:row; align-items:stretch; gap:30px; padding:30px; }
-.card.featured .card-main{ flex:1; display:flex; flex-direction:column; gap:14px; }
-.card.featured .title-fa{ font-size:23px; }
-.card.featured .summary{ font-size:14.5px; -webkit-line-clamp:4; }
-.card.featured::before{ content:'برترین خبر امروز'; position:absolute; top:0; left:0; font-family:var(--font-mono); font-size:9.5px; letter-spacing:.08em; color:#06140D; background:var(--signal); padding:5px 14px; border-radius:0 0 10px 0; }
+.cat-pill:hover{ border-color:var(--muted); color:var(--text); }
+.cat-pill.is-active{ background:var(--ember); border-color:var(--ember); color:#1A0D04; font-weight:700; }
 
-.card-top{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
-.tag-cat{
-  font-family:var(--font-mono); font-size:10px; letter-spacing:.03em;
-  padding:4px 10px; border-radius:6px; white-space:nowrap;
+/* ===== MOSAIC FEED — asymmetric magazine grid ===== */
+.mosaic{
+  display:grid; grid-template-columns:repeat(6,1fr); gap:16px;
+  padding:44px 0 70px;
 }
-.tag-cat.policy{ background:var(--hot-soft); color:var(--hot); }
-.tag-cat.hardware{ background:rgba(232,184,75,.13); color:var(--gold); }
-.tag-cat.default{ background:var(--signal-soft); color:var(--signal); }
-.meta-date{ font-family:var(--font-mono); font-size:11px; color:var(--text-faint); white-space:nowrap; }
-
-.title-fa{ font-size:16.5px; font-weight:700; line-height:1.55; color:var(--text); }
-.title-en{ font-family:var(--font-mono); font-size:10.5px; color:var(--text-faint); line-height:1.5; direction:ltr; text-align:right; }
-.summary{
-  color:var(--text-dim); font-size:13.5px; line-height:1.85;
-  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+.cell{
+  background:var(--paper); border:1px solid var(--line); border-radius:18px;
+  padding:28px; cursor:pointer; transition:.25s; position:relative; overflow:hidden;
+  display:flex; flex-direction:column;
 }
-.card-bottom{ display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:10px; border-top:1px solid var(--line); }
-.source-name{ font-family:var(--font-mono); font-size:11px; color:var(--text-faint); }
-.read-link{ font-size:12.5px; color:var(--signal); text-decoration:none; display:flex; align-items:center; gap:5px; font-weight:600; }
-.read-link:hover{ text-decoration:underline; }
-.tags-row{ display:flex; gap:6px; flex-wrap:wrap; }
-.tag-pill{ font-size:10.5px; color:var(--text-faint); background:var(--bg-soft); border:1px solid var(--line); padding:2px 9px; border-radius:100px; }
-
-/* ===== Footer / about ===== */
-footer{ border-top:1px solid var(--line); padding:36px 0 50px; margin-top:20px; }
-.footer-grid{ display:grid; grid-template-columns:1.3fr 1fr; gap:40px; }
-.footer-title{ font-size:14px; font-weight:700; margin-bottom:10px; }
-.footer-text{ color:var(--text-dim); font-size:13.5px; line-height:1.85; }
-.source-list{ display:flex; flex-direction:column; gap:8px; margin-top:10px; }
-.source-item{ display:flex; align-items:center; justify-content:space-between; font-size:13px; color:var(--text-dim); padding:8px 12px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
-.source-item a{ color:var(--text-dim); text-decoration:none; }
-.source-item a:hover{ color:var(--signal); }
-.footer-bottom{ display:flex; justify-content:space-between; align-items:center; margin-top:30px; padding-top:20px; border-top:1px solid var(--line); font-family:var(--font-mono); font-size:11px; color:var(--text-faint); flex-wrap:wrap; gap:10px; }
-
-/* ===== Empty state ===== */
-.empty{ grid-column:1/-1; text-align:center; padding:60px 20px; color:var(--text-faint); }
-
-/* ===== Responsive ===== */
-@media (max-width:980px){
-  .feed{ grid-template-columns:repeat(2,1fr); }
-  .card.featured{ grid-column:span 2; flex-direction:column; }
-  .footer-grid{ grid-template-columns:1fr; }
+.cell::before{
+  content:''; position:absolute; inset:0; opacity:0; transition:opacity .3s;
+  background:radial-gradient(circle at 20% 0%, var(--ember-dim), transparent 60%);
 }
+.cell:hover{ border-color:var(--muted); transform:translateY(-3px); }
+.cell:hover::before{ opacity:1; }
+
+/* size variants — repeating asymmetric pattern */
+.cell.lead{ grid-column:span 4; grid-row:span 2; padding:40px; }
+.cell.tall{ grid-column:span 2; grid-row:span 2; }
+.cell.wide{ grid-column:span 3; }
+.cell.std{ grid-column:span 3; }
+.cell.small{ grid-column:span 2; }
+
+.c-top{ display:flex; align-items:center; gap:10px; margin-bottom:16px; flex-wrap:wrap; position:relative; z-index:1; }
+.c-cat{ font-family:var(--mono); font-size:10px; color:var(--ember); letter-spacing:.05em; text-transform:uppercase; }
+.c-date{ font-family:var(--mono); font-size:10px; color:var(--faint); }
+.c-fresh{ width:5px; height:5px; border-radius:50%; background:var(--signal); box-shadow:0 0 6px rgba(184,255,159,.7); }
+
+.c-title{ font-weight:700; line-height:1.5; position:relative; z-index:1; flex:1; }
+.cell.lead .c-title{ font-size:27px; }
+.cell.tall .c-title{ font-size:18px; }
+.cell.wide .c-title, .cell.std .c-title{ font-size:17px; }
+.cell.small .c-title{ font-size:15px; }
+
+.c-dek{
+  color:var(--muted); font-size:13.5px; line-height:1.85; margin-top:12px;
+  display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden;
+  position:relative; z-index:1;
+}
+.cell.lead .c-dek{ font-size:15px; -webkit-line-clamp:3; margin-top:16px; }
+.cell.tall .c-dek{ -webkit-line-clamp:4; }
+.cell.wide .c-dek, .cell.std .c-dek{ -webkit-line-clamp:2; }
+.cell.small .c-dek{ display:none; }
+
+.c-bottom{
+  margin-top:auto; padding-top:18px; display:flex; justify-content:space-between;
+  align-items:center; font-family:var(--mono); font-size:10.5px; color:var(--faint);
+  position:relative; z-index:1;
+}
+.c-arrow{ color:var(--signal); font-size:14px; transition:transform .2s; }
+.cell:hover .c-arrow{ transform:translateX(-4px); }
+
+@media (max-width:860px){
+  .mosaic{ grid-template-columns:1fr; gap:14px; }
+  .cell.lead, .cell.tall, .cell.wide, .cell.std, .cell.small{ grid-column:span 1; grid-row:span 1; }
+}
+
+.empty-state{ grid-column:1/-1; text-align:center; padding:70px 20px; color:var(--faint); }
+
+/* ===== footer ===== */
+footer{ border-top:1px solid var(--line); padding:40px 0 60px; }
+.footer-row{
+  display:flex; justify-content:space-between; align-items:center;
+  font-family:var(--mono); font-size:11px; color:var(--faint); flex-wrap:wrap; gap:14px;
+}
+.footer-row .count{ color:var(--signal); }
+.footer-sources{ display:flex; gap:18px; }
+.footer-sources a{ color:var(--faint); transition:.15s; border-bottom:1px solid transparent; }
+.footer-sources a:hover{ color:var(--ember); border-color:var(--ember); }
+
+/* ===== MODAL ===== */
+.modal-backdrop{
+  position:fixed; inset:0; background:rgba(8,8,11,.75); backdrop-filter:blur(6px);
+  z-index:100; opacity:0; pointer-events:none; transition:opacity .3s;
+}
+.modal-backdrop.is-open{ opacity:1; pointer-events:auto; }
+.modal{
+  position:fixed; top:0; bottom:0; right:0; width:100%; max-width:620px;
+  background:var(--paper); z-index:101; border-left:1px solid var(--line);
+  transform:translateX(110%); transition:transform .4s cubic-bezier(.22,.9,.32,1);
+  overflow-y:auto; box-shadow:-50px 0 90px rgba(0,0,0,.45);
+}
+.modal.is-open{ transform:translateX(0); }
+.modal-head{
+  position:sticky; top:0; background:var(--paper); border-bottom:1px solid var(--line);
+  padding:20px 36px; display:flex; justify-content:space-between; align-items:center; z-index:5;
+}
+.modal-close{
+  background:var(--paper-2); border:1px solid var(--line); color:var(--muted);
+  width:36px; height:36px; border-radius:50%; cursor:pointer; font-size:16px;
+  display:flex; align-items:center; justify-content:center; transition:.15s;
+}
+.modal-close:hover{ color:var(--signal); border-color:var(--signal); }
+.modal-source-tag{ font-family:var(--mono); font-size:11px; color:var(--faint); }
+.modal-body{ padding:44px 36px 64px; }
+.modal-cat{ font-family:var(--mono); font-size:11px; color:var(--ember); letter-spacing:.08em; text-transform:uppercase; margin-bottom:20px; }
+.modal-title{ font-size:clamp(26px,4vw,34px); font-weight:800; line-height:1.45; margin-bottom:20px; letter-spacing:-.5px; }
+.modal-title-en{ font-family:var(--mono); font-size:12px; color:var(--faint); direction:ltr; text-align:right; margin-bottom:26px; padding-bottom:26px; border-bottom:1px solid var(--line); }
+.modal-summary{ font-size:17px; line-height:2.05; color:#D7D7DE; }
+.modal-tags{ display:flex; gap:8px; flex-wrap:wrap; margin-top:34px; }
+.modal-tag{ font-size:11.5px; color:var(--muted); background:var(--paper-2); border:1px solid var(--line); padding:6px 13px; border-radius:100px; transition:.15s; }
+.modal-tag:hover{ color:var(--signal); border-color:var(--signal); }
+.modal-cta{
+  display:flex; align-items:center; justify-content:center; gap:8px; margin-top:38px;
+  padding:17px; border-radius:12px; background:var(--ember); color:#1A0D04;
+  font-weight:700; font-size:14.5px; transition:.2s;
+}
+.modal-cta:hover{ filter:brightness(1.1); transform:translateY(-1px); }
+
 @media (max-width:640px){
-  .wrap{ padding:0 16px; }
-  .feed{ grid-template-columns:1fr; }
-  .card.featured{ grid-column:span 1; }
-  .top-row{ flex-direction:column; align-items:flex-start; gap:12px; }
-  .hero h1{ font-size:26px; }
+  .wrap{ padding:0 18px; }
+  .head-row{ padding:16px 18px; }
+  .hero{ padding:54px 0 36px; }
+  .modal{ max-width:100%; }
+  .modal-body{ padding:30px 22px 50px; }
 }
-
 @media (prefers-reduced-motion: reduce){
-  *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+  *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
 }
 </style>
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap top-row">
-    <div class="brand">
-      <div class="brand-mark"></div>
-      <div>
-        <div class="brand-name">رصدخانه</div>
-        <div class="brand-sub">Tech &amp; AI Observatory · فارسی</div>
-      </div>
-    </div>
-    <div class="live-pill"><span class="dot"></span>فید فعال — به‌روزرسانی دستی</div>
+<div class="rail">
+  <div class="rail-progress" id="railProgress"></div>
+  <div class="rail-label top">فرکانس</div>
+  <div class="rail-label bottom" id="railPercent">۰٪</div>
+</div>
+
+<div class="shell">
+<header id="siteHeader">
+  <div class="head-row">
+    <div class="logo"><span class="logo-glyph"></span>فرکانس</div>
+    <div class="head-meta" id="headerDate"></div>
   </div>
 </header>
 
 <div class="wrap">
 
   <section class="hero">
-    <div class="hero-eyebrow">آرشیو زنده‌ی فناوری</div>
-    <h1>مهم‌ترین اخبار <span>تکنولوژی و هوش مصنوعی</span> دنیا، خلاصه و ترجمه‌شده به فارسی</h1>
-    <p>هر خبر، پس از استخراج از منابع معتبر بین‌المللی، در این آرشیو ذخیره می‌شود — تا بشود بعدها با نگاهی به مسیر طی‌شده، آینده‌ی فناوری را بهتر پیش‌بینی کرد.</p>
-  </section>
-
-  <section class="pulse-block">
-    <div class="pulse-head">
-      <div class="pulse-title"><b id="pulseCount">۱۴</b> خبر ثبت‌شده در آرشیو — نقشه‌ی فعالیت روزانه</div>
-      <div class="pulse-legend">
-        <span><i style="background:var(--hot)"></i>سیاست/تنظیم‌گری</span>
-        <span><i style="background:var(--gold)"></i>سخت‌افزار</span>
-        <span><i style="background:var(--signal)"></i>سایر</span>
+    <div class="hero-eyebrow">رصد روزانه‌ی فناوری</div>
+    <h1>هوش <span class="accent">مصنوعی</span><br>در یک <span class="outline">نگاه</span></h1>
+    <div class="hero-foot">
+      <p class="hero-desc">مهم‌ترین خبرهای تکنولوژی و هوش مصنوعی جهان، خلاصه و روایت‌شده به فارسی — هر روز، از منابعی که اهل فن دنبال می‌کنند.</p>
+      <div class="hero-stats">
+        <div><div class="hstat-num" id="statCount">۰</div><div class="hstat-label">خبر آرشیو</div></div>
+        <div><div class="hstat-num" id="statCats">۰</div><div class="hstat-label">دسته‌بندی</div></div>
+        <div><div class="hstat-num" id="statSources">۳</div><div class="hstat-label">منبع</div></div>
       </div>
     </div>
-    <div class="pulse-track" id="pulseTrack"></div>
   </section>
 
-  <section class="filters" id="filters"></section>
+  <nav class="cat-strip" id="catStrip"></nav>
 
-  <section class="feed" id="feed"></section>
+  <section class="mosaic" id="mosaic"></section>
 
   <footer>
-    <div class="footer-grid">
-      <div>
-        <div class="footer-title">درباره‌ی این آرشیو</div>
-        <p class="footer-text">
-          این صفحه یک دیتاست JSON مستقل (<code style="font-family:var(--font-mono)">news-dataset.json</code>) را می‌خواند که هر بار اخبار تازه استخراج می‌شود، رکوردهای جدید به آن اضافه می‌گردند — بدون حذف داده‌های قبلی. همین ساختار ساده، در آینده امکان تحلیل روند تغییرات هوش مصنوعی و فناوری در طول زمان را فراهم می‌کند.
-        </p>
+    <div class="footer-row">
+      <span><span class="count" id="footerCount">۰</span> خبر در آرشیو · آخرین به‌روزرسانی <span id="footerUpdated"></span></span>
+      <div class="footer-sources">
+        <a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI</a>
+        <a href="https://techcrunch.com/" target="_blank" rel="noopener">TechCrunch</a>
+        <a href="https://www.technologyreview.com/" target="_blank" rel="noopener">MIT Tech Review</a>
       </div>
-      <div>
-        <div class="footer-title">منابع اصلی استخراج خبر</div>
-        <div class="source-list">
-          <div class="source-item"><span>OpenAI News</span><a href="https://openai.com/news/" target="_blank" rel="noopener">openai.com/news ↗</a></div>
-          <div class="source-item"><span>TechCrunch</span><a href="https://techcrunch.com/" target="_blank" rel="noopener">techcrunch.com ↗</a></div>
-          <div class="source-item"><span>MIT Technology Review</span><a href="https://www.technologyreview.com/" target="_blank" rel="noopener">technologyreview.com ↗</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>schema v1 · last_updated: <span id="lastUpdated">—</span></span>
-      <span>ساخته‌شده برای آرشیو شخصی اخبار فناوری</span>
     </div>
   </footer>
 
 </div>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop"></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true">
+  <div class="modal-head">
+    <span class="modal-source-tag" id="modalSource"></span>
+    <button class="modal-close" id="modalClose" aria-label="بستن">✕</button>
+  </div>
+  <div class="modal-body">
+    <div class="modal-cat" id="modalCat"></div>
+    <h2 class="modal-title" id="modalTitle"></h2>
+    <div class="modal-title-en" id="modalTitleEn"></div>
+    <p class="modal-summary" id="modalSummary"></p>
+    <div class="modal-tags" id="modalTags"></div>
+    <a class="modal-cta" id="modalLink" target="_blank" rel="noopener">مطالعه‌ی متن کامل در منبع اصلی ←</a>
+  </div>
+</div>
 
 <script>
-/* =========================================================
-   دیتاست اخبار — این بلوک هر بار که اخبار جدید اضافه می‌شود
-   باید با محتوای فایل news-dataset.json به‌روزرسانی شود.
-   ========================================================= */
-let DATA = { meta: {}, articles: [] };
+const DATA = {"meta": {"name": "آرشیو اخبار تکنولوژی و هوش مصنوعی", "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری", "created_at": "2026-06-27", "last_updated": "2026-06-27", "schema_version": 1, "sources": ["openai.com/news", "techcrunch.com", "technologyreview.com", "theverge.com / techmeme.com"], "total_articles": 14}, "articles": [{"id": "2026-06-26-openai-gpt56-delay", "date": "2026-06-26", "source": "TechCrunch / The Verge", "source_url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/", "category": "سیاست و تنظیم‌گری هوش مصنوعی", "title_fa": "OpenAI به‌خواست دولت آمریکا، عرضه‌ی GPT-5.6 را محدود کرد", "title_en": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm", "summary_fa": "OpenAI پس از درخواست دولت ترامپ، عرضه‌ی نسخه‌ی جدید مدل خود، GPT-5.6 (شامل زیرمدل‌های Sol، Terra و Luna)، را محدود کرد و فعلاً فقط برای مشتریان موردتأیید دولت آمریکا در دسترس قرار می‌گیرد. این اتفاق درست بعد از ماجرای مشابهی برای مدل‌های Mythos و Fable شرکت Anthropic رخ داده است. OpenAI تأکید کرده که این نوع بازبینی دولتی پیش از انتشار نباید به رویه‌ی همیشگی صنعت تبدیل شود، هرچند می‌گوید امیدوار است GPT-5.6 طی هفته‌های آینده به‌صورت عمومی منتشر شود.", "tags": ["OpenAI", "GPT-5.6", "تنظیم‌گری", "دولت آمریکا", "ایمنی هوش مصنوعی"]}, {"id": "2026-06-26-anthropic-mythos-restricted-access", "date": "2026-06-26", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/", "category": "سیاست و تنظیم‌گری هوش مصنوعی", "title_fa": "ماجرای جدید درگیری Anthropic با دولت آمریکا بر سر مدل‌های Mythos و Fable", "title_en": "Three things to watch amid Anthropic's latest feud with the government", "summary_fa": "در آوریل، Anthropic از مدل قدرتمند Mythos رونمایی کرد که در حوزه‌ی کدنویسی آن‌قدر توانمند بود که نگرانی‌هایی درباره‌ی خطر امنیت سایبری جهانی ایجاد کرد. شرکت دسترسی محدودی به متخصصان امنیت سایبری داد، سپس نسخه‌ی «ایمن‌تر» آن یعنی Fable را برای عموم منتشر کرد. تنها چند روز بعد، دولت آمریکا این انتشار را تهدیدی برای امنیت ملی اعلام کرد و کنترل صادرات روی آن گذاشت؛ Anthropic هم بلافاصله دسترسی به هر دو مدل را لغو کرد. این تصمیم واکنش‌های گوناگونی از جمله نگرانی کارشناسان امنیت سایبری (که می‌گویند محدودیت می‌تواند کشور را آسیب‌پذیرتر کند) و همچنین گرایش برخی کشورها به سمت مدل‌های متن‌باز و ارزان‌تر چینی را به‌دنبال داشته است.", "tags": ["Anthropic", "Mythos", "Fable", "امنیت ملی", "صادرات هوش مصنوعی", "چین"]}, {"id": "2026-06-25-openai-broadcom-jalapeno", "date": "2026-06-24", "source": "OpenAI / TechCrunch", "source_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/", "category": "سخت‌افزار و تراشه", "title_fa": "OpenAI و Broadcom تراشه‌ی استنتاجی اختصاصی «Jalapeño» را معرفی کردند", "title_en": "OpenAI and Broadcom unveil LLM-optimized inference chip", "summary_fa": "OpenAI نخستین تراشه‌ی اختصاصی خود را معرفی کرد؛ تراشه‌ای با نام Jalapeño که با همکاری Broadcom و مخصوص بهینه‌سازی اجرای مدل‌های زبانی بزرگ (استنتاج) طراحی شده است. این حرکت OpenAI را به جمع شرکت‌هایی مثل گوگل، اپل و اسپیس‌ایکس می‌پیوندد که برای کاهش وابستگی به Nvidia، تراشه‌ی اختصاصی خود را می‌سازند. به گفته‌ی تحلیلگران، این روند نشانه‌ی پایان دوره‌ی تک‌تأمین‌کنندگی Nvidia در بازار تراشه‌های هوش مصنوعی است.", "tags": ["OpenAI", "Broadcom", "تراشه", "Nvidia", "زیرساخت هوش مصنوعی"]}, {"id": "2026-06-23-gpt5-immunology", "date": "2026-06-23", "source": "OpenAI", "source_url": "https://openai.com/index/gpt-5-immunology-mystery/", "category": "کاربرد هوش مصنوعی در علم و پزشکی", "title_fa": "چطور GPT-5 به یک ایمونولوژیست در حل یک معمای ۳ ساله کمک کرد", "title_en": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery", "summary_fa": "OpenAI داستان دکتر دریا اونوتماز، متخصص ایمونولوژی، را منتشر کرده که با استفاده از GPT-5 توانست معمای پژوهشی‌ای را که سه سال روی آن گیر کرده بود حل کند. این نمونه به‌عنوان یکی از مصداق‌های ملموس کاربرد مدل‌های زبانی پیشرفته در شتاب‌دهی به تحقیقات علمی و پزشکی معرفی شده است.", "tags": ["OpenAI", "GPT-5", "پزشکی", "علم", "کاربرد هوش مصنوعی"]}, {"id": "2026-06-22-openai-daybreak-security", "date": "2026-06-22", "source": "OpenAI", "source_url": "https://openai.com/index/daybreak-securing-the-world/", "category": "امنیت سایبری", "title_fa": "Daybreak؛ ابزارهای OpenAI برای ایمن‌سازی امنیت سایبری سازمان‌ها در سطح جهانی", "title_en": "Daybreak: Tools for securing every organization in the world", "summary_fa": "OpenAI ابتکار جدیدی به نام Daybreak را معرفی کرد که هدفش تجهیز سازمان‌ها در سراسر جهان، از بزرگ تا کوچک، به ابزارهای امنیت سایبری مبتنی بر هوش مصنوعی است. در همین راستا، برنامه‌ی جانبی «Patch the Planet» نیز برای پشتیبانی از نگهدارنده‌های پروژه‌های متن‌باز در برابر تهدیدهای امنیتی معرفی شده است.", "tags": ["OpenAI", "امنیت سایبری", "متن‌باز", "Daybreak"]}, {"id": "2026-06-21-samsung-chatgpt-codex", "date": "2026-06-21", "source": "OpenAI", "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/", "category": "پذیرش سازمانی هوش مصنوعی", "title_fa": "سامسونگ الکترونیکس، ChatGPT و Codex را در اختیار کارمندان خود قرار داد", "title_en": "Samsung Electronics brings ChatGPT and Codex to employees", "summary_fa": "سامسونگ الکترونیکس به‌صورت رسمی دسترسی به ChatGPT و ابزار کدنویسی Codex را برای کارمندانش فراهم کرده است؛ گامی که نشان‌دهنده‌ی گسترش هرچه بیشتر پذیرش ابزارهای هوش مصنوعی مولد در شرکت‌های فناوری بزرگ آسیایی است.", "tags": ["سامسونگ", "ChatGPT", "Codex", "سازمان‌ها"]}, {"id": "2026-06-26-anthropic-vs-openai-shift", "date": "2026-06-26", "source": "TechCrunch", "source_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/", "category": "تحلیل صنعت هوش مصنوعی", "title_fa": "رقابت هوش مصنوعی دیگر فقط Anthropic در برابر OpenAI نیست", "title_en": "It's not about Anthropic vs. OpenAI anymore", "summary_fa": "تحلیل تازه‌ی TechCrunch نشان می‌دهد فضای رقابتی صنعت هوش مصنوعی از یک رقابت دوقطبی میان Anthropic و OpenAI خارج شده و اکنون بازیگران بیشتری، از جمله شرکت‌های دولتی و سرمایه‌گذاران بزرگ، در شکل‌دهی به آینده‌ی این صنعت نقش دارند. ورود دولت آمریکا به تصمیم‌گیری درباره‌ی عرضه‌ی مدل‌ها، پویایی قدرت در این عرصه را تغییر داده است.", "tags": ["Anthropic", "OpenAI", "تحلیل بازار", "رقابت"]}, {"id": "2026-06-25-general-intuition-funding", "date": "2026-06-25", "source": "TechCrunch", "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/", "category": "سرمایه‌گذاری و استارتاپ", "title_fa": "شرط ۲.۳ میلیارد دلاری General Intuition: بازی‌های ویدیویی برای آموزش ایجنت‌های هوش مصنوعی", "title_en": "General Intuition's $2.3B bet that video games can train AI agents for the real world", "summary_fa": "استارتاپ General Intuition با ارزش‌گذاری ۲.۳ میلیارد دلاری روی این ایده سرمایه‌گذاری کرده که می‌توان از محیط‌های بازی‌های ویدیویی برای آموزش ایجنت‌های هوش مصنوعی استفاده کرد تا بتوانند در دنیای واقعی نیز عملکرد خوبی داشته باشند؛ رویکردی که به‌سرعت در میان سرمایه‌گذاران فناوری محبوب شده است.", "tags": ["استارتاپ", "سرمایه‌گذاری", "ایجنت هوش مصنوعی", "بازی‌های ویدیویی"]}, {"id": "2026-06-25-patronus-funding", "date": "2026-06-25", "source": "TechCrunch", "source_url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/", "category": "سرمایه‌گذاری و استارتاپ", "title_fa": "Patronus AI با ۵۰ میلیون دلار سرمایه، «دنیاهای دیجیتال» برای تست استرس ایجنت‌های هوش مصنوعی می‌سازد", "title_en": "Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents", "summary_fa": "استارتاپ Patronus AI با جذب ۵۰ میلیون دلار سرمایه، روی ساخت محیط‌های شبیه‌سازی‌شده‌ی دیجیتال تمرکز کرده تا بتوان رفتار و قابلیت اطمینان ایجنت‌های هوش مصنوعی را پیش از استقرار واقعی، تحت آزمایش‌های سخت‌گیرانه قرار داد.", "tags": ["استارتاپ", "سرمایه‌گذاری", "تست هوش مصنوعی", "ایجنت"]}, {"id": "2026-06-25-ibm-sub1nm-chip", "date": "2026-06-25", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/", "category": "سخت‌افزار و تراشه", "title_fa": "آی‌بی‌ام از فناوری تراشه‌ی زیر یک نانومتر رونمایی کرد؛ احتمال تمدید قانون مور برای یک دهه‌ی دیگر", "title_en": "IBM has unveiled chip technology that could help extend Moore's Law another decade", "summary_fa": "آی‌بی‌ام فناوری ساخت تراشه در ابعاد زیر یک نانومتر را معرفی کرده که می‌تواند روند کاهش اندازه و افزایش کارایی تراشه‌ها، یعنی همان قانون مور، را برای حدود یک دهه‌ی دیگر ادامه دهد. این پیشرفت در میان نگرانی‌های فزاینده درباره‌ی نزدیک‌شدن صنعت نیمه‌هادی به محدودیت‌های فیزیکی فعلی اهمیت ویژه‌ای دارد.", "tags": ["آی‌بی‌ام", "تراشه", "قانون مور", "نیمه‌هادی"]}, {"id": "2026-06-23-asml-chipmaking-machine", "date": "2026-06-23", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/", "category": "سخت‌افزار و تراشه", "title_fa": "ماشین ۴۰۰ میلیون دلاری ASML که آینده‌ی ساخت تراشه را شکل می‌دهد", "title_en": "The $400 million machine powering the future of chipmaking", "summary_fa": "عصر هوش مصنوعی به تراشه‌هایی هرچه سریع‌تر نیاز دارد و شرکت هلندی ASML در حال حاضر به‌طور انحصاری دستگاه‌های گران‌قیمتی می‌سازد که برای الگوگذاری روی این تراشه‌ها لازم است. این گزارش بررسی می‌کند که آیا رقبا می‌توانند به این انحصار فناورانه برسند یا نه.", "tags": ["ASML", "تراشه", "نیمه‌هادی", "زیرساخت هوش مصنوعی"]}, {"id": "2026-06-19-subquadratic-llm-bottleneck", "date": "2026-06-19", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/", "category": "پژوهش و مدل‌های هوش مصنوعی", "title_fa": "ادعای یک استارتاپ: شکستن گلوگاهی که مدل‌های زبانی بزرگ را عقب نگه داشته است", "title_en": "A startup claims it broke through a bottleneck that's holding back LLMs", "summary_fa": "استارتاپ Subquadratic مدعی شده جزئیات بیشتری از مدل تازه‌ی خود منتشر کرده که گلوگاه فنی مهمی در معماری مدل‌های زبانی بزرگ را دور زده است. با این حال برخی کارشناسان همچنان نسبت به این ادعا تردید دارند و منتظر شواهد و ارزیابی‌های مستقل بیشتری هستند.", "tags": ["مدل زبانی", "پژوهش", "استارتاپ", "معماری هوش مصنوعی"]}, {"id": "2026-06-11-deepmind-multiagent-risk", "date": "2026-06-11", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/", "category": "ایمنی و خطرات هوش مصنوعی", "title_fa": "نگرانی گوگل دیپ‌مایند درباره‌ی برهم‌کنش میلیون‌ها ایجنت هوش مصنوعی با یکدیگر", "title_en": "Google DeepMind is worried about what happens when millions of agents start to interact", "summary_fa": "گوگل دیپ‌مایند نسبت به پیامدهای ناشناخته‌ی برهم‌کنش انبوه ایجنت‌های هوش مصنوعی خودکار با یکدیگر در مقیاس بزرگ هشدار داده و از جامعه‌ی پژوهشی خواسته تا مطالعات بیشتری درباره‌ی ریسک‌های سامانه‌های چندایجنتی انجام شود، پیش از آنکه این سامانه‌ها در مقیاس وسیع به‌کار گرفته شوند.", "tags": ["گوگل دیپ‌مایند", "ایجنت هوش مصنوعی", "ریسک", "ایمنی هوش مصنوعی"]}, {"id": "2026-05-13-ai-chatbots-phone-numbers", "date": "2026-05-13", "source": "MIT Technology Review", "source_url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/", "category": "حریم خصوصی", "title_fa": "چت‌بات‌های هوش مصنوعی شماره‌تلفن واقعی افراد را فاش می‌کنند", "title_en": "AI chatbots are giving out people's real phone numbers", "summary_fa": "گزارش‌ها نشان می‌دهد اطلاعات تماس شخصی برخی افراد توسط هوش مصنوعی گوگل به نمایش گذاشته شده و به نظر می‌رسد در حال حاضر راه ساده‌ای برای پیشگیری از این مسئله وجود ندارد؛ موضوعی که نگرانی‌های تازه‌ای درباره‌ی حریم خصوصی در عصر هوش مصنوعی مولد ایجاد کرده است.", "tags": ["حریم خصوصی", "گوگل", "چت‌بات", "داده‌های شخصی"]}]}
+;
 
-async function loadData(){
-  try{
-    const res = await fetch('news-dataset.json?_=' + Date.now());
-    DATA = await res.json();
-  }catch(e){
-    console.error('خطا در بارگذاری دیتاست:', e);
-    document.getElementById('feed').innerHTML =
-      '<div class="empty">خطا در بارگذاری news-dataset.json — مطمئن شو این فایل کنار index.html قرار دارد.</div>';
-    return false;
-  }
-  return true;
-}
-
-/* ---------- helpers ---------- */
-const catClass = (cat) => {
-  if(cat.includes('سیاست') || cat.includes('امنیت') || cat.includes('حریم') || cat.includes('خطر')) return 'policy';
-  if(cat.includes('سخت') || cat.includes('تراشه')) return 'hardware';
-  return 'default';
-};
-
-function toJalaliRough(dateStr){
-  // نمایش ساده‌ی میلادی به‌صورت خوانا (مرجع تاریخ‌ها میلادی نگه داشته می‌شود)
+const persianMonths = ['ژانویه','فوریه','مارس','آوریل','مه','ژوئن','ژوئیه','اوت','سپتامبر','اکتبر','نوامبر','دسامبر'];
+const persianDigits = s => String(s).replace(/[0-9]/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
+function formatDate(dateStr){
   const d = new Date(dateStr);
-  const months = ['ژانویه','فوریه','مارس','آوریل','مه','ژوئن','ژوئیه','اوت','سپتامبر','اکتبر','نوامبر','دسامبر'];
-  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+  return persianDigits(`${d.getDate()} ${persianMonths[d.getMonth()]} ${d.getFullYear()}`);
+}
+function isFresh(dateStr){ return (Date.now() - new Date(dateStr))/36e5 <= 48; }
+
+let activeCat = 'all';
+const sorted = [...DATA.articles].sort((a,b)=> new Date(b.date) - new Date(a.date));
+
+/* repeating asymmetric size pattern for the mosaic */
+const PATTERN = ['lead','tall','wide','small','small','std','tall','wide','wide'];
+
+function sizeFor(i){ return PATTERN[i % PATTERN.length]; }
+
+function renderStats(){
+  const cats = new Set(DATA.articles.map(a=>a.category));
+  document.getElementById('statCount').textContent = persianDigits(DATA.articles.length);
+  document.getElementById('statCats').textContent = persianDigits(cats.size);
 }
 
-/* ---------- render feed ---------- */
-let activeFilter = 'all';
-
-function renderFilters(){
+function renderCatStrip(){
   const cats = {};
-  DATA.articles.forEach(a => { cats[a.category] = (cats[a.category]||0)+1; });
-  const filtersEl = document.getElementById('filters');
-  const allBtn = `<div class="chip active" data-cat="all">همه <span class="count">${DATA.articles.length}</span></div>`;
-  const catBtns = Object.entries(cats)
-    .sort((a,b)=>b[1]-a[1])
-    .map(([cat,count]) => `<div class="chip" data-cat="${cat}">${cat} <span class="count">${count}</span></div>`)
-    .join('');
-  filtersEl.innerHTML = allBtn + catBtns;
-
-  filtersEl.querySelectorAll('.chip').forEach(chip => {
-    chip.addEventListener('click', () => {
-      activeFilter = chip.dataset.cat;
-      filtersEl.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
-      chip.classList.add('active');
-      renderFeed();
+  sorted.forEach(a => cats[a.category] = (cats[a.category]||0)+1);
+  const top = Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([c])=>c);
+  const strip = document.getElementById('catStrip');
+  strip.innerHTML = `<button class="cat-pill is-active" data-cat="all">همه</button>` +
+    top.map(c=>`<button class="cat-pill" data-cat="${c}">${c}</button>`).join('');
+  strip.querySelectorAll('.cat-pill').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      activeCat = btn.dataset.cat;
+      strip.querySelectorAll('.cat-pill').forEach(b=>b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      renderMosaic();
     });
   });
 }
 
-function renderFeed(){
-  const feedEl = document.getElementById('feed');
-  const sorted = [...DATA.articles].sort((a,b)=> new Date(b.date) - new Date(a.date));
-  const filtered = activeFilter === 'all' ? sorted : sorted.filter(a => a.category === activeFilter);
-
-  if(filtered.length === 0){
-    feedEl.innerHTML = `<div class="empty">هنوز خبری در این دسته ثبت نشده است.</div>`;
+function renderMosaic(){
+  const grid = document.getElementById('mosaic');
+  const list = activeCat === 'all' ? sorted : sorted.filter(a=>a.category===activeCat);
+  if(list.length===0){
+    grid.innerHTML = `<div class="empty-state">خبری در این دسته یافت نشد.</div>`;
     return;
   }
-
-  feedEl.innerHTML = filtered.map((a, i) => {
-    const isFeatured = activeFilter === 'all' && i === 0;
-    const cls = catClass(a.category);
+  grid.innerHTML = list.map((a,i)=>{
+    const size = sizeFor(i);
     return `
-      <article class="card ${isFeatured ? 'featured' : ''}">
-        <div class="card-main">
-          <div class="card-top">
-            <span class="tag-cat ${cls}">${a.category}</span>
-            <span class="meta-date">${toJalaliRough(a.date)}</span>
-          </div>
-          <div class="title-fa">${a.title_fa}</div>
-          <div class="title-en">${a.title_en}</div>
-          <div class="summary">${a.summary_fa}</div>
-          <div class="tags-row">${a.tags.slice(0,4).map(t=>`<span class="tag-pill">${t}</span>`).join('')}</div>
-          <div class="card-bottom">
-            <span class="source-name">منبع: ${a.source}</span>
-            <a class="read-link" href="${a.source_url}" target="_blank" rel="noopener">خبر اصلی ↗</a>
-          </div>
+      <article class="cell ${size}" data-idx="${i}">
+        <div class="c-top">
+          <span class="c-cat">${a.category}</span>
+          <span class="c-date">${formatDate(a.date)}</span>
+          ${isFresh(a.date) ? '<span class="c-fresh" title="خبر تازه"></span>' : ''}
         </div>
+        <div class="c-title">${a.title_fa}</div>
+        <div class="c-dek">${a.summary_fa}</div>
+        <div class="c-bottom"><span>${a.source}</span><span class="c-arrow">←</span></div>
       </article>`;
   }).join('');
+  grid.querySelectorAll('.cell').forEach((el,i)=> el.addEventListener('click', ()=> openModal(list[i])));
 }
 
-/* ---------- render pulse strip ---------- */
-function renderPulse(){
-  const track = document.getElementById('pulseTrack');
-  const byDate = {};
-  DATA.articles.forEach(a => {
-    byDate[a.date] = byDate[a.date] || [];
-    byDate[a.date].push(a);
-  });
-  const dates = Object.keys(byDate).sort();
-  const maxCount = Math.max(...dates.map(d => byDate[d].length), 1);
-
-  track.innerHTML = dates.map(date => {
-    const items = byDate[date];
-    const segs = items.map(a => {
-      const cls = catClass(a.category);
-      const color = cls === 'policy' ? 'var(--hot)' : cls === 'hardware' ? 'var(--gold)' : 'var(--signal)';
-      const h = Math.max(10, (38 / maxCount) * 1);
-      return `<div class="seg" style="height:${h}px; background:${color}" title="${a.title_fa}"></div>`;
-    }).join('');
-    const d = new Date(date);
-    const dayLabel = `${d.getDate()}/${d.getMonth()+1}`;
-    return `<div class="pulse-day"><div class="pulse-bars">${segs}</div><div class="pulse-date">${dayLabel}</div></div>`;
-  }).join('');
+/* ===== modal ===== */
+const modal = document.getElementById('modal');
+const backdrop = document.getElementById('modalBackdrop');
+function openModal(a){
+  document.getElementById('modalSource').textContent = `${a.source} · ${formatDate(a.date)}`;
+  document.getElementById('modalCat').textContent = a.category;
+  document.getElementById('modalTitle').textContent = a.title_fa;
+  document.getElementById('modalTitleEn').textContent = a.title_en;
+  document.getElementById('modalSummary').textContent = a.summary_fa;
+  document.getElementById('modalTags').innerHTML = a.tags.map(t=>`<span class="modal-tag">${t}</span>`).join('');
+  document.getElementById('modalLink').href = a.source_url;
+  modal.classList.add('is-open'); backdrop.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
 }
+function closeModal(){
+  modal.classList.remove('is-open'); backdrop.classList.remove('is-open');
+  document.body.style.overflow = '';
+}
+document.getElementById('modalClose').addEventListener('click', closeModal);
+backdrop.addEventListener('click', closeModal);
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
 
-/* ---------- init ---------- */
-(async function init(){
-  const ok = await loadData();
-  if(!ok) return;
-  document.getElementById('pulseCount').textContent = DATA.articles.length.toLocaleString('fa-IR');
-  document.getElementById('lastUpdated').textContent = DATA.meta.last_updated || '—';
-  renderFilters();
-  renderFeed();
-  renderPulse();
-})();
+/* ===== header scroll + margin rail progress ===== */
+window.addEventListener('scroll', ()=>{
+  document.getElementById('siteHeader').classList.toggle('scrolled', window.scrollY > 10);
+  const docH = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docH > 0 ? Math.min(100, Math.round((window.scrollY/docH)*100)) : 0;
+  document.getElementById('railProgress').style.height = pct + '%';
+  document.getElementById('railPercent').textContent = persianDigits(pct) + '٪';
+});
+
+/* ===== init ===== */
+document.getElementById('headerDate').textContent = formatDate(new Date().toISOString());
+document.getElementById('footerCount').textContent = persianDigits(DATA.articles.length);
+document.getElementById('footerUpdated').textContent = formatDate(DATA.meta.last_updated);
+renderStats();
+renderCatStrip();
+renderMosaic();
 </script>
 
 </body>
