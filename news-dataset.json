@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-06-28",
+    "last_updated": "2026-06-29",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 32
+    "total_articles": 36
   },
   "articles": [
     {
@@ -546,6 +546,74 @@
         "Moore's Law",
         "نیمه‌رسانا",
         "ترانزیستور"
+      ]
+    },
+    {
+      "id": "1ae317c00ced77b0",
+      "date": "2026-06-28",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/hp-frontier-partnership",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "HP و OpenAI: آغاز همکاری راهبردی «فرانتیر» برای گسترش هوش مصنوعی",
+      "title_en": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary_fa": "شرکت HP با توسعه و گسترش همکاری استراتژیک خود با OpenAI تحت عنوان «فرانتیر»، قصد دارد هوش مصنوعی را به طور گسترده‌ای در بخش‌های مختلف خود به کار گیرد. این اقدام شامل پیاده‌سازی هوش مصنوعی در تجربه مشتری، توسعه نرم‌افزار و عملیات سازمانی می‌شود. هدف نهایی، بهره‌مندی از قابلیت‌های پیشرفته هوش مصنوعی برای بهبود کارایی و نوآوری در HP است.",
+      "tags": [
+        "HP Inc.",
+        "OpenAI",
+        "Frontier",
+        "Enterprise AI",
+        "AI integration"
+      ]
+    },
+    {
+      "id": "3d6448258e8a664e",
+      "date": "2026-06-26",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "موج تراشه‌های هوش مصنوعی اختصاصی: از OpenAI تا SpaceX، انویدیا را تحت فشار قرار می‌دهند",
+      "title_en": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "summary_fa": "پس از سال‌ها سلطه‌ی بلامنازع انویدیا بر بازار تراشه‌های هوش مصنوعی، دوران اتکای کامل به یک تامین‌کننده در حال پایان یافتن است. OpenAI به تازگی برنامه‌های خود را برای ساخت تراشه‌ی استنتاجی سفارشی خود با نام «Jalapeño» و با همکاری Broadcom اعلام کرده است. این شرکت به جمعی از غول‌های فناوری از جمله گوگل، اپل و اسپیس‌ایکس می‌پیوندد که همگی به دنبال توسعه‌ی تراشه‌های اختصاصی خود هستند. هدف اصلی این حرکت، کاهش ریسک وابستگی به یک عرضه‌کننده و به دست گرفتن کنترل بیشتر بر سخت‌افزار مورد نیاز است.",
+      "tags": [
+        "Nvidia",
+        "OpenAI",
+        "AI chips",
+        "تراشه اختصاصی",
+        "سخت‌افزار هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "5a79be9e8d84027c",
+      "date": "2026-06-26",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "پیامدهای سیاسی هوش مصنوعی: فراتر از رقابت OpenAI و Anthropic",
+      "title_en": "It’s not about Anthropic vs. OpenAI anymore",
+      "summary_fa": "مدل‌های هوش مصنوعی تا جایی پیشرفت کرده‌اند که قابلیت‌های آن‌ها پیامدهای سیاسی واقعی به همراه دارد. دیگر تمرکز صرف بر رقابت شرکت‌هایی مانند OpenAI و Anthropic نیست، بلکه موضوع اصلی چگونگی مدیریت این پیامدهاست. مواجهه با این چالش‌ها نیازمند اقدام و همکاری جمعی در سطوح مختلف است.",
+      "tags": [
+        "هوش مصنوعی",
+        "سیاست و تنظیم‌گری",
+        "پیامدهای اجتماعی",
+        "OpenAI",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "d44b1a4748854475",
+      "date": "2026-06-24",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
+      "category": "نوآوری و آینده فناوری",
+      "title_fa": "شماره ویژه مهندسی The Download: نبوغ انسانی برای جهانی بهتر",
+      "title_en": "The Download: introducing the Engineering issue",
+      "summary_fa": "این خلاصه‌ای از جدیدترین شماره خبرنامه روزانه The Download است که به پوشش تحولات دنیای تکنولوژی می‌پردازد. این شماره ویژه تحت عنوان \"مهندسی\" منتشر شده و به بررسی پتانسیل نبوغ انسانی و جاه‌طلبی در حل چالش‌ها و بهبود جهان اختصاص دارد. هدف آن الهام بخشیدن به مهندسان برای استفاده از توانایی‌های خود در ساختن آینده‌ای بهتر است.",
+      "tags": [
+        "The Download",
+        "مهندسی",
+        "نوآوری",
+        "تکنولوژی",
+        "آینده"
       ]
     }
   ]
