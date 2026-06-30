@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-06-29",
+    "last_updated": "2026-06-30",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 36
+    "total_articles": 46
   },
   "articles": [
     {
@@ -614,6 +614,176 @@
         "نوآوری",
         "تکنولوژی",
         "آینده"
+      ]
+    },
+    {
+      "id": "5b79476b114204df",
+      "date": "2026-06-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "نقشه‌برداری از آینده نیروی کار اروپا با هوش مصنوعی: گزارش جدید OpenAI",
+      "title_en": "Mapping Europe’s AI Workforce Opportunity",
+      "summary_fa": "یک گزارش جدید از OpenAI نشان می‌دهد که هوش مصنوعی چگونه می‌تواند مشاغل را در سراسر اتحادیه اروپا دگرگون کند. این تحقیق با ترسیم یک نقشه، مشخص می‌کند که کدام حرفه‌ها ممکن است با اتوماسیون، رشد یا تغییرات در فرآیندهای کاری مواجه شوند. هدف، درک فرصت‌ها و چالش‌های نیروی کار اروپا در مواجهه با این فناوری است.",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "EU",
+        "بازار کار",
+        "اتوماسیون"
+      ]
+    },
+    {
+      "id": "f7e9d38ae7326e72",
+      "date": "2026-06-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "امنیت سایبری",
+      "title_fa": "OpenAI با Daybreak وارد حوزه امنیت سایبری شد: ابزارهای جدید برای حفاظت از سازمان‌ها",
+      "title_en": "Daybreak: Tools for securing every organization in the world",
+      "summary_fa": "شرکت OpenAI مجموعه‌ای از ابزارهای جدید با نام Daybreak را معرفی کرده است. این ابزارها، شامل Codex Security و GPT-5.5-Cyber، به سازمان‌ها کمک می‌کنند تا آسیب‌پذیری‌های امنیتی خود را شناسایی، تأیید و رفع کنند. هدف اصلی Daybreak، مقیاس‌پذیر کردن فرایند تقویت امنیت سایبری در سطح گسترده است.",
+      "tags": [
+        "OpenAI",
+        "Daybreak",
+        "Codex Security",
+        "GPT-5.5-Cyber",
+        "امنیت سایبری"
+      ]
+    },
+    {
+      "id": "f0ab1740b8b7f5b3",
+      "date": "2026-06-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/patch-the-planet",
+      "category": "امنیت سایبری",
+      "title_fa": "امنیت متن‌باز با هوش مصنوعی: ابتکار جدید OpenAI به نام 'Patch the Planet'",
+      "title_en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary_fa": "شرکت OpenAI ابتکار جدیدی به نام 'Patch the Planet' را در چارچوب پروژه 'Daybreak' معرفی کرده است. هدف این برنامه، حمایت از توسعه‌دهندگان نرم‌افزارهای متن‌باز برای شناسایی، اعتبارسنجی و رفع آسیب‌پذیری‌های امنیتی است. این طرح از ترکیب هوش مصنوعی و بررسی کارشناسان برای بهبود امنیت پروژه‌های متن‌باز بهره می‌برد.",
+      "tags": [
+        "OpenAI",
+        "امنیت سایبری",
+        "Open Source",
+        "هوش مصنوعی",
+        "Patch the Planet"
+      ]
+    },
+    {
+      "id": "6fdda2fdc1d813da",
+      "date": "2026-06-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "تداوم کار با Codex: چگونه هوش مصنوعی بستر پروژه‌های پیچیده را حفظ می‌کند؟",
+      "title_en": "Codex-maxxing for long-running work",
+      "summary_fa": "جیسون لیو نشان می‌دهد چگونه می‌توان با بهره‌گیری از مدل هوش مصنوعی Codex، چالش حفظ بستر در پروژه‌های طولانی و پیچیده را حل کرد. او با استفاده از این ابزار، نه تنها مدیریت پروژه‌های دشوار را تسهیل می‌کند، بلکه امکان می‌دهد کار فراتر از یک درخواست ساده ادامه یابد و تداوم پیدا کند. این رویکرد به کاربران کمک می‌کند تا در جریان کارهای مستمر و گسترده، کارایی هوش مصنوعی را به حداکثر برسانند.",
+      "tags": [
+        "Codex",
+        "مدیریت پروژه",
+        "حفظ بستر",
+        "بهره‌وری هوش مصنوعی",
+        "Jason Liu"
+      ]
+    },
+    {
+      "id": "eebdb7f63bb5dd4f",
+      "date": "2026-06-21",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "سامسونگ الکترونیکس: استقرار گسترده ChatGPT و Codex برای توانمندسازی کارکنان جهانی",
+      "title_en": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary_fa": "شرکت سامسونگ الکترونیکس به تازگی ابزارهای هوش مصنوعی پیشرفته ChatGPT Enterprise و Codex را برای تمام کارکنان خود در سراسر جهان فعال کرده است. این اقدام گسترده، یکی از بزرگترین پروژه‌های استقرار سازمانی هوش مصنوعی OpenAI محسوب می‌شود و نشان‌دهنده تعهد سامسونگ به بهره‌گیری از تکنولوژی‌های نوین برای افزایش بهره‌وری و نوآوری داخلی است.",
+      "tags": [
+        "Samsung Electronics",
+        "OpenAI",
+        "ChatGPT Enterprise",
+        "Codex",
+        "هوش مصنوعی سازمانی"
+      ]
+    },
+    {
+      "id": "217d8a1a56f1c727",
+      "date": "2026-06-18",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ابزارهای قدرتمندتر OpenAI برای کنترل هزینه‌ها و نظارت بر مصرف ChatGPT Enterprise",
+      "title_en": "New usage analytics and updated spend controls for enterprises",
+      "summary_fa": "OpenAI به تازگی ابزارهای جدیدی برای کنترل هزینه‌ها و تحلیل مصرف به سرویس ChatGPT Enterprise خود اضافه کرده است. این قابلیت‌های جدید به سازمان‌ها کمک می‌کند تا با اطمینان بیشتری هزینه‌های مربوط به استفاده از هوش مصنوعی را مدیریت کرده و مقیاس‌پذیری آن را در کسب‌وکارهای خود افزایش دهند.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Enterprise",
+        "مدیریت هزینه",
+        "تحلیل مصرف",
+        "هوش مصنوعی سازمانی"
+      ]
+    },
+    {
+      "id": "3c82ab124c4b4c08",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "category": "هوش مصنوعی و بازار کار",
+      "title_fa": "گزارش جدید: هوش مصنوعی شغل‌های تازه‌کار را نه تنها حذف نمی‌کند، بلکه می‌افزاید",
+      "title_en": "The AI jobs debate just got messier",
+      "summary_fa": "گزارش جدیدی نشان می‌دهد شرکت‌هایی که به شدت از هوش مصنوعی استفاده می‌کنند، شاهد افزایش ۱۰.۲ درصدی در تعداد کل کارکنان خود بوده‌اند. در کمال تعجب، میزان استخدام در رده‌های شغلی تازه‌کار در همین شرکت‌ها ۱۲ درصد رشد داشته است. این یافته‌ها به طور مستقیم با این تصور رایج که هوش مصنوعی باعث از بین رفتن مشاغل، به ویژه برای افراد تازه‌وارد می‌شود، در تضاد است.",
+      "tags": [
+        "AI jobs",
+        "بازار کار",
+        "استخدام",
+        "Entry-level jobs",
+        "AI adoption"
+      ]
+    },
+    {
+      "id": "7fc9333d0392b245",
+      "date": "2026-06-29",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "دولت کالیفرنیا، مدل هوش مصنوعی Claude آنتروپیک را با نصف قیمت دریافت می‌کند",
+      "title_en": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "summary_fa": "شرکت آنتروپیک طی قراردادی با دولت ایالتی کالیفرنیا، مدل هوش مصنوعی Claude خود را با نصف قیمت در اختیار این ایالت قرار می‌دهد. این توافق، رابطه آنتروپیک با کالیفرنیا را تقویت می‌کند. این در حالی است که این شرکت، که رقیب OpenAI محسوب می‌شود، اخیراً با دولت فدرال ایالات متحده دچار چالش‌هایی شده است.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "California",
+        "Gov. Newsom",
+        "AI"
+      ]
+    },
+    {
+      "id": "5442c22415ccc76e",
+      "date": "2026-06-29",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "غول‌های فناوری کره جنوبی با سرمایه‌گذاری ۵۵۰ میلیارد دلاری به جنگ «RAMageddon» می‌روند",
+      "title_en": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+      "summary_fa": "در بحبوحه افزایش تقاضا برای هوش مصنوعی، دو غول بزرگ تولید تراشه‌های حافظه در جهان، مستقر در کره جنوبی، از سرمایه‌گذاری هنگفتی برای احداث کارخانه‌های پیشرفته‌تر و افزایش تولید خبر دادند. این اقدام با هدف مقابله با بحران کمبود احتمالی حافظه (RAMageddon) و تقویت جایگاه کره جنوبی به عنوان یک قدرت پیشرو در عرصه فناوری هوش مصنوعی انجام می‌شود.",
+      "tags": [
+        "کره جنوبی",
+        "تراشه حافظه",
+        "هوش مصنوعی",
+        "RAMageddon",
+        "سرمایه‌گذاری"
+      ]
+    },
+    {
+      "id": "457b06c6dfee30d7",
+      "date": "2026-06-29",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "عامل‌های هوش مصنوعی: نه همکار، بلکه ابزار",
+      "title_en": "AI agents are not your “coworkers”",
+      "summary_fa": "این گزارش، که برگرفته از خبرنامه The Algorithm است، به این موضوع می‌پردازد که چرا نباید عامل‌های هوش مصنوعی را «همکار» در نظر گرفت. با وجود اینکه شرکت‌ها ابزارهای هوش مصنوعی را با نام‌های انسانی (مانند «الکس») به عنوان دستیار معرفی می‌کنند، آن‌ها صرفاً ابزارهایی هستند که زیر نظر انسان کار می‌کنند. این ابزارها هرگز نمی‌توانند روابط و پویایی یک همکار انسانی را داشته باشند و مقاله بر لزوم درک تفاوت بنیادین بین این ابزارها و نیروی انسانی تأکید دارد.",
+      "tags": [
+        "عامل‌های هوش مصنوعی",
+        "محیط کار",
+        "تعامل انسان و هوش مصنوعی",
+        "پذیرش سازمانی",
+        "The Algorithm"
       ]
     }
   ]
