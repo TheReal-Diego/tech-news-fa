@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-07-01",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 46
+    "total_articles": 64
   },
   "articles": [
     {
@@ -784,6 +784,312 @@
         "تعامل انسان و هوش مصنوعی",
         "پذیرش سازمانی",
         "The Algorithm"
+      ]
+    },
+    {
+      "id": "fb435a036a32d4b8",
+      "date": "2026-06-30",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "رشد چشمگیر ChatGPT: افزایش جهانی کاربران و قابلیت‌ها",
+      "title_en": "How ChatGPT adoption has expanded",
+      "summary_fa": "بر اساس داده‌های جدید «OpenAI Signals»، پذیرش ChatGPT در سطح جهانی به طور فزاینده‌ای در حال رشد است. کاربران نه تنها استفاده خود را از این ابزار افزایش داده‌اند، بلکه در حال کاوش قابلیت‌های بیشتری هستند. این روند، رشد قابل توجهی را در مناطق و زبان‌های مختلف به همراه داشته است.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "پذیرش هوش مصنوعی",
+        "رشد فناوری",
+        "کاربران جهانی"
+      ]
+    },
+    {
+      "id": "3c923494434c3145",
+      "date": "2026-06-30",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "رونمایی از GeneBench-Pro: بنچمارکی نوین برای ارزیابی هوش مصنوعی در علوم ژنومیک و زیستی",
+      "title_en": "Introducing GeneBench-Pro",
+      "summary_fa": "GeneBench-Pro به عنوان یک بنچمارک جدید معرفی شده است که عملکرد هوش مصنوعی را در حوزه‌های پیچیده‌ای چون ژنومیک، زیست‌شناسی و تحقیقات علمی مورد سنجش قرار می‌دهد. این ابزار از مجموعه‌داده‌های پیچیده و واقعی برای ارزیابی دقیق مدل‌های هوش مصنوعی بهره می‌برد. هدف از آن، ارائه معیاری استاندارد برای سنجش توانایی هوش مصنوعی در حل مسائل علمی و تسریع پیشرفت در این زمینه‌ها است.",
+      "tags": [
+        "GeneBench-Pro",
+        "هوش مصنوعی",
+        "ژنومیک",
+        "بنچمارک",
+        "علوم زیستی"
+      ]
+    },
+    {
+      "id": "4c4d91d3ce63907b",
+      "date": "2026-06-30",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "زیرساخت و پایداری سیستم",
+      "title_fa": "OpenAI: چگونه با تحلیل جامع خطاها، یک باگ ۱۸ ساله زیرساخت را برطرف کردند؟",
+      "title_en": "Core dump epidemiology: fixing an 18-year-old bug",
+      "summary_fa": "مهندسان OpenAI با به‌کارگیری روش تحلیل گسترده Core Dump، موفق به شناسایی و رفع مشکلات نادر در زیرساخت‌های خود شدند. این بررسی دقیق، نه تنها یک نقص سخت‌افزاری پنهان، بلکه یک باگ نرم‌افزاری با قدمت ۱۸ سال را نیز آشکار ساخت که باعث کرش‌های سیستم می‌شد.",
+      "tags": [
+        "OpenAI",
+        "Debugging",
+        "Infrastructure",
+        "Software bug",
+        "Core dump"
+      ]
+    },
+    {
+      "id": "200e6c5f82a034d1",
+      "date": "2026-06-30",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "کاوشی در Genebench-Pro: هوش مصنوعی در خدمت ژنومیک",
+      "title_en": "Inside Genebench-Pro",
+      "summary_fa": "پلتفرم Genebench-Pro، ابزاری پیشرفته مبتنی بر هوش مصنوعی، مرزهای جدیدی را در تحلیل داده‌های ژنتیکی گشوده است. این سامانه به محققان کمک می‌کند تا با سرعت و دقت بی‌سابقه‌ای، الگوهای پیچیده را در ژنوم شناسایی کرده و مسیر را برای کشف داروهای نوین و درک بهتر بیماری‌ها هموار سازد. این گزارش به بررسی عمیق معماری، قابلیت‌ها و پتانسیل تحول‌آفرین Genebench-Pro در آینده تحقیقات زیستی می‌پردازد.",
+      "tags": [
+        "Genebench-Pro",
+        "هوش مصنوعی",
+        "ژنومیک",
+        "زیست‌فناوری",
+        "کشف دارو"
+      ]
+    },
+    {
+      "id": "33383567514a4fc8",
+      "date": "2026-06-18",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "جهش ChatGPT در پاسخگویی سلامت: ورود GPT-5.5 Instant",
+      "title_en": "Improving health intelligence in ChatGPT",
+      "summary_fa": "مدل GPT-5.5 Instant با هدف بهبود عملکرد ChatGPT در پاسخ‌دهی به سوالات حوزه سلامت و تندرستی معرفی شده است. این مدل توانایی استدلال قوی‌تر، درک بهتر بستر گفتگو و ارائه ارتباط واضح‌تر را به ChatGPT می‌بخشد. همچنین، ارزیابی‌های صورت‌گرفته توسط پزشکان، دقت و اعتبار پاسخ‌های آن را تایید می‌کنند.",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.5 Instant",
+        "هوش مصنوعی",
+        "سلامت دیجیتال",
+        "پزشکی"
+      ]
+    },
+    {
+      "id": "2155d7cb8c43e82f",
+      "date": "2026-06-18",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "کمک هوش مصنوعی به پزشکان برای تشخیص بیماری‌های ژنتیکی نادر کودکان",
+      "title_en": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "summary_fa": "محققان با به‌کارگیری یک مدل استدلالی توسعه‌یافته توسط OpenAI، گامی مهم در تشخیص بیماری‌های ژنتیکی نادر برداشتند. این سیستم هوش مصنوعی توانست در پرونده‌هایی که پیش از این بدون تشخیص مانده بودند، ۱۸ مورد جدید را با موفقیت شناسایی کند و راهگشای تشخیص برای این بیماران، به‌ویژه کودکان، باشد.",
+      "tags": [
+        "هوش مصنوعی",
+        "تشخیص پزشکی",
+        "بیماری‌های ژنتیکی",
+        "کودکان",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "e2256bc7303d4334",
+      "date": "2026-07-01",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "category": "شخصیت‌های کلیدی فناوری",
+      "title_fa": "وداع «پدر اینترنت» با گوگل؛ وینتون سرف بازنشسته می‌شود",
+      "title_en": "The ‘Father of the Internet’ is finally retiring",
+      "summary_fa": "وینتون سرف، دانشمند برجسته و از خالقان پروتکل‌های زیربنایی اینترنت، قرار است هفته آینده از سمت خود به عنوان مبلغ ارشد اینترنت در شرکت گوگل کناره‌گیری کند. او که به «پدر اینترنت» شهرت دارد، پس از سال‌ها فعالیت در این غول فناوری، بازنشسته می‌شود.",
+      "tags": [
+        "Vinton Cerf",
+        "Google",
+        "اینترنت",
+        "بازنشستگی",
+        "پروتکل‌های اینترنت"
+      ]
+    },
+    {
+      "id": "466d3082150a5916",
+      "date": "2026-07-01",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "ترامپ محدودیت‌های مدل‌های هوش مصنوعی آنتروپیک را برداشت",
+      "title_en": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+      "summary_fa": "دولت ترامپ محدودیت‌های اعمال‌شده بر مدل‌های هوش مصنوعی «مایتوس» (Mythos) و «فیبل» (Fable) شرکت Anthropic را برداشت. با این حال، رویکرد نامنظم و غیرقابل پیش‌بینی این دولت در زمینه سیاست‌گذاری هوش مصنوعی، باعث شده شرکت‌های فعال در این صنعت در مورد چارچوب‌های حاکم بر عرضه مدل‌های آتی خود با ابهامات جدی مواجه شوند و از وضوح لازم بی‌بهره باشند.",
+      "tags": [
+        "Trump",
+        "Anthropic",
+        "سیاست‌گذاری هوش مصنوعی",
+        "AI regulation",
+        "مدل‌های هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "59d48f179766a3c7",
+      "date": "2026-07-01",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "Wayve با ارزش‌گذاری ۸.۵ میلیارد دلاری، ۸۵ میلیون دلار سهام کارکنان را بازخرید می‌کند",
+      "title_en": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "summary_fa": "شرکت Wayve یک پیشنهاد بازخرید سهام به ارزش ۸۵ میلیون دلار برای کارکنان خود ارائه کرده است که بر اساس ارزش‌گذاری ۸.۵ میلیارد دلاری شرکت انجام می‌شود. این اقدام Wayve بخشی از یک روند رو به رشد در میان استارتاپ‌های هوش مصنوعی است. این شرکت‌ها از طرح‌های بازخرید سهام کارکنان به عنوان ابزاری استراتژیک برای جذب و حفظ استعدادهای برتر استفاده می‌کنند.",
+      "tags": [
+        "Wayve",
+        "AI startups",
+        "employee tender offer",
+        "Valuation",
+        "جذب استعداد"
+      ]
+    },
+    {
+      "id": "9a596b657038dc33",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "category": "نرم‌افزار و برنامه‌های هوشمند",
+      "title_fa": "ورود OpenClaw، عامل هوشمند متن‌باز، به گوشی‌های اندروید و iOS",
+      "title_en": "OpenClaw is finally available on Android and iOS",
+      "summary_fa": "OpenClaw، یک برنامه عامل هوشمند رایگان و متن‌باز، سرانجام برای کاربران گوشی‌های اندروید و iOS در دسترس قرار گرفت. این عامل هوشمند که انتظار زیادی برای آن می‌رفت، اکنون آماده است تا به دستگاه‌های موبایل شما راه یابد و تجربه جدیدی را ارائه دهد.",
+      "tags": [
+        "OpenClaw",
+        "Android",
+        "iOS",
+        "متن‌باز",
+        "عامل هوشمند"
+      ]
+    },
+    {
+      "id": "cb5bd9cc1bfa048f",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "از هوش مصنوعی پوکر تا سودآوری کوانت: شرکت بنیان‌گذاران سابق دیپ‌مایند نیم میلیارد دلار ارزش دارد",
+      "title_en": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "summary_fa": "EquiLibre Technologies، آزمایشگاه هوش مصنوعی مستقر در پراگ که توسط سه محقق سابق دیپ‌مایند تاسیس شده است، اکنون با ارزشی بیش از ۵۰۰ میلیون دلار فعالیت می‌کند. این تیم که پیشتر به دلیل توسعه هوش مصنوعی پوکر شناخته شده بود، حالا از تخصص خود برای کسب سود در صندوق‌های پوشش ریسک (هج فاند) کوانت بهره می‌برد و موفقیت چشمگیری را تجربه کرده است.",
+      "tags": [
+        "EquiLibre Technologies",
+        "DeepMind",
+        "هوش مصنوعی",
+        "صندوق سرمایه‌گذاری",
+        "استارتاپ"
+      ]
+    },
+    {
+      "id": "68c5b27d665c4a5e",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "گوگل ابزار تولید تصویر خود را سریع‌تر و ارزان‌تر می‌کند: معرفی Nano Banana 2 Lite",
+      "title_en": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "summary_fa": "گوگل از به‌روزرسانی ابزار تولید تصویر مبتنی بر هوش مصنوعی خود خبر داده است. این نسخه جدید که با نام Nano Banana 2 Lite عرضه می‌شود، وعده ارائه عملکرد سریع‌تر و هزینه پایین‌تر را به کاربران می‌دهد. هدف این به‌روزرسانی، تبدیل آن به ابزاری کارآمدتر و در دسترس‌تر برای تولیدکنندگان محتوا و هنرمندانی است که به دنبال خلق محتوای بصری با هوش مصنوعی هستند.",
+      "tags": [
+        "Google",
+        "AI",
+        "Image Generator",
+        "Nano Banana 2 Lite",
+        "تولید محتوا"
+      ]
+    },
+    {
+      "id": "b36ff43588c05058",
+      "date": "2026-06-30",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "آنتروپیک از «کلاد ساینس»، محصول شاخص جدید برای پیشبرد تحقیقات علمی، رونمایی کرد",
+      "title_en": "Claude Science is Anthropic’s newest flagship product",
+      "summary_fa": "شرکت هوش مصنوعی آنتروپیک در رویدادی ویژه متخصصان حوزه دارو و بیوتک، از محصول شاخص جدید خود با نام «کلاد ساینس» (Claude Science) پرده‌برداری کرد. این ابزار قدرتمند، با هدف پشتیبانی از تحقیقات علمی، همانند «کلاد کد» که به مهندسی نرم‌افزار کمک می‌کند، طراحی شده است. «کلاد ساینس» می‌تواند با دریافت دستورالعمل‌های کلی، به صورت مستقل وظایف پیچیده را در حوزه علم انجام دهد و به پیشرفت پژوهش‌ها یاری رساند.",
+      "tags": [
+        "Anthropic",
+        "Claude Science",
+        "هوش مصنوعی",
+        "تحقیقات علمی",
+        "بیوتکنولوژی"
+      ]
+    },
+    {
+      "id": "9e4ba109713d3405",
+      "date": "2026-06-30",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "برنامه‌ریزی مجدد بدن؛ مرز بعدی معکوس کردن پیری و طول عمر",
+      "title_en": "Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body",
+      "summary_fa": "با سرازیر شدن میلیاردها دلار سرمایه به تحقیقات معکوس کردن پیری، دانشمندان در پی یافتن راه‌هایی برای بازگرداندن سلول‌ها به حالت جوان‌تر هستند. این نشست به بررسی این درمان‌های آزمایشی جدید می‌پردازد و به این سوالات پاسخ می‌دهد که تا چه حد به واقعیت نزدیک‌اند و آیا واقعاً مؤثر خواهند بود.",
+      "tags": [
+        "طول عمر",
+        "معکوس کردن پیری",
+        "زیست‌فناوری",
+        "پژوهش علمی",
+        "Longevity"
+      ]
+    },
+    {
+      "id": "18c25a8a7b7f374e",
+      "date": "2026-06-30",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "هوش مصنوعی در محیط کار: همکار یا ابزار مدیریتی جدید؟",
+      "title_en": "The Download: AI “coworkers” and stratospheric internet",
+      "summary_fa": "این گزارش به بررسی برداشت از «همکاران هوش مصنوعی» می‌پردازد و تاکید می‌کند که ابزارهای هوش مصنوعی نباید به عنوان همکاران واقعی در نظر گرفته شوند. در عوض، آن‌ها ابزارهای هوشمندی هستند که تحت نظارت کاربران کار کرده و به آن‌ها گزارش می‌دهند. این دیدگاه، چگونگی ادغام و پذیرش هوش مصنوعی در ساختار تیم‌ها و محیط کار را تغییر می‌دهد.",
+      "tags": [
+        "هوش مصنوعی",
+        "محیط کار",
+        "AI agents",
+        "آینده کار",
+        "مدیریت هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "00b8692fdcea165a",
+      "date": "2026-06-30",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "هوش مصنوعی در کشاورزی: پتانسیل بالا، چالش اصلی در داده‌ها",
+      "title_en": "Agriculture is ready for AI, but its data isn’t",
+      "summary_fa": "هوش مصنوعی نویدبخش تحولات عظیمی در بخش کشاورزی است و می‌تواند به صنعت برای مقابله با چالش‌هایی چون نوسانات هزینه‌ کود، آب و هوای غیرقابل پیش‌بینی و حاشیه‌ی سود اندک کمک کند. مدل‌های پیش‌بینی‌کننده‌ی مبتنی بر هوش مصنوعی قابلیت بهبود تولید محصولات را دارند. با این حال، کارشناسان هشدار می‌دهند که پیش از سرمایه‌گذاری در هوش مصنوعی، زیرساخت‌های داده‌ای مناسب باید فراهم شود، زیرا در حال حاضر، داده‌های این حوزه برای بهره‌برداری کامل از پتانسیل هوش مصنوعی آماده نیستند.",
+      "tags": [
+        "کشاورزی",
+        "هوش مصنوعی",
+        "داده‌های کشاورزی",
+        "AI Adoption",
+        "مدل‌های پیش‌بینی‌کننده"
+      ]
+    },
+    {
+      "id": "9a14e2833cedc535",
+      "date": "2026-06-30",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
+      "category": "تحلیل صنعت تکنولوژی",
+      "title_fa": "کانون مخفی نوآوری جهان: شهری کوچک که میزبان غول‌های فناوری شده است",
+      "title_en": "Building tech in the world’s secret R&D hub",
+      "summary_fa": "خارج از سیلیکون ولی، کانون تحقیق و توسعه‌ای وجود دارد که بزرگترین شرکت‌های فناوری جهان را گرد هم آورده است. این مرکز میزبان بخش‌های تحقیق و توسعه شرکت‌هایی چون Apple, Anthropic, Disney Research, Google, Meta, Microsoft, NVIDIA و OpenAI است. نکته قابل توجه این است که این تمرکز بی‌سابقه، در شهری با جمعیت تنها ۴۰۰ هزار نفر (تقریباً نصف سن‌فرانسیسکو) و طی دو دهه اخیر شکل گرفته است.",
+      "tags": [
+        "هاب تحقیق و توسعه",
+        "فناوری",
+        "نوآوری",
+        "Apple",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "d00f848245576a8c",
+      "date": "2026-06-29",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "عامل‌های هوش مصنوعی: محرک اصلی بازگشت سرمایه و همسویی استراتژیک در سازمان‌ها",
+      "title_en": "Agent confidence on the technical frontier",
+      "summary_fa": "سرمایه‌گذاری شرکت‌ها در هوش مصنوعی رشدی چشمگیر را تجربه می‌کند. شرکت گارتنر سال ۲۰۲۶ را نقطه عطفی برای سازمان‌ها می‌داند تا پروژه‌های هوش مصنوعی خود را با اهداف استراتژیک کسب‌وکار همسو کنند. با افزایش فشار برای اثبات بازگشت سرمایه، مدیران و رهبران فناوری به هوش مصنوعی عامل‌محور (Agentic AI) روی آورده‌اند تا به نتایج مالی ملموس دست یابند.",
+      "tags": [
+        "هوش مصنوعی عامل‌محور",
+        "سرمایه‌گذاری سازمانی",
+        "ROI",
+        "Gartner",
+        "استراتژی کسب‌وکار"
       ]
     }
   ]
