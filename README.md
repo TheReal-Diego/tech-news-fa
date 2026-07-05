@@ -35,7 +35,7 @@ Runs entirely on free infrastructure: GitHub Pages + GitHub Actions + the Gemini
 
 ## ◆ What This Is
 
-Frequency (فرکانس) pulls the day's most important tech and AI stories from a handful of trusted sources, summarizes them in Persian using the Gemini API, and archives every article as a structured JSON record — building a dataset that grows richer every single day.
+Frequency pulls the day's most important tech and AI stories from a handful of trusted sources, summarizes them in Persian using the Gemini API, and archives every article as a structured JSON record — building a dataset that grows richer every single day.
 
 <table>
 <tr>
