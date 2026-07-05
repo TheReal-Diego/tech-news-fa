@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#0A0A0F"/>
+
+  <!-- header -->
+  <g font-family="Arial">
+    <rect x="0" y="0" width="1200" height="64" fill="#0A0A0F" fill-opacity="0.9"/>
+    <line x1="0" y1="64" x2="1200" y2="64" stroke="#262635"/>
+    <rect x="44" y="24" width="9" height="9" fill="#FF8A4C" transform="rotate(45 48.5 28.5)"/>
+    <text x="64" y="38" font-size="17" font-weight="800" fill="#EDEDF2">فرکانس</text>
+
+    <text x="960" y="37" font-family="'JetBrains Mono', monospace" font-size="10" fill="#45454F" text-anchor="end">۵ تیر ۱۴۰۵</text>
+    <rect x="980" y="20" width="120" height="26" rx="13" fill="#1D1D28" stroke="#262635"/>
+    <text x="1010" y="37" font-family="'JetBrains Mono', monospace" font-size="10" fill="#EDEDF2" text-anchor="middle">فارسی ▾</text>
+  </g>
+
+  <!-- hero -->
+  <g font-family="Arial">
+    <text x="1148" y="110" font-family="'JetBrains Mono', monospace" font-size="10" fill="#B8FF9F" text-anchor="end" letter-spacing="2">رصد روزانه‌ی فناوری</text>
+    <text x="1148" y="170" font-size="52" font-weight="800" fill="#EDEDF2" text-anchor="end">هوش <tspan fill="#FF8A4C">مصنوعی</tspan></text>
+    <text x="1148" y="222" font-size="52" font-weight="800" fill="#EDEDF2" text-anchor="end">در یک <tspan fill="none" stroke="#6B6B7A">نگاه</tspan></text>
+
+    <line x1="700" y1="255" x2="1148" y2="255" stroke="#262635"/>
+    <text x="1148" y="285" font-size="13" fill="#6B6B7A" text-anchor="end">مهم‌ترین خبرهای تکنولوژی جهان،</text>
+    <text x="1148" y="304" font-size="13" fill="#6B6B7A" text-anchor="end">خلاصه‌شده به فارسی — هر روز.</text>
+
+    <text x="700" y="270" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700" fill="#B8FF9F" text-anchor="end">۱۲۴</text>
+    <text x="700" y="286" font-family="'JetBrains Mono', monospace" font-size="9" fill="#45454F" text-anchor="end">خبر آرشیو</text>
+  </g>
+
+  <!-- category strip -->
+  <g font-family="'JetBrains Mono', monospace" font-size="11">
+    <rect x="1040" y="330" width="60" height="30" rx="15" fill="#FF8A4C"/>
+    <text x="1070" y="349" text-anchor="middle" fill="#1A0D04">همه</text>
+    <rect x="960" y="330" width="70" height="30" rx="15" fill="none" stroke="#262635"/>
+    <text x="995" y="349" text-anchor="middle" fill="#6B6B7A">مدل‌ها</text>
+    <rect x="860" y="330" width="90" height="30" rx="15" fill="none" stroke="#262635"/>
+    <text x="905" y="349" text-anchor="middle" fill="#6B6B7A">استارتاپ‌ها</text>
+  </g>
+
+  <!-- mosaic grid -->
+  <g>
+    <!-- lead cell -->
+    <rect x="640" y="390" width="508" height="220" rx="18" fill="#15151D" stroke="#262635"/>
+    <text x="1116" y="428" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF8A4C" text-anchor="end">مدل‌های زبانی</text>
+    <text x="672" y="428" font-family="'JetBrains Mono', monospace" font-size="10" fill="#45454F">۲ روز پیش</text>
+    <text x="1116" y="470" font-size="24" font-weight="700" fill="#EDEDF2" text-anchor="end">عنوان اصلی خبر مهم</text>
+    <text x="1116" y="500" font-size="24" font-weight="700" fill="#EDEDF2" text-anchor="end">امروز در این باکس</text>
+    <text x="1116" y="535" font-size="13" fill="#6B6B7A" text-anchor="end">یک خلاصه‌ی روان و خوانا از خبر که در</text>
+    <text x="1116" y="555" font-size="13" fill="#6B6B7A" text-anchor="end">همین کارت جا می‌شود، سطر به سطر.</text>
+    <text x="672" y="595" font-family="'JetBrains Mono', monospace" font-size="10" fill="#45454F">OpenAI</text>
+    <text x="1116" y="595" font-family="'JetBrains Mono', monospace" font-size="13" fill="#B8FF9F" text-anchor="end">→</text>
+
+    <!-- tall cell -->
+    <rect x="330" y="390" width="290" height="220" rx="18" fill="#15151D" stroke="#262635"/>
+    <text x="600" y="428" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF8A4C" text-anchor="end">استارتاپ‌ها</text>
+    <text x="600" y="465" font-size="17" font-weight="700" fill="#EDEDF2" text-anchor="end">یک خبر دیگر با</text>
+    <text x="600" y="488" font-size="17" font-weight="700" fill="#EDEDF2" text-anchor="end">طول متفاوت اینجا</text>
+    <text x="600" y="595" font-family="'JetBrains Mono', monospace" font-size="10" fill="#45454F" text-anchor="end">TechCrunch</text>
+
+    <!-- small cell -->
+    <rect x="70" y="390" width="240" height="105" rx="18" fill="#15151D" stroke="#262635"/>
+    <text x="290" y="422" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF8A4C" text-anchor="end">سخت‌افزار</text>
+    <text x="290" y="455" font-size="15" font-weight="700" fill="#EDEDF2" text-anchor="end">خبر کوتاه‌تر</text>
+
+    <!-- small cell 2 -->
+    <rect x="70" y="505" width="240" height="105" rx="18" fill="#15151D" stroke="#262635"/>
+    <text x="290" y="537" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF8A4C" text-anchor="end">پژوهش</text>
+    <text x="290" y="570" font-size="15" font-weight="700" fill="#EDEDF2" text-anchor="end">یک خبر دیگر</text>
+  </g>
+
+  <!-- footer -->
+  <g font-family="'JetBrains Mono', monospace" font-size="10" fill="#45454F">
+    <line x1="70" y1="660" x2="1148" y2="660" stroke="#262635"/>
+    <text x="1148" y="690" text-anchor="end"><tspan fill="#B8FF9F">۱۲۴</tspan> خبر در آرشیو · آخرین به‌روزرسانی امروز</text>
+  </g>
+</svg>
