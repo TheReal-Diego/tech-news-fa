@@ -1,437 +1,1291 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>فرکانس — اخبار تکنولوژی و هوش مصنوعی</title>
-<link rel="preconnect" href="https://cdn.jsdelivr.net">
-<style>
-@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/JetBrains-Mono/2.304/css/jetbrains-mono.min.css');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فرکانس — اخبار تکنولوژی و هوش مصنوعی</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/JetBrains-Mono/2.304/css/jetbrains-mono.min.css");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-:root{
-  --ink:      #0A0A0F;
-  --paper:    #15151D;
-  --paper-2:  #1D1D28;
-  --line:     #262635;
-  --text:     #EDEDF2;
-  --muted:    #6B6B7A;
-  --faint:    #45454F;
-  --ember:    #FF8A4C;
-  --ember-dim: rgba(255,138,76,.13);
-  --signal:   #B8FF9F;
-  --signal-dim: rgba(184,255,159,.12);
+      :root {
+        --ink: #0a0a0f;
+        --paper: #15151d;
+        --paper-2: #1d1d28;
+        --line: #262635;
+        --text: #ededf2;
+        --muted: #6b6b7a;
+        --faint: #45454f;
+        --ember: #ff8a4c;
+        --ember-dim: rgba(255, 138, 76, 0.13);
+        --signal: #b8ff9f;
+        --signal-dim: rgba(184, 255, 159, 0.12);
+        --serif: "Vazirmatn", sans-serif;
+        --mono: "JetBrains Mono", monospace;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: var(--ink);
+        color: var(--text);
+        font-family: var(--serif);
+        line-height: 1.8;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      /* non-Persian languages read better on a Latin/Cyrillic-native face */
+      html:not([lang="fa"]) body {
+        font-family: "Inter", system-ui, sans-serif;
+      }
+      ::selection {
+        background: var(--ember-dim);
+        color: var(--ember);
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--ink);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--line);
+        border-radius: 8px;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
 
-  --serif: 'Vazirmatn', sans-serif;
-  --mono: 'JetBrains Mono', monospace;
-}
+      /* ===== margin rail — signature element ===== */
+      .rail {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 42px;
+        border-left: 1px solid var(--line);
+        z-index: 30;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+        pointer-events: none;
+      }
+      .rail-progress {
+        position: absolute;
+        top: 0;
+        right: -1px;
+        width: 1px;
+        background: var(--signal);
+        box-shadow: 0 0 8px rgba(184, 255, 159, 0.6);
+        transition: height 0.1s linear;
+      }
+      .rail-label {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        color: var(--faint);
+        writing-mode: vertical-rl;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .rail-label.top {
+        margin-bottom: auto;
+      }
+      .rail-label.bottom {
+        margin-top: auto;
+        color: var(--signal);
+      }
+      @media (max-width: 860px) {
+        .rail {
+          display: none;
+        }
+      }
 
-*{ margin:0; padding:0; box-sizing:border-box; }
-html{ scroll-behavior:smooth; }
-body{
-  background:var(--ink); color:var(--text); font-family:var(--serif);
-  line-height:1.8; -webkit-font-smoothing:antialiased; overflow-x:hidden;
-}
-::selection{ background:var(--ember-dim); color:var(--ember); }
-::-webkit-scrollbar{ width:8px; }
-::-webkit-scrollbar-track{ background:var(--ink); }
-::-webkit-scrollbar-thumb{ background:var(--line); border-radius:8px; }
-a{ color:inherit; text-decoration:none; }
+      .shell {
+        margin-right: 42px;
+      }
+      @media (max-width: 860px) {
+        .shell {
+          margin-right: 0;
+        }
+      }
+      .wrap {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
 
-/* ===== margin rail — signature element ===== */
-.rail{
-  position:fixed; top:0; bottom:0; right:0; width:42px;
-  border-left:1px solid var(--line); z-index:30;
-  display:flex; flex-direction:column; align-items:center;
-  padding:24px 0; pointer-events:none;
-}
-.rail-progress{
-  position:absolute; top:0; right:-1px; width:1px; background:var(--signal);
-  box-shadow:0 0 8px rgba(184,255,159,.6);
-  transition:height .1s linear;
-}
-.rail-label{
-  font-family:var(--mono); font-size:9.5px; color:var(--faint);
-  writing-mode:vertical-rl; letter-spacing:.15em; text-transform:uppercase;
-}
-.rail-label.top{ margin-bottom:auto; }
-.rail-label.bottom{ margin-top:auto; color:var(--signal); }
-@media (max-width:860px){ .rail{ display:none; } }
+      /* ===== header ===== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: rgba(10, 10, 15, 0.85);
+        backdrop-filter: blur(20px) saturate(150%);
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.3s;
+      }
+      header.scrolled {
+        border-bottom-color: var(--line);
+      }
+      .head-row {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 22px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .logo {
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: -0.2px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .logo-glyph {
+        width: 9px;
+        height: 9px;
+        background: var(--ember);
+        border-radius: 2px;
+        transform: rotate(45deg);
+        flex-shrink: 0;
+      }
+      .head-right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .head-meta {
+        font-family: var(--mono);
+        font-size: 10.5px;
+        color: var(--faint);
+        letter-spacing: 0.05em;
+      }
 
-.shell{ margin-right:42px; }
-@media (max-width:860px){ .shell{ margin-right:0; } }
+      /* ===== language switch ===== */
+      .lang-switch {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .lang-switch select {
+        appearance: none;
+        -webkit-appearance: none;
+        background: var(--paper-2);
+        border: 1px solid var(--line);
+        color: var(--text);
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.03em;
+        padding: 8px 30px 8px 14px;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: border-color 0.15s;
+      }
+      .lang-switch select:hover,
+      .lang-switch select:focus {
+        border-color: var(--ember);
+        outline: none;
+      }
+      .lang-switch::after {
+        content: "▾";
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 9px;
+        color: var(--faint);
+        pointer-events: none;
+      }
+      html[dir="rtl"] .lang-switch select {
+        padding: 8px 14px 8px 30px;
+      }
+      html[dir="rtl"] .lang-switch::after {
+        left: auto;
+        right: 12px;
+      }
 
-.wrap{ max-width:1040px; margin:0 auto; padding:0 32px; }
+      /* ===== HERO — poster scale ===== */
+      .hero {
+        padding: 90px 0 50px;
+        position: relative;
+      }
+      .hero-eyebrow {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--signal);
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .hero-eyebrow::before {
+        content: "";
+        width: 24px;
+        height: 1px;
+        background: var(--signal);
+      }
+      .hero h1 {
+        font-size: clamp(40px, 9vw, 108px);
+        font-weight: 800;
+        letter-spacing: -3px;
+        line-height: 0.98;
+        max-width: 980px;
+      }
+      .hero h1 .accent {
+        color: var(--ember);
+      }
+      .hero h1 .outline {
+        -webkit-text-stroke: 1.5px var(--muted);
+        color: transparent;
+      }
+      .hero-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 40px;
+        padding-top: 28px;
+        border-top: 1px solid var(--line);
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .hero-desc {
+        color: var(--muted);
+        font-size: 15.5px;
+        max-width: 420px;
+        line-height: 1.9;
+      }
+      .hero-stats {
+        display: flex;
+        gap: 32px;
+      }
+      .hstat-num {
+        font-family: var(--mono);
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--signal);
+      }
+      .hstat-label {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        color: var(--faint);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-top: 2px;
+      }
 
-/* ===== header ===== */
-header{
-  position:sticky; top:0; z-index:40;
-  background:rgba(10,10,15,.85); backdrop-filter:blur(20px) saturate(150%);
-  border-bottom:1px solid transparent; transition:border-color .3s;
-}
-header.scrolled{ border-bottom-color:var(--line); }
-.head-row{
-  max-width:1040px; margin:0 auto; padding:22px 32px;
-  display:flex; align-items:center; justify-content:space-between;
-}
-.logo{ font-size:18px; font-weight:800; letter-spacing:-.2px; display:flex; align-items:center; gap:10px; }
-.logo-glyph{
-  width:9px; height:9px; background:var(--ember); border-radius:2px;
-  transform:rotate(45deg); flex-shrink:0;
-}
-.head-meta{ font-family:var(--mono); font-size:10.5px; color:var(--faint); letter-spacing:.05em; }
+      /* ===== category strip ===== */
+      .cat-strip {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        padding: 38px 0 0;
+      }
+      .cat-strip::-webkit-scrollbar {
+        display: none;
+      }
+      .cat-pill {
+        font-family: var(--mono);
+        font-size: 11.5px;
+        white-space: nowrap;
+        padding: 9px 18px;
+        border-radius: 100px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        cursor: pointer;
+        transition: 0.15s;
+        background: none;
+      }
+      .cat-pill:hover {
+        border-color: var(--muted);
+        color: var(--text);
+      }
+      .cat-pill.is-active {
+        background: var(--ember);
+        border-color: var(--ember);
+        color: #1a0d04;
+        font-weight: 700;
+      }
 
-/* ===== HERO — poster scale ===== */
-.hero{ padding:90px 0 50px; position:relative; }
-.hero-eyebrow{
-  font-family:var(--mono); font-size:11px; color:var(--signal);
-  letter-spacing:.18em; text-transform:uppercase; margin-bottom:28px;
-  display:flex; align-items:center; gap:10px;
-}
-.hero-eyebrow::before{ content:''; width:24px; height:1px; background:var(--signal); }
+      /* ===== MOSAIC FEED — asymmetric magazine grid ===== */
+      .mosaic {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 16px;
+        padding: 44px 0 70px;
+      }
+      .cell {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 28px;
+        cursor: pointer;
+        transition: 0.25s;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .cell::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        background: radial-gradient(
+          circle at 20% 0%,
+          var(--ember-dim),
+          transparent 60%
+        );
+      }
+      .cell:hover {
+        border-color: var(--muted);
+        transform: translateY(-3px);
+      }
+      .cell:hover::before {
+        opacity: 1;
+      }
 
-.hero h1{
-  font-size:clamp(48px,9vw,108px); font-weight:800; letter-spacing:-3px;
-  line-height:.98; max-width:980px;
-}
-.hero h1 .accent{ color:var(--ember); }
-.hero h1 .outline{
-  -webkit-text-stroke:1.5px var(--muted); color:transparent;
-}
+      .cell.lead {
+        grid-column: span 4;
+        grid-row: span 2;
+        padding: 40px;
+      }
+      .cell.tall {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .cell.wide {
+        grid-column: span 3;
+      }
+      .cell.std {
+        grid-column: span 3;
+      }
+      .cell.small {
+        grid-column: span 2;
+      }
 
-.hero-foot{
-  display:flex; justify-content:space-between; align-items:flex-end;
-  margin-top:40px; padding-top:28px; border-top:1px solid var(--line);
-  gap:30px; flex-wrap:wrap;
-}
-.hero-desc{ color:var(--muted); font-size:15.5px; max-width:420px; line-height:1.9; }
-.hero-stats{ display:flex; gap:32px; }
-.hstat-num{ font-family:var(--mono); font-size:26px; font-weight:700; color:var(--signal); }
-.hstat-label{ font-family:var(--mono); font-size:9.5px; color:var(--faint); letter-spacing:.06em; text-transform:uppercase; margin-top:2px; }
+      .c-top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+      }
+      .c-cat {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ember);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .c-date {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--faint);
+      }
+      .c-fresh {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--signal);
+        box-shadow: 0 0 6px rgba(184, 255, 159, 0.7);
+      }
+      .c-title {
+        font-weight: 700;
+        line-height: 1.5;
+        position: relative;
+        z-index: 1;
+        flex: 1;
+      }
+      .cell.lead .c-title {
+        font-size: 27px;
+      }
+      .cell.tall .c-title {
+        font-size: 18px;
+      }
+      .cell.wide .c-title,
+      .cell.std .c-title {
+        font-size: 17px;
+      }
+      .cell.small .c-title {
+        font-size: 15px;
+      }
+      .c-dek {
+        color: var(--muted);
+        font-size: 13.5px;
+        line-height: 1.85;
+        margin-top: 12px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+      }
+      .cell.lead .c-dek {
+        font-size: 15px;
+        -webkit-line-clamp: 3;
+        margin-top: 16px;
+      }
+      .cell.tall .c-dek {
+        -webkit-line-clamp: 4;
+      }
+      .cell.wide .c-dek,
+      .cell.std .c-dek {
+        -webkit-line-clamp: 2;
+      }
+      .cell.small .c-dek {
+        display: none;
+      }
+      .c-bottom {
+        margin-top: auto;
+        padding-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--mono);
+        font-size: 10.5px;
+        color: var(--faint);
+        position: relative;
+        z-index: 1;
+      }
+      .c-arrow {
+        color: var(--signal);
+        font-size: 14px;
+        transition: transform 0.2s;
+      }
+      .cell:hover .c-arrow {
+        transform: translateX(-4px);
+      }
+      @media (max-width: 860px) {
+        .mosaic {
+          grid-template-columns: 1fr;
+          gap: 14px;
+        }
+        .cell.lead,
+        .cell.tall,
+        .cell.wide,
+        .cell.std,
+        .cell.small {
+          grid-column: span 1;
+          grid-row: span 1;
+        }
+      }
+      .empty-state {
+        grid-column: 1/-1;
+        text-align: center;
+        padding: 70px 20px;
+        color: var(--faint);
+        font-family: var(--mono);
+        font-size: 12.5px;
+      }
 
-/* ===== category strip ===== */
-.cat-strip{
-  display:flex; gap:10px; overflow-x:auto; padding:38px 0 0;
-}
-.cat-strip::-webkit-scrollbar{ display:none; }
-.cat-pill{
-  font-family:var(--mono); font-size:11.5px; white-space:nowrap;
-  padding:9px 18px; border-radius:100px; border:1px solid var(--line);
-  color:var(--muted); cursor:pointer; transition:.15s; background:none;
-}
-.cat-pill:hover{ border-color:var(--muted); color:var(--text); }
-.cat-pill.is-active{ background:var(--ember); border-color:var(--ember); color:#1A0D04; font-weight:700; }
+      /* ===== footer ===== */
+      footer {
+        border-top: 1px solid var(--line);
+        padding: 40px 0 60px;
+      }
+      .footer-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--faint);
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      .footer-row .count {
+        color: var(--signal);
+      }
+      .footer-sources {
+        display: flex;
+        gap: 18px;
+      }
+      .footer-sources a {
+        color: var(--faint);
+        transition: 0.15s;
+        border-bottom: 1px solid transparent;
+      }
+      .footer-sources a:hover {
+        color: var(--ember);
+        border-color: var(--ember);
+      }
 
-/* ===== MOSAIC FEED — asymmetric magazine grid ===== */
-.mosaic{
-  display:grid; grid-template-columns:repeat(6,1fr); gap:16px;
-  padding:44px 0 70px;
-}
-.cell{
-  background:var(--paper); border:1px solid var(--line); border-radius:18px;
-  padding:28px; cursor:pointer; transition:.25s; position:relative; overflow:hidden;
-  display:flex; flex-direction:column;
-}
-.cell::before{
-  content:''; position:absolute; inset:0; opacity:0; transition:opacity .3s;
-  background:radial-gradient(circle at 20% 0%, var(--ember-dim), transparent 60%);
-}
-.cell:hover{ border-color:var(--muted); transform:translateY(-3px); }
-.cell:hover::before{ opacity:1; }
+      /* ===== MODAL ===== */
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(8, 8, 11, 0.75);
+        backdrop-filter: blur(6px);
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+      }
+      .modal-backdrop.is-open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        max-width: 620px;
+        background: var(--paper);
+        z-index: 101;
+        border-left: 1px solid var(--line);
+        transform: translateX(110%);
+        transition: transform 0.4s cubic-bezier(0.22, 0.9, 0.32, 1);
+        overflow-y: auto;
+        box-shadow: -50px 0 90px rgba(0, 0, 0, 0.45);
+      }
+      .modal.is-open {
+        transform: translateX(0);
+      }
+      .modal-head {
+        position: sticky;
+        top: 0;
+        background: var(--paper);
+        border-bottom: 1px solid var(--line);
+        padding: 20px 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+      }
+      .modal-close {
+        background: var(--paper-2);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.15s;
+      }
+      .modal-close:hover {
+        color: var(--signal);
+        border-color: var(--signal);
+      }
+      .modal-source-tag {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--faint);
+      }
+      .modal-body {
+        padding: 44px 36px 64px;
+      }
+      .modal-cat {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--ember);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      .modal-title {
+        font-size: clamp(26px, 4vw, 34px);
+        font-weight: 800;
+        line-height: 1.45;
+        margin-bottom: 20px;
+        letter-spacing: -0.5px;
+      }
+      .modal-title-en {
+        font-family: var(--mono);
+        font-size: 12px;
+        color: var(--faint);
+        direction: ltr;
+        text-align: right;
+        margin-bottom: 26px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid var(--line);
+      }
+      .modal-summary {
+        font-size: 17px;
+        line-height: 2.05;
+        color: #d7d7de;
+      }
+      .modal-tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 34px;
+      }
+      .modal-tag {
+        font-size: 11.5px;
+        color: var(--muted);
+        background: var(--paper-2);
+        border: 1px solid var(--line);
+        padding: 6px 13px;
+        border-radius: 100px;
+        transition: 0.15s;
+      }
+      .modal-tag:hover {
+        color: var(--signal);
+        border-color: var(--signal);
+      }
+      .modal-cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 38px;
+        padding: 17px;
+        border-radius: 12px;
+        background: var(--ember);
+        color: #1a0d04;
+        font-weight: 700;
+        font-size: 14.5px;
+        transition: 0.2s;
+      }
+      .modal-cta:hover {
+        filter: brightness(1.1);
+        transform: translateY(-1px);
+      }
+      @media (max-width: 640px) {
+        .wrap {
+          padding: 0 18px;
+        }
+        .head-row {
+          padding: 16px 18px;
+        }
+        .hero {
+          padding: 54px 0 36px;
+        }
+        .modal {
+          max-width: 100%;
+        }
+        .modal-body {
+          padding: 30px 22px 50px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.001ms !important;
+          transition-duration: 0.001ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rail">
+      <div class="rail-progress" id="railProgress"></div>
+      <div class="rail-label top">فرکانس</div>
+      <div class="rail-label bottom" id="railPercent">۰٪</div>
+    </div>
 
-/* size variants — repeating asymmetric pattern */
-.cell.lead{ grid-column:span 4; grid-row:span 2; padding:40px; }
-.cell.tall{ grid-column:span 2; grid-row:span 2; }
-.cell.wide{ grid-column:span 3; }
-.cell.std{ grid-column:span 3; }
-.cell.small{ grid-column:span 2; }
+    <div class="shell">
+      <header id="siteHeader">
+        <div class="head-row">
+          <div class="logo"><span class="logo-glyph"></span>فرکانس</div>
+          <div class="head-right">
+            <div class="head-meta" id="headerDate"></div>
+            <div class="lang-switch">
+              <select id="langSelect" aria-label="Language / زبان">
+                <option value="fa">فارسی</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="ru">Русский</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </header>
 
-.c-top{ display:flex; align-items:center; gap:10px; margin-bottom:16px; flex-wrap:wrap; position:relative; z-index:1; }
-.c-cat{ font-family:var(--mono); font-size:10px; color:var(--ember); letter-spacing:.05em; text-transform:uppercase; }
-.c-date{ font-family:var(--mono); font-size:10px; color:var(--faint); }
-.c-fresh{ width:5px; height:5px; border-radius:50%; background:var(--signal); box-shadow:0 0 6px rgba(184,255,159,.7); }
+      <div class="wrap">
+        <section class="hero">
+          <div class="hero-eyebrow" id="heroEyebrow">رصد روزانه‌ی فناوری</div>
+          <h1 id="heroTitle">
+            هوش <span class="accent">مصنوعی</span><br />در یک
+            <span class="outline">نگاه</span>
+          </h1>
+          <div class="hero-foot">
+            <p class="hero-desc" id="heroDesc">
+              مهم‌ترین خبرهای تکنولوژی و هوش مصنوعی جهان، خلاصه و روایت‌شده به
+              فارسی — هر روز، از منابعی که اهل فن دنبال می‌کنند.
+            </p>
+            <div class="hero-stats">
+              <div>
+                <div class="hstat-num" id="statCount">۰</div>
+                <div class="hstat-label" id="statCountLabel">خبر آرشیو</div>
+              </div>
+              <div>
+                <div class="hstat-num" id="statCats">۰</div>
+                <div class="hstat-label" id="statCatsLabel">دسته‌بندی</div>
+              </div>
+              <div>
+                <div class="hstat-num" id="statSources">3</div>
+                <div class="hstat-label" id="statSourcesLabel">منبع</div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-.c-title{ font-weight:700; line-height:1.5; position:relative; z-index:1; flex:1; }
-.cell.lead .c-title{ font-size:27px; }
-.cell.tall .c-title{ font-size:18px; }
-.cell.wide .c-title, .cell.std .c-title{ font-size:17px; }
-.cell.small .c-title{ font-size:15px; }
+        <nav class="cat-strip" id="catStrip"></nav>
 
-.c-dek{
-  color:var(--muted); font-size:13.5px; line-height:1.85; margin-top:12px;
-  display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden;
-  position:relative; z-index:1;
-}
-.cell.lead .c-dek{ font-size:15px; -webkit-line-clamp:3; margin-top:16px; }
-.cell.tall .c-dek{ -webkit-line-clamp:4; }
-.cell.wide .c-dek, .cell.std .c-dek{ -webkit-line-clamp:2; }
-.cell.small .c-dek{ display:none; }
+        <section class="mosaic" id="mosaic"></section>
 
-.c-bottom{
-  margin-top:auto; padding-top:18px; display:flex; justify-content:space-between;
-  align-items:center; font-family:var(--mono); font-size:10.5px; color:var(--faint);
-  position:relative; z-index:1;
-}
-.c-arrow{ color:var(--signal); font-size:14px; transition:transform .2s; }
-.cell:hover .c-arrow{ transform:translateX(-4px); }
-
-@media (max-width:860px){
-  .mosaic{ grid-template-columns:1fr; gap:14px; }
-  .cell.lead, .cell.tall, .cell.wide, .cell.std, .cell.small{ grid-column:span 1; grid-row:span 1; }
-}
-
-.empty-state{ grid-column:1/-1; text-align:center; padding:70px 20px; color:var(--faint); }
-
-/* ===== footer ===== */
-footer{ border-top:1px solid var(--line); padding:40px 0 60px; }
-.footer-row{
-  display:flex; justify-content:space-between; align-items:center;
-  font-family:var(--mono); font-size:11px; color:var(--faint); flex-wrap:wrap; gap:14px;
-}
-.footer-row .count{ color:var(--signal); }
-.footer-sources{ display:flex; gap:18px; }
-.footer-sources a{ color:var(--faint); transition:.15s; border-bottom:1px solid transparent; }
-.footer-sources a:hover{ color:var(--ember); border-color:var(--ember); }
-
-/* ===== MODAL ===== */
-.modal-backdrop{
-  position:fixed; inset:0; background:rgba(8,8,11,.75); backdrop-filter:blur(6px);
-  z-index:100; opacity:0; pointer-events:none; transition:opacity .3s;
-}
-.modal-backdrop.is-open{ opacity:1; pointer-events:auto; }
-.modal{
-  position:fixed; top:0; bottom:0; right:0; width:100%; max-width:620px;
-  background:var(--paper); z-index:101; border-left:1px solid var(--line);
-  transform:translateX(110%); transition:transform .4s cubic-bezier(.22,.9,.32,1);
-  overflow-y:auto; box-shadow:-50px 0 90px rgba(0,0,0,.45);
-}
-.modal.is-open{ transform:translateX(0); }
-.modal-head{
-  position:sticky; top:0; background:var(--paper); border-bottom:1px solid var(--line);
-  padding:20px 36px; display:flex; justify-content:space-between; align-items:center; z-index:5;
-}
-.modal-close{
-  background:var(--paper-2); border:1px solid var(--line); color:var(--muted);
-  width:36px; height:36px; border-radius:50%; cursor:pointer; font-size:16px;
-  display:flex; align-items:center; justify-content:center; transition:.15s;
-}
-.modal-close:hover{ color:var(--signal); border-color:var(--signal); }
-.modal-source-tag{ font-family:var(--mono); font-size:11px; color:var(--faint); }
-.modal-body{ padding:44px 36px 64px; }
-.modal-cat{ font-family:var(--mono); font-size:11px; color:var(--ember); letter-spacing:.08em; text-transform:uppercase; margin-bottom:20px; }
-.modal-title{ font-size:clamp(26px,4vw,34px); font-weight:800; line-height:1.45; margin-bottom:20px; letter-spacing:-.5px; }
-.modal-title-en{ font-family:var(--mono); font-size:12px; color:var(--faint); direction:ltr; text-align:right; margin-bottom:26px; padding-bottom:26px; border-bottom:1px solid var(--line); }
-.modal-summary{ font-size:17px; line-height:2.05; color:#D7D7DE; }
-.modal-tags{ display:flex; gap:8px; flex-wrap:wrap; margin-top:34px; }
-.modal-tag{ font-size:11.5px; color:var(--muted); background:var(--paper-2); border:1px solid var(--line); padding:6px 13px; border-radius:100px; transition:.15s; }
-.modal-tag:hover{ color:var(--signal); border-color:var(--signal); }
-.modal-cta{
-  display:flex; align-items:center; justify-content:center; gap:8px; margin-top:38px;
-  padding:17px; border-radius:12px; background:var(--ember); color:#1A0D04;
-  font-weight:700; font-size:14.5px; transition:.2s;
-}
-.modal-cta:hover{ filter:brightness(1.1); transform:translateY(-1px); }
-
-@media (max-width:640px){
-  .wrap{ padding:0 18px; }
-  .head-row{ padding:16px 18px; }
-  .hero{ padding:54px 0 36px; }
-  .modal{ max-width:100%; }
-  .modal-body{ padding:30px 22px 50px; }
-}
-@media (prefers-reduced-motion: reduce){
-  *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
-}
-</style>
-</head>
-<body>
-
-<div class="rail">
-  <div class="rail-progress" id="railProgress"></div>
-  <div class="rail-label top">فرکانس</div>
-  <div class="rail-label bottom" id="railPercent">۰٪</div>
-</div>
-
-<div class="shell">
-<header id="siteHeader">
-  <div class="head-row">
-    <div class="logo"><span class="logo-glyph"></span>فرکانس</div>
-    <div class="head-meta" id="headerDate"></div>
-  </div>
-</header>
-
-<div class="wrap">
-
-  <section class="hero">
-    <div class="hero-eyebrow">رصد روزانه‌ی فناوری</div>
-    <h1>هوش <span class="accent">مصنوعی</span><br>در یک <span class="outline">نگاه</span></h1>
-    <div class="hero-foot">
-      <p class="hero-desc">مهم‌ترین خبرهای تکنولوژی و هوش مصنوعی جهان، خلاصه و روایت‌شده به فارسی — هر روز، از منابعی که اهل فن دنبال می‌کنند.</p>
-      <div class="hero-stats">
-        <div><div class="hstat-num" id="statCount">۰</div><div class="hstat-label">خبر آرشیو</div></div>
-        <div><div class="hstat-num" id="statCats">۰</div><div class="hstat-label">دسته‌بندی</div></div>
-        <div><div class="hstat-num" id="statSources">۳</div><div class="hstat-label">منبع</div></div>
+        <footer>
+          <div class="footer-row">
+            <span
+              ><span class="count" id="footerCount">۰</span>
+              <span id="footerSuffix">خبر در آرشیو</span> ·
+              <span id="footerUpdatedLabel">آخرین به‌روزرسانی</span>
+              <span id="footerUpdated"></span
+            ></span>
+            <div class="footer-sources">
+              <a href="https://openai.com/news/" target="_blank" rel="noopener"
+                >OpenAI</a
+              >
+              <a href="https://techcrunch.com/" target="_blank" rel="noopener"
+                >TechCrunch</a
+              >
+              <a
+                href="https://www.technologyreview.com/"
+                target="_blank"
+                rel="noopener"
+                >MIT Tech Review</a
+              >
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
-  </section>
 
-  <nav class="cat-strip" id="catStrip"></nav>
-
-  <section class="mosaic" id="mosaic"></section>
-
-  <footer>
-    <div class="footer-row">
-      <span><span class="count" id="footerCount">۰</span> خبر در آرشیو · آخرین به‌روزرسانی <span id="footerUpdated"></span></span>
-      <div class="footer-sources">
-        <a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI</a>
-        <a href="https://techcrunch.com/" target="_blank" rel="noopener">TechCrunch</a>
-        <a href="https://www.technologyreview.com/" target="_blank" rel="noopener">MIT Tech Review</a>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal" id="modal" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <span class="modal-source-tag" id="modalSource"></span>
+        <button class="modal-close" id="modalClose" aria-label="بستن">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-cat" id="modalCat"></div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-title-en" id="modalTitleEn"></div>
+        <p class="modal-summary" id="modalSummary"></p>
+        <div class="modal-tags" id="modalTags"></div>
+        <a class="modal-cta" id="modalLink" target="_blank" rel="noopener"
+          >مطالعه‌ی متن کامل در منبع اصلی ←</a
+        >
       </div>
     </div>
-  </footer>
 
-</div>
-</div>
+    <script>
+      /* =========================================================================
+   DATA LAYER
+   news-dataset.json always stores content in Persian — untouched by this
+   file. update_news.py keeps writing title_fa / summary_fa exactly as
+   before. Everything below is purely a DISPLAY-side translation layer:
+   it takes the Persian source and (optionally) translates it on the fly
+   for the visitor, without ever writing anything back to the dataset.
+   ========================================================================= */
 
-<div class="modal-backdrop" id="modalBackdrop"></div>
-<div class="modal" id="modal" role="dialog" aria-modal="true">
-  <div class="modal-head">
-    <span class="modal-source-tag" id="modalSource"></span>
-    <button class="modal-close" id="modalClose" aria-label="بستن">✕</button>
-  </div>
-  <div class="modal-body">
-    <div class="modal-cat" id="modalCat"></div>
-    <h2 class="modal-title" id="modalTitle"></h2>
-    <div class="modal-title-en" id="modalTitleEn"></div>
-    <p class="modal-summary" id="modalSummary"></p>
-    <div class="modal-tags" id="modalTags"></div>
-    <a class="modal-cta" id="modalLink" target="_blank" rel="noopener">مطالعه‌ی متن کامل در منبع اصلی ←</a>
-  </div>
-</div>
+      let DATA = { meta: {}, articles: [] };
 
-<script>
-let DATA = { meta: {}, articles: [] };
+      async function loadData() {
+        try {
+          const res = await fetch("news-dataset.json?_=" + Date.now());
+          DATA = await res.json();
+        } catch (e) {
+          console.error("خطا در بارگذاری دیتاست:", e);
+          document.getElementById("mosaic").innerHTML =
+            `<div class="empty-state">${UI[currentLang].errorLoad}</div>`;
+          return false;
+        }
+        return true;
+      }
 
-async function loadData(){
-  try{
-    const res = await fetch('news-dataset.json?_=' + Date.now());
-    DATA = await res.json();
-  }catch(e){
-    console.error('خطا در بارگذاری دیتاست:', e);
-    document.getElementById('mosaic').innerHTML =
-      '<div class="empty-state">خطا در بارگذاری news-dataset.json — مطمئن شو این فایل کنار index.html قرار دارد.</div>';
-    return false;
-  }
-  return true;
-}
+      /* ---------- UI strings per language (static chrome, not article content) ---------- */
+      const UI = {
+        fa: {
+          dir: "rtl",
+          title: "فرکانس — اخبار تکنولوژی و هوش مصنوعی",
+          eyebrow: "رصد روزانه‌ی فناوری",
+          heroHTML:
+            'هوش <span class="accent">مصنوعی</span><br>در یک <span class="outline">نگاه</span>',
+          heroDesc:
+            "مهم‌ترین خبرهای تکنولوژی و هوش مصنوعی جهان، خلاصه و روایت‌شده به فارسی — هر روز، از منابعی که اهل فن دنبال می‌کنند.",
+          statCount: "خبر آرشیو",
+          statCats: "دسته‌بندی",
+          statSources: "منبع",
+          all: "همه",
+          footerSuffix: "خبر در آرشیو",
+          footerUpdated: "آخرین به‌روزرسانی",
+          readMore: "مطالعه‌ی متن کامل در منبع اصلی ←",
+          close: "بستن",
+          loading: "در حال ترجمه…",
+          emptyCat: "خبری در این دسته یافت نشد.",
+          errorLoad:
+            "خطا در بارگذاری news-dataset.json — مطمئن شو این فایل کنار index.html قرار دارد.",
+          fresh: "خبر تازه",
+          locale: "fa-IR",
+        },
+        en: {
+          dir: "ltr",
+          title: "Frequency — Tech & AI News",
+          eyebrow: "DAILY TECH SIGNAL",
+          heroHTML:
+            'Artificial <span class="accent">Intelligence</span><br>at a <span class="outline">Glance</span>',
+          heroDesc:
+            "The most important tech and AI news from around the world — summarized daily, from the sources people in the field actually follow.",
+          statCount: "Archived",
+          statCats: "Categories",
+          statSources: "Sources",
+          all: "All",
+          footerSuffix: "articles archived",
+          footerUpdated: "Last updated",
+          readMore: "Read the full story at the source ←",
+          close: "Close",
+          loading: "Translating…",
+          emptyCat: "No news found in this category.",
+          errorLoad:
+            "Failed to load news-dataset.json — make sure this file sits next to index.html.",
+          fresh: "Fresh",
+          locale: "en-US",
+        },
+        fr: {
+          dir: "ltr",
+          title: "Fréquence — Actus Tech & IA",
+          eyebrow: "VEILLE TECH QUOTIDIENNE",
+          heroHTML:
+            'Intelligence <span class="accent">Artificielle</span><br>en un <span class="outline">coup d’œil</span>',
+          heroDesc:
+            "Les actualités tech et IA les plus importantes du monde — résumées chaque jour, à partir des sources que les experts suivent.",
+          statCount: "Archivées",
+          statCats: "Catégories",
+          statSources: "Sources",
+          all: "Tout",
+          footerSuffix: "articles archivés",
+          footerUpdated: "Dernière mise à jour",
+          readMore: "Lire l'article complet à la source ←",
+          close: "Fermer",
+          loading: "Traduction en cours…",
+          emptyCat: "Aucune actualité dans cette catégorie.",
+          errorLoad:
+            "Échec du chargement de news-dataset.json — vérifiez que ce fichier est à côté d'index.html.",
+          fresh: "Récent",
+          locale: "fr-FR",
+        },
+        es: {
+          dir: "ltr",
+          title: "Frecuencia — Noticias de Tech e IA",
+          eyebrow: "SEGUIMIENTO TECH DIARIO",
+          heroHTML:
+            'Inteligencia <span class="accent">Artificial</span><br>de un <span class="outline">vistazo</span>',
+          heroDesc:
+            "Las noticias de tecnología e IA más importantes del mundo — resumidas cada día, de las fuentes que sigue la gente del sector.",
+          statCount: "Archivadas",
+          statCats: "Categorías",
+          statSources: "Fuentes",
+          all: "Todas",
+          footerSuffix: "noticias archivadas",
+          footerUpdated: "Última actualización",
+          readMore: "Leer la nota completa en la fuente ←",
+          close: "Cerrar",
+          loading: "Traduciendo…",
+          emptyCat: "No se encontraron noticias en esta categoría.",
+          errorLoad:
+            "Error al cargar news-dataset.json — asegúrate de que el archivo esté junto a index.html.",
+          fresh: "Reciente",
+          locale: "es-ES",
+        },
+        ru: {
+          dir: "ltr",
+          title: "Частота — Новости технологий и ИИ",
+          eyebrow: "ЕЖЕДНЕВНЫЙ ТЕХ-ДАЙДЖЕСТ",
+          heroHTML:
+            'Искусственный <span class="accent">Интеллект</span><br>одним <span class="outline">взглядом</span>',
+          heroDesc:
+            "Главные новости технологий и ИИ со всего мира — ежедневно, кратко, из источников, за которыми следят профессионалы.",
+          statCount: "В архиве",
+          statCats: "Категории",
+          statSources: "Источники",
+          all: "Все",
+          footerSuffix: "новостей в архиве",
+          footerUpdated: "Обновлено",
+          readMore: "Читать полностью на источнике ←",
+          close: "Закрыть",
+          loading: "Перевод…",
+          emptyCat: "В этой категории новостей не найдено.",
+          errorLoad:
+            "Не удалось загрузить news-dataset.json — убедитесь, что файл находится рядом с index.html.",
+          fresh: "Новое",
+          locale: "ru-RU",
+        },
+      };
 
-const persianMonths = ['ژانویه','فوریه','مارس','آوریل','مه','ژوئن','ژوئیه','اوت','سپتامبر','اکتبر','نوامبر','دسامبر'];
-const persianDigits = s => String(s).replace(/[0-9]/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
-function formatDate(dateStr){
-  const d = new Date(dateStr);
-  return persianDigits(`${d.getDate()} ${persianMonths[d.getMonth()]} ${d.getFullYear()}`);
-}
-function isFresh(dateStr){ return (Date.now() - new Date(dateStr))/36e5 <= 48; }
+      let currentLang = localStorage.getItem("freq-lang") || "fa";
+      if (!UI[currentLang]) currentLang = "fa";
 
-let activeCat = 'all';
-let sorted = [];
+      /* ---------- translation cache (persisted, so repeat visits don't re-translate) ---------- */
+      const CACHE_KEY = "freq-translation-cache-v1";
+      let tCache = {};
+      try {
+        tCache = JSON.parse(localStorage.getItem(CACHE_KEY) || "{}");
+      } catch (e) {
+        tCache = {};
+      }
+      function saveCache() {
+        try {
+          localStorage.setItem(CACHE_KEY, JSON.stringify(tCache));
+        } catch (e) {
+          /* storage full or unavailable — fine, just skip persisting */
+        }
+      }
 
-/* repeating asymmetric size pattern for the mosaic */
-const PATTERN = ['lead','tall','wide','small','small','std','tall','wide','wide'];
+      /* Free, keyless translation via MyMemory. Always translates FROM Persian,
+   since Persian is the single source of truth stored in news-dataset.json. */
+      async function translate(text, lang) {
+        if (!text || lang === "fa") return text;
+        const key = lang + "::" + text;
+        if (tCache[key]) return tCache[key];
+        try {
+          const res = await fetch(
+            `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=fa|${lang}`,
+          );
+          const data = await res.json();
+          const translated =
+            data && data.responseData && data.responseData.translatedText
+              ? data.responseData.translatedText
+              : text;
+          tCache[key] = translated;
+          saveCache();
+          return translated;
+        } catch (e) {
+          console.warn("ترجمه ناموفق بود، متن فارسی نمایش داده می‌شود:", e);
+          return text; // graceful fallback — never breaks the page
+        }
+      }
 
-function sizeFor(i){ return PATTERN[i % PATTERN.length]; }
+      async function translateArticle(a, lang) {
+        if (lang === "fa") {
+          return {
+            ...a,
+            _title: a.title_fa,
+            _summary: a.summary_fa,
+            _category: a.category,
+            _tags: a.tags,
+          };
+        }
+        const [title, summary, category, ...tags] = await Promise.all([
+          translate(a.title_fa, lang),
+          translate(a.summary_fa, lang),
+          translate(a.category, lang),
+          ...a.tags.map((t) => translate(t, lang)),
+        ]);
+        return {
+          ...a,
+          _title: title,
+          _summary: summary,
+          _category: category,
+          _tags: tags,
+        };
+      }
 
-function renderStats(){
-  const cats = new Set(DATA.articles.map(a=>a.category));
-  document.getElementById('statCount').textContent = persianDigits(DATA.articles.length);
-  document.getElementById('statCats').textContent = persianDigits(cats.size);
-}
+      async function translateArticles(list, lang) {
+        const out = [];
+        for (const a of list) {
+          out.push(await translateArticle(a, lang));
+          if (lang !== "fa") await new Promise((r) => setTimeout(r, 40)); // gentle pacing for the free API
+        }
+        return out;
+      }
 
-function renderCatStrip(){
-  const cats = {};
-  sorted.forEach(a => cats[a.category] = (cats[a.category]||0)+1);
-  const top = Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([c])=>c);
-  const strip = document.getElementById('catStrip');
-  strip.innerHTML = `<button class="cat-pill is-active" data-cat="all">همه</button>` +
-    top.map(c=>`<button class="cat-pill" data-cat="${c}">${c}</button>`).join('');
-  strip.querySelectorAll('.cat-pill').forEach(btn=>{
-    btn.addEventListener('click', ()=>{
-      activeCat = btn.dataset.cat;
-      strip.querySelectorAll('.cat-pill').forEach(b=>b.classList.remove('is-active'));
-      btn.classList.add('is-active');
-      renderMosaic();
-    });
-  });
-}
+      /* ---------- formatting helpers ---------- */
+      const persianDigits = (s) =>
+        String(s).replace(/[0-9]/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
+      function formatNumber(n) {
+        return currentLang === "fa" ? persianDigits(n) : String(n);
+      }
+      function formatDate(dateStr) {
+        const d = new Date(dateStr);
+        if (currentLang === "fa") {
+          const persianMonths = [
+            "ژانویه",
+            "فوریه",
+            "مارس",
+            "آوریل",
+            "مه",
+            "ژوئن",
+            "ژوئیه",
+            "اوت",
+            "سپتامبر",
+            "اکتبر",
+            "نوامبر",
+            "دسامبر",
+          ];
+          return persianDigits(
+            `${d.getDate()} ${persianMonths[d.getMonth()]} ${d.getFullYear()}`,
+          );
+        }
+        return d.toLocaleDateString(UI[currentLang].locale, {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        });
+      }
+      function isFresh(dateStr) {
+        return (Date.now() - new Date(dateStr)) / 36e5 <= 48;
+      }
 
-function renderMosaic(){
-  const grid = document.getElementById('mosaic');
-  const list = activeCat === 'all' ? sorted : sorted.filter(a=>a.category===activeCat);
-  if(list.length===0){
-    grid.innerHTML = `<div class="empty-state">خبری در این دسته یافت نشد.</div>`;
-    return;
-  }
-  grid.innerHTML = list.map((a,i)=>{
-    const size = sizeFor(i);
-    return `
+      /* ---------- state ---------- */
+      let sorted = []; // original, always-Persian articles, sorted by date desc
+      let activeCat = "all"; // filter key — always the ORIGINAL Persian category string, or 'all'
+      let displayList = []; // current translated view of the active filter
+
+      const PATTERN = [
+        "lead",
+        "tall",
+        "wide",
+        "small",
+        "small",
+        "std",
+        "tall",
+        "wide",
+        "wide",
+      ];
+      function sizeFor(i) {
+        return PATTERN[i % PATTERN.length];
+      }
+
+      /* ---------- static UI text swap ---------- */
+      function applyStaticUI() {
+        const u = UI[currentLang];
+        document.documentElement.lang = currentLang;
+        document.documentElement.dir = u.dir;
+        document.title = u.title;
+        document.getElementById("heroEyebrow").textContent = u.eyebrow;
+        document.getElementById("heroTitle").innerHTML = u.heroHTML;
+        document.getElementById("heroDesc").textContent = u.heroDesc;
+        document.getElementById("statCountLabel").textContent = u.statCount;
+        document.getElementById("statCatsLabel").textContent = u.statCats;
+        document.getElementById("statSourcesLabel").textContent = u.statSources;
+        document.getElementById("footerSuffix").textContent = u.footerSuffix;
+        document.getElementById("footerUpdatedLabel").textContent =
+          u.footerUpdated;
+        document.getElementById("modalLink").textContent = u.readMore;
+        document
+          .getElementById("modalClose")
+          .setAttribute("aria-label", u.close);
+        document.getElementById("langSelect").value = currentLang;
+      }
+
+      function renderStats() {
+        const cats = new Set(DATA.articles.map((a) => a.category));
+        document.getElementById("statCount").textContent = formatNumber(
+          DATA.articles.length,
+        );
+        document.getElementById("statCats").textContent = formatNumber(
+          cats.size,
+        );
+      }
+
+      /* ---------- category strip (filter keys stay Persian; labels get translated) ---------- */
+      async function renderCatStrip() {
+        const counts = {};
+        sorted.forEach(
+          (a) => (counts[a.category] = (counts[a.category] || 0) + 1),
+        );
+        const topCats = Object.entries(counts)
+          .sort((a, b) => b[1] - a[1])
+          .map(([c]) => c);
+
+        const labels = { all: UI[currentLang].all };
+        await Promise.all(
+          topCats.map(async (c) => {
+            labels[c] = await translate(c, currentLang);
+          }),
+        );
+
+        const strip = document.getElementById("catStrip");
+        strip.innerHTML =
+          `<button class="cat-pill ${activeCat === "all" ? "is-active" : ""}" data-cat="all">${labels.all}</button>` +
+          topCats
+            .map(
+              (c) =>
+                `<button class="cat-pill ${activeCat === c ? "is-active" : ""}" data-cat="${c}">${labels[c]}</button>`,
+            )
+            .join("");
+
+        strip.querySelectorAll(".cat-pill").forEach((btn) => {
+          btn.addEventListener("click", async () => {
+            activeCat = btn.dataset.cat;
+            strip
+              .querySelectorAll(".cat-pill")
+              .forEach((b) => b.classList.remove("is-active"));
+            btn.classList.add("is-active");
+            await refreshMosaic();
+          });
+        });
+      }
+
+      /* ---------- mosaic ---------- */
+      async function refreshMosaic() {
+        const grid = document.getElementById("mosaic");
+        const filtered =
+          activeCat === "all"
+            ? sorted
+            : sorted.filter((a) => a.category === activeCat);
+
+        if (filtered.length === 0) {
+          grid.innerHTML = `<div class="empty-state">${UI[currentLang].emptyCat}</div>`;
+          displayList = [];
+          return;
+        }
+
+        if (currentLang !== "fa") {
+          grid.innerHTML = `<div class="empty-state">${UI[currentLang].loading}</div>`;
+        }
+
+        displayList = await translateArticles(filtered, currentLang);
+        renderMosaicCells();
+      }
+
+      function renderMosaicCells() {
+        const grid = document.getElementById("mosaic");
+        grid.innerHTML = displayList
+          .map((a, i) => {
+            const size = sizeFor(i);
+            return `
       <article class="cell ${size}" data-idx="${i}">
         <div class="c-top">
-          <span class="c-cat">${a.category}</span>
+          <span class="c-cat">${a._category}</span>
           <span class="c-date">${formatDate(a.date)}</span>
-          ${isFresh(a.date) ? '<span class="c-fresh" title="خبر تازه"></span>' : ''}
+          ${isFresh(a.date) ? `<span class="c-fresh" title="${UI[currentLang].fresh}"></span>` : ""}
         </div>
-        <div class="c-title">${a.title_fa}</div>
-        <div class="c-dek">${a.summary_fa}</div>
+        <div class="c-title">${a._title}</div>
+        <div class="c-dek">${a._summary}</div>
         <div class="c-bottom"><span>${a.source}</span><span class="c-arrow">←</span></div>
       </article>`;
-  }).join('');
-  grid.querySelectorAll('.cell').forEach((el,i)=> el.addEventListener('click', ()=> openModal(list[i])));
-}
+          })
+          .join("");
 
-/* ===== modal ===== */
-const modal = document.getElementById('modal');
-const backdrop = document.getElementById('modalBackdrop');
-function openModal(a){
-  document.getElementById('modalSource').textContent = `${a.source} · ${formatDate(a.date)}`;
-  document.getElementById('modalCat').textContent = a.category;
-  document.getElementById('modalTitle').textContent = a.title_fa;
-  document.getElementById('modalTitleEn').textContent = a.title_en;
-  document.getElementById('modalSummary').textContent = a.summary_fa;
-  document.getElementById('modalTags').innerHTML = a.tags.map(t=>`<span class="modal-tag">${t}</span>`).join('');
-  document.getElementById('modalLink').href = a.source_url;
-  modal.classList.add('is-open'); backdrop.classList.add('is-open');
-  document.body.style.overflow = 'hidden';
-}
-function closeModal(){
-  modal.classList.remove('is-open'); backdrop.classList.remove('is-open');
-  document.body.style.overflow = '';
-}
-document.getElementById('modalClose').addEventListener('click', closeModal);
-backdrop.addEventListener('click', closeModal);
-document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
+        grid
+          .querySelectorAll(".cell")
+          .forEach((el, i) =>
+            el.addEventListener("click", () => openModal(displayList[i])),
+          );
+      }
 
-/* ===== header scroll + margin rail progress ===== */
-window.addEventListener('scroll', ()=>{
-  document.getElementById('siteHeader').classList.toggle('scrolled', window.scrollY > 10);
-  const docH = document.documentElement.scrollHeight - window.innerHeight;
-  const pct = docH > 0 ? Math.min(100, Math.round((window.scrollY/docH)*100)) : 0;
-  document.getElementById('railProgress').style.height = pct + '%';
-  document.getElementById('railPercent').textContent = persianDigits(pct) + '٪';
-});
+      /* ===== modal ===== */
+      const modal = document.getElementById("modal");
+      const backdrop = document.getElementById("modalBackdrop");
 
-/* ===== init ===== */
-(async function init(){
-  document.getElementById('headerDate').textContent = formatDate(new Date().toISOString());
-  const ok = await loadData();
-  if(!ok) return;
-  sorted = [...DATA.articles].sort((a,b)=> new Date(b.date) - new Date(a.date));
-  document.getElementById('footerCount').textContent = persianDigits(DATA.articles.length);
-  document.getElementById('footerUpdated').textContent = formatDate(DATA.meta.last_updated || new Date().toISOString());
-  renderStats();
-  renderCatStrip();
-  renderMosaic();
-})();
-</script>
+      function openModal(a) {
+        document.getElementById("modalSource").textContent =
+          `${a.source} · ${formatDate(a.date)}`;
+        document.getElementById("modalCat").textContent = a._category;
+        document.getElementById("modalTitle").textContent = a._title;
+        document.getElementById("modalTitleEn").textContent = a.title_en;
+        document.getElementById("modalSummary").textContent = a._summary;
+        document.getElementById("modalTags").innerHTML = a._tags
+          .map((t) => `<span class="modal-tag">${t}</span>`)
+          .join("");
+        document.getElementById("modalLink").href = a.source_url;
+        modal.classList.add("is-open");
+        backdrop.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+      }
+      function closeModal() {
+        modal.classList.remove("is-open");
+        backdrop.classList.remove("is-open");
+        document.body.style.overflow = "";
+      }
+      document
+        .getElementById("modalClose")
+        .addEventListener("click", closeModal);
+      backdrop.addEventListener("click", closeModal);
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
 
-</body>
+      /* ===== language switcher ===== */
+      document
+        .getElementById("langSelect")
+        .addEventListener("change", async (e) => {
+          currentLang = e.target.value;
+          localStorage.setItem("freq-lang", currentLang);
+          applyStaticUI();
+          renderStats();
+          document.getElementById("footerCount").textContent = formatNumber(
+            DATA.articles.length,
+          );
+          document.getElementById("footerUpdated").textContent = formatDate(
+            DATA.meta.last_updated || new Date().toISOString(),
+          );
+          document.getElementById("headerDate").textContent = formatDate(
+            new Date().toISOString(),
+          );
+          await renderCatStrip();
+          await refreshMosaic();
+        });
+
+      /* ===== header scroll + margin rail progress ===== */
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("siteHeader")
+          .classList.toggle("scrolled", window.scrollY > 10);
+        const docH = document.documentElement.scrollHeight - window.innerHeight;
+        const pct =
+          docH > 0
+            ? Math.min(100, Math.round((window.scrollY / docH) * 100))
+            : 0;
+        document.getElementById("railProgress").style.height = pct + "%";
+        document.getElementById("railPercent").textContent =
+          currentLang === "fa" ? persianDigits(pct) + "٪" : pct + "%";
+      });
+
+      /* ===== init ===== */
+      (async function init() {
+        applyStaticUI();
+        document.getElementById("headerDate").textContent = formatDate(
+          new Date().toISOString(),
+        );
+
+        const ok = await loadData();
+        if (!ok) return;
+
+        sorted = [...DATA.articles].sort(
+          (a, b) => new Date(b.date) - new Date(a.date),
+        );
+
+        document.getElementById("footerCount").textContent = formatNumber(
+          DATA.articles.length,
+        );
+        document.getElementById("footerUpdated").textContent = formatDate(
+          DATA.meta.last_updated || new Date().toISOString(),
+        );
+
+        renderStats();
+        await renderCatStrip();
+        await refreshMosaic();
+      })();
+    </script>
+  </body>
 </html>
