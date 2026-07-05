@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-04",
+    "last_updated": "2026-07-05",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 98
+    "total_articles": 112
   },
   "articles": [
     {
@@ -1665,6 +1665,243 @@
         "AI deployment",
         "سرمایه‌گذاری",
         "پذیرش سازمانی"
+      ]
+    },
+    {
+      "id": "41e74c1497e421b7",
+      "date": "2026-06-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "گام مخفیانه OpenAI به سوی عرضه عمومی سهام: ثبت S-1 در کمیسیون بورس آمریکا",
+      "title_en": "Confidential submission of draft S-1 to the SEC",
+      "summary_fa": "شرکت OpenAI به تازگی تایید کرده است که به صورت محرمانه پیش‌نویس فرم S-1 خود را به کمیسیون بورس و اوراق بهادار آمریکا (SEC) ارائه داده است. این اقدام اغلب به عنوان گامی اولیه در مسیر عرضه عمومی سهام (IPO) شرکت‌ها تلقی می‌شود. با این حال، OpenAI اعلام کرده که هنوز زمان‌بندی مشخصی برای اقدامات بعدی خود در این زمینه تعیین نکرده است.",
+      "tags": [
+        "OpenAI",
+        "SEC",
+        "IPO",
+        "S-1"
+      ]
+    },
+    {
+      "id": "e26a6d525948de9b",
+      "date": "2026-06-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "برنامه OpenAI برای AGI: دسترسی، ایمنی و رفاه همگانی",
+      "title_en": "Built to benefit everyone: our plan",
+      "summary_fa": "شرکت OpenAI چشم‌انداز و نقشه راه خود را برای آینده هوش مصنوعی، به‌ویژه هوش عمومی مصنوعی (AGI)، اعلام کرده است. این طرح بر سه محور اصلی دسترسی گسترده به AGI، تضمین ایمنی توسعه آن، و توزیع عادلانه منافع حاصل از آن تمرکز دارد. هدف نهایی OpenAI اطمینان از این است که AGI در نهایت به سود تمام بشریت باشد و رفاه همگانی را افزایش دهد.",
+      "tags": [
+        "OpenAI",
+        "AGI",
+        "AI Safety",
+        "آینده هوش مصنوعی",
+        "رفاه همگانی"
+      ]
+    },
+    {
+      "id": "63685f806399b4ac",
+      "date": "2026-06-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/economic-research-exchange",
+      "category": "اقتصاد و بازار کار هوش مصنوعی",
+      "title_fa": "OpenAI: راه‌اندازی پلتفرم تحقیقات اقتصادی برای بررسی آینده کار و اقتصاد با هوش مصنوعی",
+      "title_en": "Introducing the OpenAI Economic Research Exchange",
+      "summary_fa": "شرکت OpenAI پلتفرم جدیدی به نام «Economic Research Exchange» را با هدف مطالعه عمیق تأثیر هوش مصنوعی بر مشاغل، بهره‌وری و کلیت اقتصاد راه‌اندازی کرده است. این ابتکار به دنبال حمایت از پروژه‌های تحقیقاتی منتخب است تا به درک بهتر پیامدهای اقتصادی گسترش هوش مصنوعی کمک کند. در حال حاضر، فراخوان برای پذیرش طرح‌های پژوهشی در این پلتفرم آغاز شده است.",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "اقتصاد هوش مصنوعی",
+        "بازار کار",
+        "پژوهش"
+      ]
+    },
+    {
+      "id": "d0841d29a3627d47",
+      "date": "2026-06-04",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/endava-frontiers",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Endava: عامل‌های هوش مصنوعی، شیوه توسعه و تحویل نرم‌افزار را بازطراحی می‌کنند",
+      "title_en": "How Endava is redesigning software delivery around AI agents",
+      "summary_fa": "شرکت Endava در حال متحول کردن رویکرد خود به توسعه نرم‌افزار است و عامل‌های هوش مصنوعی را در مرکز این تحول قرار داده است. این شرکت با بهره‌گیری از عامل‌های هوش مصنوعی، ChatGPT Enterprise و Codex، قصد دارد فرایند تحویل نرم‌افزار را به طور چشمگیری تسریع بخشد. هدف دیگر Endava، خودکارسازی گردش کارها و ایجاد یک فرهنگ سازمانی مبتنی بر هوش مصنوعی در سراسر شرکت است.",
+      "tags": [
+        "Endava",
+        "AI agents",
+        "ChatGPT Enterprise",
+        "توسعه نرم‌افزار",
+        "اتوماسیون"
+      ]
+    },
+    {
+      "id": "58a72a3a66c9437c",
+      "date": "2026-06-04",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "حافظه جدید چت‌جی‌پی‌تی: مکالماتی شخصی‌تر و کارآمدتر",
+      "title_en": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary_fa": "اوپن‌ای‌آی (OpenAI) سیستم حافظه جدیدی را برای مدل زبانی خود، چت‌جی‌پی‌تی، معرفی کرده است. این ویژگی به چت‌جی‌پی‌تی کمک می‌کند تا ترجیحات کاربران و جزئیات مکالمات قبلی را به خاطر بسپارد. هدف از این قابلیت، حفظ پیوستگی و مرتبط ماندن زمینه گفتگوها در طول زمان است تا تجربه کاربری شخصی‌تر و مفیدتری ارائه شود.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "AI",
+        "Large Language Model",
+        "حافظه هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "dbb39445d06ec7b9",
+      "date": "2026-06-04",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "دفاع زیستی در عصر هوش مصنوعی: طرحی راهبردی برای تاب‌آوری بیولوژیک",
+      "title_en": "Biodefense in the Intelligence Age",
+      "summary_fa": "این خبر به معرفی یک طرح عملیاتی جدید می‌پردازد که با هدف تقویت دفاع زیستی و افزایش تاب‌آوری بیولوژیک، بر به‌کارگیری قابلیت‌های هوش مصنوعی تمرکز دارد. این راهبرد به دنبال آن است که با بهره‌گیری از هوش مصنوعی، بتوان به‌شکل مؤثرتری با تهدیدات بیولوژیکی در عصر کنونی مقابله کرد.",
+      "tags": [
+        "AI",
+        "Biodefense",
+        "دفاع زیستی",
+        "تاب‌آوری بیولوژیک",
+        "امنیت ملی"
+      ]
+    },
+    {
+      "id": "8573d500219a4ac5",
+      "date": "2026-07-04",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "category": "بازاریابی و کاربردهای هوش مصنوعی",
+      "title_fa": "تبلیغ جدید گوگل: اعلامیه استقلال آمریکا با کمک هوش مصنوعی چه شکلی می‌شد؟",
+      "title_en": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "summary_fa": "گوگل در یک تبلیغ تجاری جدید، سناریوی جذابی را مطرح کرده است. این تبلیغ با گذشت ۲۵۰ سال از امضای اعلامیه استقلال ایالات متحده، از بینندگان می‌پرسد: اگر پدران بنیان‌گذار آمریکا به ابزارهای مدرن همچون Google Workspace و قابلیت‌های هوش مصنوعی دسترسی داشتند، این سند تاریخی چگونه نوشته می‌شد؟ این رویکرد، پتانسیل هوش مصنوعی را در فرآیندهای نگارش و همکاری به شیوه‌ای خلاقانه به نمایش می‌گذارد.",
+      "tags": [
+        "Google",
+        "AI",
+        "Google Workspace",
+        "اعلامیه استقلال آمریکا",
+        "تبلیغات"
+      ]
+    },
+    {
+      "id": "ad2c7ff5662989c6",
+      "date": "2026-07-04",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "در کشاکش حقوقی با هالیوود: میدجرنی خواستار افشای جزئیات کاربرد هوش مصنوعی استودیوها شد",
+      "title_en": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "summary_fa": "در بحبوحه یک دعوای حقوقی ادامه‌دار، شرکت میدجرنی از سه استودیوی بزرگ هالیوودی خواسته است که جزئیات مربوط به نحوه استفاده خودشان از هوش مصنوعی را افشا کنند. این اقدام در حالی صورت می‌گیرد که خود میدجرنی به دلیل مسائل مربوط به کپی‌رایت تحت فشار است و احتمالاً قصد دارد با مطرح کردن این درخواست، استدلال مشابهی را در دادگاه مطرح کند. هدف میدجرنی از این درخواست، روشن شدن شفافیت در استفاده از هوش مصنوعی در صنعت سرگرمی و سنجش رویکرد متناقض استودیوها در این زمینه است.",
+      "tags": [
+        "Midjourney",
+        "Hollywood",
+        "AI",
+        "حقوقی",
+        "کپی‌رایت"
+      ]
+    },
+    {
+      "id": "7a350947a7988282",
+      "date": "2026-07-04",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "علی‌بابا استفاده از «کلاد کد» را برای کارکنانش ممنوع و آن را نرم‌افزاری پرخطر اعلام کرد",
+      "title_en": "Alibaba reportedly bans employees from using Claude Code",
+      "summary_fa": "بر اساس گزارش‌ها، شرکت علی‌بابا استفاده از نرم‌افزار «کلاد کد» را برای تمامی کارکنان خود ممنوع کرده است. این غول فناوری چینی، «کلاد کد» را در دسته نرم‌افزارهای با ریسک بالا طبقه‌بندی کرده است که نشان‌دهنده نگرانی‌هایی پیرامون امنیت و محافظت از داده‌ها در محیط سازمانی است.",
+      "tags": [
+        "Alibaba",
+        "Claude Code",
+        "AI Safety",
+        "امنیت داده‌ها",
+        "سیاست شرکتی"
+      ]
+    },
+    {
+      "id": "2f6fc0b6a29caa9b",
+      "date": "2026-07-04",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "میسترال هوش مصنوعی: معرفی رقیب اروپایی و چشم‌انداز رقابت با OpenAI",
+      "title_en": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "summary_fa": "میسترال هوش مصنوعی، استارتاپ اروپایی که در سال ۲۰۲۳ تأسیس شد، به سرعت سرمایه قابل توجهی جذب کرده است. این شرکت با هدف قرار دادن هوش مصنوعی پیشرفته در دسترس همگان، مدل‌های متن‌باز هوش مصنوعی را نیز ارائه می‌دهد و به عنوان رقیبی جدی برای OpenAI در صحنه جهانی مطرح شده است.",
+      "tags": [
+        "Mistral AI",
+        "OpenAI",
+        "هوش مصنوعی متن‌باز",
+        "سرمایه‌گذاری",
+        "استارتاپ"
+      ]
+    },
+    {
+      "id": "97e0788f24226c20",
+      "date": "2026-07-03",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "category": "نرم‌افزار و ابزارهای دیجیتال",
+      "title_fa": "جنگ مرورگرها از جستجو فراتر رفت: نگاهی به رقبای قدرتمند کروم و سافاری",
+      "title_en": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "summary_fa": "این گزارش به معرفی و بررسی جامع برترین مرورگرهای وب جایگزین می‌پردازد. هدف این مرورگرها، به چالش کشیدن سلطه‌ی کنونی کروم و سافاری در بازار است و نشان می‌دهد که رقابت در این عرصه دیگر فقط بر سر موتورهای جستجو نیست.",
+      "tags": [
+        "web browser",
+        "Chrome",
+        "Safari",
+        "مرورگر جایگزین",
+        "رقابت نرم‌افزاری"
+      ]
+    },
+    {
+      "id": "60b648c875c27aec",
+      "date": "2026-07-03",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
+      "category": "فناوری پزشکی",
+      "title_fa": "امید تازه برای پیوند کامل چشم: دستگاهی برای احیای چشمان اهداکنندگان فوت‌شده",
+      "title_en": "A device that revives eyeballs from dead donors could make eye transplants possible",
+      "summary_fa": "پیوند کامل چشم انسان همواره یکی از چالش‌برانگیزترین جراحی‌ها بوده است؛ زیرا چشمان پس از خارج شدن از بدن به سرعت دچار تخریب می‌شوند و تلاش‌های قبلی برای پیوند، موفق به بازگرداندن بینایی نشده بود. اکنون، پژوهشگران به راه حلی دست یافته‌اند: دستگاهی نوین که می‌تواند چشمان اهداکنندگان فوت‌شده را حفظ و احیا کند. این پیشرفت می‌تواند در آینده پیوند موفقیت‌آمیز کل کره چشم را امکان‌پذیر سازد و دید افراد را بازگرداند.",
+      "tags": [
+        "پیوند چشم",
+        "فناوری پزشکی",
+        "اهداکننده عضو",
+        "چشم‌پزشکی",
+        "سلامت"
+      ]
+    },
+    {
+      "id": "cac59d2666abac5b",
+      "date": "2026-07-03",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "category": "سیاست‌گذاری عمومی",
+      "title_fa": "بریتانیا و ممنوعیت نسلی دخانیات: آیا این «پایان بازی» موفق خواهد بود؟",
+      "title_en": "The Download: a smoking “endgame” and a new Elizabeth Bear story",
+      "summary_fa": "این خبر به بررسی طرح ممنوعیت نسلی دخانیات در بریتانیا می‌پردازد که با هدف حذف تدریجی مصرف تنباکو برای نسل‌های آینده معرفی شده است. نویسنده اشاره می‌کند که این سیاست با تردیدهایی در مورد اثربخشی واقعی آن در عمل مواجه است. با این حال، او با وجود نگرانی‌ها، از این طرح حمایت کرده و آن را گامی مهم در راستای سلامت عمومی می‌داند.",
+      "tags": [
+        "بریتانیا",
+        "ممنوعیت دخانیات",
+        "سلامت عمومی",
+        "سیاست‌گذاری",
+        "Jessica Hamzelou"
+      ]
+    },
+    {
+      "id": "15ac6d396939daac",
+      "date": "2026-07-03",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "category": "تأثیرات اجتماعی هوش مصنوعی",
+      "title_fa": "هوش مصنوعی و اینترنت در زندگی کودکان نسل جدید: نگرشی تازه به عادات گذشته",
+      "title_en": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "summary_fa": "در دنیای امروز، کودکان نسل جدید با هوش مصنوعی در مدارس آشنا می‌شوند و تکالیف خود را با استفاده از اینترنت انجام می‌دهند. این مقاله به تفاوت‌های بنیادین دوران کودکی فعلی با گذشته می‌پردازد و اشاره می‌کند که چگونه همین کودکان، برخلاف نسل‌های پیشین، از سیگار کشیدن به شدت متنفرند. نویسنده به این تغییر نگرش‌های عمیق اجتماعی، که احتمالاً تحت تاثیر محیط تکنولوژی‌محور امروزی است، می‌اندیشد و به شکلی غیرمستقیم، تاثیر فناوری بر سلامت و زندگی نسل‌های آینده را بررسی می‌کند.",
+      "tags": [
+        "هوش مصنوعی",
+        "آموزش",
+        "اینترنت",
+        "تغییرات نسلی",
+        "سلامت عمومی"
       ]
     }
   ]
