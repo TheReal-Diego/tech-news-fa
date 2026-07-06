@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-05",
+    "last_updated": "2026-07-06",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 112
+    "total_articles": 122
   },
   "articles": [
     {
@@ -1902,6 +1902,176 @@
         "اینترنت",
         "تغییرات نسلی",
         "سلامت عمومی"
+      ]
+    },
+    {
+      "id": "bfb45dcad644b624",
+      "date": "2026-06-03",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "GPT-Rosalind: جهشی تازه در پژوهش‌های علوم زیستی با قابلیت‌های پیشرفته",
+      "title_en": "Introducing new capabilities to GPT-Rosalind",
+      "summary_fa": "مدل هوش مصنوعی GPT-Rosalind با معرفی قابلیت‌های جدید خود، گام بزرگی در پیشبرد پژوهش‌های علوم زیستی برداشته است. این مدل اکنون توانایی‌های استدلال بیولوژیکی، تخصص در شیمی دارویی، تحلیل ژنومیکس و مدیریت فرایندهای آزمایشگاهی را به شکل قابل توجهی ارتقا داده است. هدف از این پیشرفت‌ها، تسریع و تعمیق اکتشافات در حوزه‌های مختلف علوم زیستی است.",
+      "tags": [
+        "GPT-Rosalind",
+        "علوم زیستی",
+        "پژوهش هوش مصنوعی",
+        "ژنومیکس",
+        "شیمی دارویی"
+      ]
+    },
+    {
+      "id": "8929ed18dbbc30cf",
+      "date": "2026-06-03",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/wasmer",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Wasmer: توسعه Node.js Runtime برای Edge با شتاب هوش مصنوعی کدکس",
+      "title_en": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary_fa": "شرکت Wasmer با بهره‌گیری از هوش مصنوعی Codex که بر پایه GPT-5.5 توسعه یافته است، موفق به ساخت یک محیط اجرای Node.js برای محاسبات لبه (Edge) شد. این رویکرد نوآورانه، سرعت توسعه را بین ۱۰ تا ۲۰ برابر افزایش داد و امکان عرضه محصول را از ماه‌ها به تنها چند هفته کاهش داد.",
+      "tags": [
+        "Wasmer",
+        "Codex",
+        "GPT-5.5",
+        "Node.js",
+        "محاسبات لبه"
+      ]
+    },
+    {
+      "id": "0a440e310365f466",
+      "date": "2026-06-03",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/public-policy-agenda",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "OpenAI دستور کار سیاست‌گذاری عمومی خود را برای هوش مصنوعی منتشر کرد",
+      "title_en": "OpenAI public policy agenda",
+      "summary_fa": "شرکت OpenAI دستور کار سیاست‌گذاری عمومی خود را برای آینده هوش مصنوعی تشریح کرده است. این برنامه بر اولویت‌هایی نظیر ایمنی هوش مصنوعی، حمایت از جوانان، مدیریت گذار نیروی کار در دوران هوش مصنوعی و تدوین استانداردهای جهانی تمرکز دارد. هدف اصلی این سیاست‌ها تضمین آن است که هوش مصنوعی منافع گسترده‌ای برای جامعه به ارمغان آورد.",
+      "tags": [
+        "OpenAI",
+        "هوش مصنوعی",
+        "سیاست‌گذاری هوش مصنوعی",
+        "ایمنی هوش مصنوعی",
+        "استانداردهای جهانی"
+      ]
+    },
+    {
+      "id": "fae173f5fba9c3cb",
+      "date": "2026-06-03",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/frontier-safety-blueprint",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "OpenAI نقشه‌راهی برای حکمرانی دموکراتیک هوش مصنوعی پیشرفته در آمریکا ارائه داد",
+      "title_en": "A blueprint for democratic governance of frontier AI",
+      "summary_fa": "شرکت OpenAI طرحی جامع برای حکمرانی هوش مصنوعی پیشرفته (Frontier AI) در ایالات متحده آمریکا ارائه کرده است. این طرح یک چارچوب فدرال را پیشنهاد می‌دهد که بر سه محور اصلی ایمنی، تاب‌آوری و امنیت ملی تمرکز دارد. هدف از این پیشنهاد، ایجاد یک بستر دموکراتیک برای مدیریت توسعه و استقرار فناوری‌های هوش مصنوعی مرزی است.",
+      "tags": [
+        "OpenAI",
+        "AI Governance",
+        "Frontier AI",
+        "Regulation",
+        "امنیت ملی"
+      ]
+    },
+    {
+      "id": "6421a7340260ea9b",
+      "date": "2026-06-02",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/travelers",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Travelers با همکاری OpenAI، هوش مصنوعی را در رسیدگی به خسارات سراسری می‌کند",
+      "title_en": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "summary_fa": "شرکت بیمه Travelers با همکاری OpenAI، یک دستیار مبتنی بر هوش مصنوعی برای رسیدگی به خسارات توسعه داده است. این دستیار به مشتریان در ثبت مطالبات کمک می‌کند، پشتیبانی شبانه‌روزی ارائه می‌دهد و در زمان اوج تقاضا، قابلیت‌های عملیاتی شرکت را در سراسر کشور گسترش می‌دهد.",
+      "tags": [
+        "Travelers",
+        "OpenAI",
+        "هوش مصنوعی",
+        "بیمه",
+        "پردازش خسارت"
+      ]
+    },
+    {
+      "id": "597005b4447f780c",
+      "date": "2026-06-02",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ابزارهای هوش مصنوعی «کدکس» برای هر نقش: افزایش چشمگیر بهره‌وری تیم‌ها",
+      "title_en": "Codex for every role, tool, and workflow",
+      "summary_fa": "پلتفرم هوش مصنوعی کدکس از مجموعه‌ای جدید از پلاگین‌ها، وب‌سایت‌ها و ابزارهای حاشیه‌نویسی رونمایی کرده است. این قابلیت‌های تازه با هدف کمک به تحلیلگران، بازاریابان، طراحان، سرمایه‌گذاران و سایر تیم‌های حرفه‌ای طراحی شده‌اند. هدف نهایی، افزایش چشمگیر بهره‌وری و کارایی در گردش کارهای مختلف از طریق به‌کارگیری هوش مصنوعی است.",
+      "tags": [
+        "Codex",
+        "AI",
+        "بهره‌وری",
+        "کاربرد هوش مصنوعی",
+        "پلاگین"
+      ]
+    },
+    {
+      "id": "c8e3bde25fd33c98",
+      "date": "2026-07-05",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "آمازون پذیرش مشتری جدید برای Mechanical Turk را متوقف کرد: آیا این پایان یک دوران است؟",
+      "title_en": "Amazon will stop accepting new customers for Mechanical Turk",
+      "summary_fa": "آمازون اعلام کرده است که دیگر مشتری جدیدی برای سرویس قدیمی Mechanical Turk خود نمی‌پذیرد. این حرکت، نشانه‌ای قوی از نزدیک شدن به پایان عمر این پلتفرم است که زمانی پیشگام در حوزه کار خرد و تامین داده برای پروژه‌های هوش مصنوعی محسوب می‌شد. بسیاری این اقدام را آغاز پایان کار Mechanical Turk می‌دانند و این سوال را مطرح می‌کنند که آیا جایگزین‌های جدید آن را منسوخ کرده‌اند.",
+      "tags": [
+        "Amazon",
+        "Mechanical Turk",
+        "Crowdsourcing",
+        "Micro-tasking",
+        "AI data"
+      ]
+    },
+    {
+      "id": "287d978300723b23",
+      "date": "2026-07-02",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "مذاکرات Anthropic با سامسونگ برای توسعه تراشه هوش مصنوعی اختصاصی",
+      "title_en": "Anthropic is discussing a new custom chip with Samsung",
+      "summary_fa": "خبر از مذاکرات شرکت Anthropic با سامسونگ برای تولید یک تراشه هوش مصنوعی سفارشی حکایت دارد. این اقدام در حالی صورت می‌گیرد که حدود یک هفته پیش، OpenAI نیز از همکاری خود با Broadcom برای ساخت تراشه اختصاصی هوش مصنوعی پرده‌برداری کرده بود و نشان‌دهنده رقابت فزاینده در حوزه سخت‌افزار هوش مصنوعی است.",
+      "tags": [
+        "Anthropic",
+        "Samsung",
+        "AI chip",
+        "OpenAI",
+        "Broadcom"
+      ]
+    },
+    {
+      "id": "dc4677f5bbe52f48",
+      "date": "2026-07-02",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "پیشنهاد اوپن‌ای‌آی برای سهیم کردن مردم در سود هوش مصنوعی: واگذاری ۵ درصد سهام به صندوق دولتی آمریکا",
+      "title_en": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "summary_fa": "سام آلتمَن، مدیرعامل اوپن‌ای‌آی، ظاهراً پیشنهاد کرده است که ۵ درصد از سهام این شرکت به یک صندوق ثروت ملی در ایالات متحده واگذار شود. این اقدام می‌تواند بحث‌ها را پیرامون سهیم کردن عموم مردم در منافع مالی حاصل از رونق هوش مصنوعی دوباره زنده کند و راهی برای توزیع ثروت ایجاد شده توسط این فناوری نوظهور باشد.",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "صندوق ثروت ملی",
+        "سهام هوش مصنوعی",
+        "منافع عمومی"
+      ]
+    },
+    {
+      "id": "369bc071c6a5c1f0",
+      "date": "2026-07-02",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "category": "کاربرد هوش مصنوعی در زندگی شخصی و اجتماعی",
+      "title_fa": "همسریابی با OpenClaw و هوش مصنوعی: روشی نوین برای قرار ملاقات؟",
+      "title_en": "Yep, we’re using OpenClaw to date now",
+      "summary_fa": "بن گِز، برنامه‌نویس، با استفاده از یک اسکریپت خودکار که با ابزارهای OpenClaw و کد Claude توسعه داده است، مدعی شده که تعداد زیادی «همسر بین‌المللی بالقوه» در پیام‌های خصوصی اینستاگرام خود دارد. این روش نوین همسریابی، پتانسیل هوش مصنوعی را در تغییر شیوه تعاملات شخصی و حتی روابط عاطفی نشان می‌دهد، هرچند که ابعاد اخلاقی و اجتماعی آن نیازمند بررسی بیشتر است.",
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "اینستاگرام",
+        "همسریابی با هوش مصنوعی",
+        "اتوماسیون"
       ]
     }
   ]
