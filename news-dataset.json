@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-07",
+    "last_updated": "2026-07-08",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 137
+    "total_articles": 152
   },
   "articles": [
     {
@@ -2327,6 +2327,261 @@
         "SK Hynix",
         "بازار کار فناوری",
         "فرهنگ و جامعه"
+      ]
+    },
+    {
+      "id": "60d1b56766e3b677",
+      "date": "2026-07-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/australian-payments-plus",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "پرداخت‌های سریع‌تر و هوشمندتر: Australian Payments Plus از ChatGPT و Codex بهره می‌برد",
+      "title_en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "summary_fa": "شرکت Australian Payments Plus (AP+) برای غلبه بر پیچیدگی‌های پرداخت و افزایش سرعت عملیات خود، به سراغ استفاده از راهکارهای هوش مصنوعی ChatGPT Enterprise و Codex رفته است. این استراتژی به AP+ کمک کرده تا ضمن صرفه‌جویی قابل توجه در زمان و ارتقاء کیفیت فرآیندها، مدیریت کارآمدتری بر سیستم‌های پرداخت داشته باشد. نکته حائز اهمیت این است که AP+ در این رویکرد، قضاوت و تخصص انسانی را در مرکز تصمیم‌گیری‌ها حفظ کرده و از هوش مصنوعی صرفاً به عنوان ابزاری برای تقویت توانایی‌های کارکنان بهره می‌برد.",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "Australian Payments Plus",
+        "هوش مصنوعی",
+        "پرداخت"
+      ]
+    },
+    {
+      "id": "cb031b5cf3e3be67",
+      "date": "2026-07-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/mufg",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "MUFG: گامی بزرگ به سوی سازمان هوش مصنوعی‌محور با همکاری OpenAI",
+      "title_en": "MUFG aims to become AI-native with OpenAI",
+      "summary_fa": "گروه مالی MUFG، یکی از بزرگترین بانک‌های ژاپن، با هدف تبدیل شدن به یک سازمان کاملاً مبتنی بر هوش مصنوعی، استفاده از ChatGPT Enterprise را آغاز کرده است. این همکاری با OpenAI به MUFG امکان می‌دهد تا ضمن بهبود چشمگیر فرآیندهای کاری داخلی خود، خدمات مالی جدید و مقیاس‌پذیری را با بهره‌گیری از هوش مصنوعی به مشتریان خود ارائه دهد.",
+      "tags": [
+        "MUFG",
+        "OpenAI",
+        "ChatGPT Enterprise",
+        "هوش مصنوعی",
+        "خدمات مالی"
+      ]
+    },
+    {
+      "id": "507ec0fdf6297e19",
+      "date": "2026-05-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/braintrust",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Braintrust: شتاب‌دهی به کدنویسی با هوش مصنوعی Codex و GPT-5.5",
+      "title_en": "How Braintrust turns customer requests into code with Codex",
+      "summary_fa": "مهندسان Braintrust برای افزایش سرعت کدنویسی و اجرای آزمایش‌ها، از مدل‌های هوش مصنوعی Codex و GPT-5.5 بهره می‌برند. این رویکرد نوآورانه به آن‌ها کمک می‌کند تا درخواست‌های مشتریان را با کارایی بیشتری به کد تبدیل کرده و فرآیند توسعه نرم‌افزار را تسریع بخشند.",
+      "tags": [
+        "Braintrust",
+        "Codex",
+        "GPT-5.5",
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "8337eeb248ea1830",
+      "date": "2026-05-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "category": "کاربرد هوش مصنوعی در سلامت و امنیت زیستی",
+      "title_fa": "OpenAI با «رزالیند بیودفنس» تاب‌آوری اجتماعی را در برابر تهدیدات زیستی تقویت می‌کند",
+      "title_en": "Strengthening societal resilience with Rosalind Biodefense",
+      "summary_fa": "OpenAI از محصول جدید خود، Rosalind Biodefense، رونمایی کرده است. این پلتفرم دسترسی امن به مدل هوش مصنوعی پیشرفته GPT-Rosalind را برای توسعه‌دهندگان معتمد و شرکای دولتی آمریکا فراهم می‌کند. هدف از این ابتکار، تقویت دفاع زیستی، بهبود سلامت عمومی و افزایش آمادگی در برابر همه‌گیری‌ها با استفاده از هوش مصنوعی پیشرفته است.",
+      "tags": [
+        "OpenAI",
+        "Rosalind Biodefense",
+        "دفاع زیستی",
+        "سلامت عمومی",
+        "هوش مصنوعی پیشرفته"
+      ]
+    },
+    {
+      "id": "33e1df4abe4ea5f3",
+      "date": "2026-05-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی راهنمای ارزیابی قابل اعتماد مدل‌های پیشرفته هوش مصنوعی را منتشر کرد",
+      "title_en": "A shared playbook for trustworthy third party evaluations",
+      "summary_fa": "شرکت OpenAI دستورالعمل‌هایی را برای ارزیابی هوش مصنوعی توسط اشخاص ثالث منتشر کرده است. این راهنما نحوه سنجش قابلیت‌ها، مکانیزم‌های محافظتی و اعتبار سیستم‌های پیشرفته هوش مصنوعی (Frontier Systems) را پوشش می‌دهد.",
+      "tags": [
+        "OpenAI",
+        "AI Evaluation",
+        "Trustworthy AI",
+        "Frontier AI",
+        "هوش مصنوعی مسئولانه"
+      ]
+    },
+    {
+      "id": "c4a9a577612daa8d",
+      "date": "2026-05-28",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/endava",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "تحول Endava با Codex: توسعه نرم‌افزار از هفته به ساعت",
+      "title_en": "How Endava builds an agentic organization with Codex",
+      "summary_fa": "شرکت Endava با بهره‌گیری از هوش مصنوعی Codex، سازمان خود را به سوی یک ساختار «عاملیت‌محور» سوق می‌دهد. این گام موجب شتاب‌دهی چشمگیر در فرایند توسعه و ارائه نرم‌افزار شده و زمان تحلیل نیازمندی‌ها را از چندین هفته به تنها چند ساعت کاهش داده است.",
+      "tags": [
+        "Endava",
+        "Codex",
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار",
+        "اتوماسیون"
+      ]
+    },
+    {
+      "id": "a55cda87a79b3783",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "category": "حریم خصوصی",
+      "title_fa": "Meta Muse Image: جنجال حریم خصوصی بر سر ابزار جدید تولید تصویر متا",
+      "title_en": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "summary_fa": "شرکت متا اخیراً یک ابزار جدید تولید تصویر مبتنی بر هوش مصنوعی با نام Muse Image را معرفی کرده است. این مدل قابلیت‌های گسترده‌ای از جمله کمک به تبلیغات، طراحی دکوراسیون و خلق محتوا برای تولیدکنندگان را ارائه می‌دهد. با این حال، از همان ابتدا کاربران نسبت به استفاده از عکس‌های شخصی‌شان برای آموزش این مدل هوش مصنوعی ابراز نگرانی و اعتراض کرده‌اند. این موضوع بحث‌هایی را پیرامون حریم خصوصی داده‌ها و حقوق مولف در عصر هوش مصنوعی برانگیخته است.",
+      "tags": [
+        "Meta",
+        "Muse Image",
+        "هوش مصنوعی",
+        "تولید تصویر",
+        "حریم خصوصی داده‌ها"
+      ]
+    },
+    {
+      "id": "a6e0b9e580f8a1ff",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "ظهور هوش مصنوعی متن‌باز: چرا Anthropic فعلاً آسیبی نمی‌بیند؟",
+      "title_en": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "summary_fa": "برخلاف تصور اولیه، موفقیت روزافزون مدل‌های هوش مصنوعی متن‌باز فعلاً به ضرر آزمایشگاه‌های پیشرو مانند Anthropic تمام نشده است. تحلیل‌ها نشان می‌دهد که این دو حوزه به جای رقابت مستقیم، در حال پوشش دادن فازهای متفاوتی از یک چرخه‌ی حیات توسعه‌ی هوش مصنوعی هستند و نقش مکمل یکدیگر را ایفا می‌کنند.",
+      "tags": [
+        "هوش مصنوعی متن‌باز",
+        "Anthropic",
+        "صنعت هوش مصنوعی",
+        "رقابت",
+        "مدل‌های هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "8c3435380ebc108a",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "مایکروسافت هم به جمع کاهندگان هزینه‌های هوش مصنوعی پیوست؛ اتکا به مدل‌های داخلی برای صرفه‌جویی",
+      "title_en": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "summary_fa": "مایکروسافت، جدیدترین غول فناوری در سیلیکون ولی است که هزینه‌های خود در زمینه هوش مصنوعی را کاهش می‌دهد. این شرکت قصد دارد با اتکا بیشتر به مدل‌های هوش مصنوعی داخلی خود، در هزینه‌ها صرفه‌جویی کرده و این روند کاهش هزینه در صنعت هوش مصنوعی را تقویت کند.",
+      "tags": [
+        "Microsoft",
+        "AI",
+        "هزینه‌های هوش مصنوعی",
+        "مدل‌های داخلی هوش مصنوعی",
+        "صرفه‌جویی"
+      ]
+    },
+    {
+      "id": "d4bb1346f4acfc17",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "دیسکورد به خطای هوش مصنوعی در مسدود کردن اشتباه کاربران اذعان کرد",
+      "title_en": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "summary_fa": "شرکت دیسکورد تایید کرده است که یک باگ در سیستم تعدیل محتوای مبتنی بر هوش مصنوعی آن، باعث مسدود شدن اشتباه حساب‌های کاربری شده است. این مشکل از ماه می آغاز شده بود و در آخر هفته اخیر نیز منجر به مسدود شدن ۲۰۰ کاربر دیگر به اشتباه شد. تیم فنی دیسکورد پس از شناسایی این نقص، اکنون موفق به رفع آن شده است.",
+      "tags": [
+        "Discord",
+        "AI",
+        "Moderation",
+        "خطای هوش مصنوعی",
+        "مسدودسازی حساب کاربری"
+      ]
+    },
+    {
+      "id": "3ab271c5ba48e5d9",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Claude Cowork فراگیرتر شد: تجربه همکاری بی‌وقفه در موبایل و وب",
+      "title_en": "Claude Cowork expands to mobile and web",
+      "summary_fa": "با این به‌روزرسانی جدید، سرویس Claude Cowork امکان همکاری بی‌وقفه را فراهم می‌کند. کاربران اکنون می‌توانند کاری را از طریق رایانه خود آغاز کرده، وضعیت پیشرفت آن را روی گوشی هوشمند پیگیری کنند و سپس خروجی نهایی را در هر زمان و مکانی، حتی با لپ‌تاپ بسته، دریافت نمایند.",
+      "tags": [
+        "Claude Cowork",
+        "موبایل",
+        "وب",
+        "ابزارهای همکاری",
+        "cross-device"
+      ]
+    },
+    {
+      "id": "16589613c66e16fb",
+      "date": "2026-07-07",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "اپلیکیشن Savi در راه است: محافظت در برابر کلاهبرداری‌های واقع‌گرایانه هوش مصنوعی و باج‌خواهی‌های جعلی",
+      "title_en": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+      "summary_fa": "شرکت Savi پس از جذب ۷ میلیون دلار سرمایه اولیه، اپلیکیشن جدید خود را برای پلتفرم‌های آیفون و اندروید عرضه می‌کند. هدف این برنامه، محافظت از کاربران در برابر کلاهبرداری‌های پیشرفته و بسیار واقع‌گرایانه هوش مصنوعی، به‌ویژه مواردی مانند باج‌خواهی‌های جعلی با استفاده از صدای شبیه‌سازی‌شده است. این اقدام گامی مهم در مقابله با خطرات روزافزون ناشی از سوءاستفاده از هوش مصنوعی محسوب می‌شود.",
+      "tags": [
+        "Savi",
+        "AI scams",
+        "Deepfake",
+        "AI safety",
+        "Mobile App"
+      ]
+    },
+    {
+      "id": "241f079483416676",
+      "date": "2026-07-07",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "پیشنهاد جنجالی سم آلتمن: سهیم کردن آمریکایی‌ها در سود هوش مصنوعی",
+      "title_en": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+      "summary_fa": "سم آلتمن، مدیرعامل OpenAI، بار دیگر پیشنهاد خود مبنی بر سهیم کردن شهروندان آمریکایی در ثروت حاصل از هوش مصنوعی را مطرح کرده است. طبق گزارش‌ها، او در حال بررسی طرحی است که بر اساس آن، هر خانواده آمریکایی بتواند سهمی ۳۰۰ دلاری از منافع این صنعت پررونق داشته باشد. این طرح با هدف توزیع عادلانه منافع اقتصادی هوش مصنوعی، توجهات بسیاری را به خود جلب کرده است.",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "AI",
+        "توزیع ثروت",
+        "اقتصاد هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "0ff288a559a3bd49",
+      "date": "2026-07-07",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "راهنمای مدیران فناوری: پایه‌های کلیدی معماری هوش مصنوعی برای مقیاس‌پذیری",
+      "title_en": "The foundational elements of AI architecture that IT leaders need to scale",
+      "summary_fa": "با پیشرفت سریع قابلیت‌های هوش مصنوعی و حرکت به سمت سیستم‌های عاملی (agentic systems)، سازمان‌ها کاربردهای خود را گسترش می‌دهند. این تکامل مداوم، ریسک‌هایی را نیز به همراه دارد و مدیران فناوری را در مورد ارزش سرمایه‌گذاری‌های آتی مردد می‌سازد. در چنین شرایطی، بازگشت به عناصر بنیادی معماری هوش مصنوعی برای اطمینان از مقیاس‌پذیری و پایداری بلندمدت زیرساخت‌ها حیاتی است.",
+      "tags": [
+        "معماری هوش مصنوعی",
+        "مقیاس‌پذیری AI",
+        "مدیریت فناوری اطلاعات",
+        "زیرساخت AI",
+        "Agentic systems"
+      ]
+    },
+    {
+      "id": "90e916f3dba1212a",
+      "date": "2026-07-07",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
+      "category": "فناوری زیستی و کشاورزی پایدار",
+      "title_fa": "کرم‌ها و میکروب‌ها: راه‌حل نوظهور برای مقابله با آلودگی فضولات دامی",
+      "title_en": "Why worms (and microbes) are catching on as a manure pollution solution",
+      "summary_fa": "آنتونی آگوئدا، یک دامدار نسل سومی در کالیفرنیا، با استفاده از کرم‌های خاکی قرمز در بستری از تراشه‌های چوب مرطوب، روشی نوآورانه برای مدیریت فضولات دامی ابداع کرده است. این رویکرد بیولوژیکی که میکروب‌ها نیز در آن نقش دارند، به عنوان راهکاری مؤثر برای کاهش آلودگی زیست‌محیطی ناشی از کود حیوانی در حال گسترش است. این فناوری به ویژه در قلب کشاورزی کالیفرنیا مورد توجه قرار گرفته و نویدبخش آینده‌ای پایدارتر برای صنعت دامداری است.",
+      "tags": [
+        "کرم خاکی",
+        "فضولات دامی",
+        "کشاورزی پایدار",
+        "محیط زیست",
+        "بیوتکنولوژی"
       ]
     }
   ]
