@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-09",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 152
+    "total_articles": 165
   },
   "articles": [
     {
@@ -2582,6 +2582,227 @@
         "کشاورزی پایدار",
         "محیط زیست",
         "بیوتکنولوژی"
+      ]
+    },
+    {
+      "id": "41b85c9cdb7a0122",
+      "date": "2026-07-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/government-national-security-partnerships",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی اصول همکاری با نهادهای دولتی و امنیتی ملی را منتشر کرد",
+      "title_en": "Our approach to government and national security partnerships",
+      "summary_fa": "شرکت OpenAI رویکرد و اصول خود را برای همکاری با نهادهای دولتی و سازمان‌های امنیت ملی منتشر کرده است. این رویکرد بر استفاده مسئولانه از هوش مصنوعی، پاسخگویی دموکراتیک و حفظ امنیت عمومی تاکید دارد و چارچوبی برای مشارکت‌های آتی ارائه می‌دهد.",
+      "tags": [
+        "OpenAI",
+        "امنیت ملی",
+        "سیاست هوش مصنوعی",
+        "Responsible AI",
+        "دولت"
+      ]
+    },
+    {
+      "id": "eaad4cbcfa7f5327",
+      "date": "2026-07-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "OpenAI از چالش‌های ارزیابی مدل‌های کدنویس هوش مصنوعی پرده برداشت",
+      "title_en": "Separating signal from noise in coding evaluations",
+      "summary_fa": "تحلیل جدیدی از سوی OpenAI نشان می‌دهد که SWE-Bench Pro، یکی از معیارهای محبوب برای ارزیابی مدل‌های کدنویس هوش مصنوعی، دارای مشکلاتی است. این یافته‌ها نگرانی‌هایی را در مورد دقت و قابلیت اطمینان این معیارها در سنجش عملکرد واقعی مدل‌های هوش مصنوعی ایجاد کرده است.",
+      "tags": [
+        "OpenAI",
+        "SWE-Bench Pro",
+        "مدل‌های هوش مصنوعی",
+        "ارزیابی هوش مصنوعی",
+        "بنچمارک کدنویسی"
+      ]
+    },
+    {
+      "id": "de92863115274012",
+      "date": "2026-07-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/k-12-educators-practical-skills",
+      "category": "هوش مصنوعی در آموزش",
+      "title_fa": "توانمندسازی معلمان K-12 با هوش مصنوعی: کارگاه‌های عملی OpenAI و بنیاد والتون",
+      "title_en": "Helping K–12 educators build practical AI skills",
+      "summary_fa": "آکادمی OpenAI با همکاری بنیاد خانواده والتون، برنامه‌ای با عنوان «کارگاه‌های مهارت هوش مصنوعی» (AI Skills Jams) را برای توانمندسازی معلمان مقاطع K-12 (ابتدایی تا دبیرستان) آغاز کرده است. هدف این برنامه، آموزش مهارت‌های عملی هوش مصنوعی به معلمان است تا بتوانند این فناوری را به شکلی کاربردی و مؤثر در محیط کلاس درس خود به کار گیرند.",
+      "tags": [
+        "OpenAI",
+        "Walton Family Foundation",
+        "آموزش",
+        "هوش مصنوعی",
+        "K-12 educators"
+      ]
+    },
+    {
+      "id": "d7499a6963c6e5c4",
+      "date": "2026-07-08",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-gpt-live",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "معرفی GPT-Live: نسل جدید مدل‌های صوتی برای تعامل طبیعی‌تر با هوش مصنوعی",
+      "title_en": "Introducing GPT-Live",
+      "summary_fa": "اوپن‌ای‌آی (OpenAI) از GPT-Live، نسل جدید مدل‌های صوتی خود رونمایی کرده است. این فناوری با هدف ایجاد تعاملات طبیعی‌تر و روان‌تر بین انسان و هوش مصنوعی توسعه یافته و هم‌اکنون قابلیت صوتی ChatGPT را تقویت می‌کند. GPT-Live تجربه‌ی کاربری مکالمات صوتی با هوش مصنوعی را به سطح جدیدی ارتقا می‌دهد.",
+      "tags": [
+        "GPT-Live",
+        "OpenAI",
+        "ChatGPT",
+        "مدل صوتی",
+        "هوش مصنوعی مکالمه‌ای"
+      ]
+    },
+    {
+      "id": "3e9dde27d0980f78",
+      "date": "2026-05-28",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-frontier-governance-framework",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "OpenAI: رونمایی از چهارچوب حکمرانی مرزی برای هوش مصنوعی پیشرفته",
+      "title_en": "OpenAI’s Frontier Governance Framework",
+      "summary_fa": "OpenAI اخیراً از چهارچوب حکمرانی مرزی خود رونمایی کرده است. این چهارچوب به تفصیل شیوه‌های ایمنی، امنیتی و مدیریت ریسک هوش مصنوعی این شرکت را توضیح می‌دهد. هدف اصلی این اقدام، همسوسازی رویه‌های OpenAI با مقررات جدید و در حال ظهور در اتحادیه اروپا و ایالت کالیفرنیا است.",
+      "tags": [
+        "OpenAI",
+        "AI Governance",
+        "تنظیم‌گری هوش مصنوعی",
+        "ایمنی هوش مصنوعی",
+        "EU",
+        "California"
+      ]
+    },
+    {
+      "id": "a1f161b6a344e4fa",
+      "date": "2026-05-27",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/cisco",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "سیسکو و OpenAI: بازتعریف مهندسی سازمانی با قدرت Codex",
+      "title_en": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary_fa": "سیسکو و OpenAI با همکاری مشترک خود، مهندسی سازمانی را از نو تعریف می‌کنند. این همکاری بر پایه استفاده از ابزار Codex، یک مدل هوش مصنوعی قدرتمند، بنا شده است. هدف اصلی این اقدام، کمک به سیسکو برای مقیاس‌پذیری توسعه نرم‌افزارهای بومی هوش مصنوعی، تسریع فعالیت‌های مرتبط با دفاع سایبری مبتنی بر هوش مصنوعی، و خودکارسازی فرآیند رفع نقص‌ها و باگ‌ها در سیستم‌هایشان است.",
+      "tags": [
+        "Cisco",
+        "OpenAI",
+        "Codex",
+        "هوش مصنوعی",
+        "مهندسی سازمانی"
+      ]
+    },
+    {
+      "id": "18842840ea24b22e",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "Lovable در آستانه دو برابر شدن ارزش به ۱۳.۲ میلیارد دلار با دور جدید سرمایه‌گذاری",
+      "title_en": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "summary_fa": "شرکت Lovable در حال مذاکره برای جذب ۳۰۰ میلیون دلار سرمایه جدید است. بنا بر گزارش Sifted، انتظار می‌رود Menlo Ventures رهبری این دور از جذب سرمایه را بر عهده بگیرد. با موفقیت این مذاکرات، ارزش شرکت Lovable دو برابر شده و به ۱۳.۲ میلیارد دلار خواهد رسید.",
+      "tags": [
+        "Lovable",
+        "Menlo Ventures",
+        "Funding",
+        "Valuation",
+        "Startup"
+      ]
+    },
+    {
+      "id": "b1454f7c94dc7f64",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "سیستم تشخیص دیپ‌فیک گوگل، تصویر جعلی سناتور مک‌کانل را برملا کرد",
+      "title_en": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "summary_fa": "اوایل این هفته، تصویری در فضای مجازی منتشر شد که سناتور میچ مک‌کانل از کنتاکی را در حالی که روی تخت بیمارستان و در وضعیت وخیم قرار داشت، نشان می‌داد. این تصویر که توجه زیادی را به خود جلب کرده بود، در واقع یک دیپ‌فیک تولیدشده توسط هوش مصنوعی بود. سیستم تشخیص دیپ‌فیک شرکت گوگل توانست این خبر جعلی را شناسایی و نادرستی آن را اثبات کند.",
+      "tags": [
+        "Google",
+        "deepfake",
+        "هوش مصنوعی",
+        "اخبار جعلی",
+        "تشخیص تصویر"
+      ]
+    },
+    {
+      "id": "a32c363a58d03e85",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "عرضه گروک 4.5 توسط xAI: ایلان ماسک از مدلی «کلاس اپوس» برای رقابت با رقبا می‌گوید",
+      "title_en": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "summary_fa": "شرکت فناوری ایلان ماسک، xAI، جدیدترین نسخه مدل هوش مصنوعی خود، گروک 4.5 (Grok 4.5) را منتشر کرد. این مدل که ایلان ماسک آن را «کلاس اپوس» توصیف کرده، وعده می‌دهد که جایگزینی کارآمدتر و ارزان‌تر برای سایر مدل‌های قدرتمند هوش مصنوعی در بازار باشد و به رقابت با آن‌ها بپردازد.",
+      "tags": [
+        "Grok 4.5",
+        "xAI",
+        "Elon Musk",
+        "مدل هوش مصنوعی",
+        "رقابت AI"
+      ]
+    },
+    {
+      "id": "ddd0e329481881ac",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "رباتیک در آستانه «لحظه چت‌جی‌پی‌تی» خود؛ آیا داده‌های بازی‌های ویدیویی، آینده هوش فیزیکی را می‌سازند؟",
+      "title_en": "This startup thinks robotics is about to have its ChatGPT moment",
+      "summary_fa": "شرکت استارتاپی General Intuition معتقد است که رباتیک در آستانه جهشی انقلابی مشابه با چت‌جی‌پی‌تی قرار دارد. این شرکت برای آموزش مدل‌های بنیادین هوش مصنوعی فیزیکی، روی میلیون‌ها ساعت داده بازی ویدیویی سرمایه‌گذاری کرده است. هدف آن‌ها، ساخت ربات‌های هوشمندتر با نیاز به حداقل داده‌های دنیای واقعی است.",
+      "tags": [
+        "General Intuition",
+        "رباتیک",
+        "هوش مصنوعی",
+        "مدل‌های بنیادین",
+        "بازی‌های ویدیویی"
+      ]
+    },
+    {
+      "id": "01f530364434f4db",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "category": "اپلیکیشن‌ها و سرویس‌های هوش مصنوعی",
+      "title_fa": "قابلیت جدید گوگل فوتوز: «ویدئو ریمیکس» با قدرت هوش مصنوعی",
+      "title_en": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "summary_fa": "گوگل فوتوز ابزار جدید «ویدئو ریمیکس» را معرفی کرده که با بهره‌گیری از هوش مصنوعی، امکان ویرایش خلاقانه ویدئوها را برای کاربران فراهم می‌کند. این قابلیت به کاربران اجازه می‌دهد تا بخش‌های تاریک ویدئو را با نورپردازی سینمایی روشن کنند، پس‌زمینه‌های ساده را با گزینه‌های جذاب‌تر جایگزین سازند، یا سبک‌های هنری متنوعی را به ویدئوهایشان اضافه کنند. این ابزار جدید، تجربه ویرایش ویدئو را آسان‌تر و جذاب‌تر می‌کند.",
+      "tags": [
+        "Google Photos",
+        "هوش مصنوعی",
+        "ویرایش ویدئو",
+        "Video Remix"
+      ]
+    },
+    {
+      "id": "bcdfbc462e455678",
+      "date": "2026-07-08",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "مدیرعامل General Intuition: بازی‌های ویدیویی، کلید دستیابی به هوش مصنوعی عمومی",
+      "title_en": "Why this CEO thinks video games make better training data than the internet",
+      "summary_fa": "مدل‌های زبان بزرگ (LLM) مانند ChatGPT و Claude با وجود مهارت در پردازش متن، در درک حرکت اجسام در فضا و زمان ضعف دارند. این قابلیت برای رسیدن به هوش مصنوعی عمومی (AGI) یک نیاز اساسی محسوب می‌شود. شرکت General Intuition معتقد است که داده‌های حاصل از بازی‌های ویدیویی می‌توانند این شکاف را پر کرده و مسیر توسعه هوش مصنوعی عمومی را هموار سازند.",
+      "tags": [
+        "AGI",
+        "LLM",
+        "General Intuition",
+        "Video Games",
+        "داده‌های آموزشی"
+      ]
+    },
+    {
+      "id": "23ec088b632f042c",
+      "date": "2026-07-08",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "EmTech AI 2026: عصر پلتفرم‌های هوش مصنوعی فرارسید",
+      "title_en": "EmTech AI 2026: The Rise of the AI Platform",
+      "summary_fa": "همایش معتبر EmTech AI 2026 پیش‌بینی می‌کند که آینده هوش مصنوعی به شدت تحت تأثیر پلتفرم‌های جامع آن خواهد بود. این رویداد مهم بر روی صعود و نقش محوری پلتفرم‌های هوش مصنوعی تمرکز خواهد کرد که اکوسیستم‌های یکپارچه‌ای برای توسعه، استقرار و مدیریت راه‌حل‌های هوش مصنوعی ارائه می‌دهند. این تغییر نشان‌دهنده گرایشی به سمت ابزارهای توسعه هوش مصنوعی یکپارچه‌تر و در دسترس‌تر است که پذیرش و کاربرد آن را در صنایع مختلف سرعت می‌بخشد.",
+      "tags": [
+        "AI Platform",
+        "EmTech AI 2026",
+        "هوش مصنوعی",
+        "توسعه هوش مصنوعی",
+        "صنعت تکنولوژی"
       ]
     }
   ]
