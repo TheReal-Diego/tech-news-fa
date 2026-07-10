@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-09",
+    "last_updated": "2026-07-10",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 165
+    "total_articles": 181
   },
   "articles": [
     {
@@ -2803,6 +2803,277 @@
         "هوش مصنوعی",
         "توسعه هوش مصنوعی",
         "صنعت تکنولوژی"
+      ]
+    },
+    {
+      "id": "e799563c0958e055",
+      "date": "2026-07-09",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "GPT-5.6 موتور اصلی مایکروسافت ۳۶۵ کوپایلوت شد: گامی بزرگ در افزایش بهره‌وری",
+      "title_en": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary_fa": "مایکروسافت اعلام کرده است که مدل GPT-5.6 اکنون به عنوان مدل هوش مصنوعی منتخب و اصلی برای سرویس Copilot در مجموعه مایکروسافت ۳۶۵ مورد استفاده قرار می‌گیرد. این ارتقا قابلیت‌های هوش مصنوعی قدرتمندتری را در برنامه‌های کلیدی مانند ورد، اکسل، پاورپوینت، چت و کوورک به ارمغان می‌آورد. هدف از این اقدام، کمک به کاربران برای انجام کارها با سرعت بیشتر و کیفیت بالاتر است.",
+      "tags": [
+        "GPT-5.6",
+        "Microsoft 365 Copilot",
+        "Microsoft",
+        "هوش مصنوعی",
+        "بهره‌وری"
+      ]
+    },
+    {
+      "id": "5941cef110c0f469",
+      "date": "2026-07-09",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "کاربرد هوش مصنوعی",
+      "title_fa": "ChatGPT: همکار هوشمند شما در پروژه‌های جاه‌طلبانه",
+      "title_en": "ChatGPT is now a partner for your most ambitious work",
+      "summary_fa": "ChatGPT اکنون به یک عامل هوشمند (AI agent) تبدیل شده است که قادر است در برنامه‌ها و فایل‌های مختلف شما عملیات انجام دهد. این نسخه جدید می‌تواند برای ساعت‌ها روی یک پروژه متمرکز بماند و با تبدیل اهداف به خروجی‌های نهایی، کاربران را در انجام کارهای پیچیده و بلندپروازانه یاری کند.",
+      "tags": [
+        "ChatGPT",
+        "AI agent",
+        "هوش مصنوعی",
+        "productivity",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "8fd74bd3f51991b5",
+      "date": "2026-07-09",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/bio-bug-bounty",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی: جایزه برای کشف خطرات زیستی در مدل‌های هوش مصنوعی",
+      "title_en": "GPT-5.5 Bio Bug Bounty",
+      "summary_fa": "شرکت OpenAI جزئیات برنامه جایزه باگ (Bug Bounty) خود را برای کشف آسیب‌پذیری‌های مرتبط با خطرات زیستی مدل‌های هوش مصنوعی منتشر کرده است. این برنامه با هدف شناسایی و رفع پتانسیل‌های سوءاستفاده یا ایجاد خطر در حوزه‌های بیولوژیکی توسط مدل‌هایی نظیر GPT طراحی شده است.",
+      "tags": [
+        "OpenAI",
+        "Bug Bounty",
+        "GPT",
+        "خطرات زیستی",
+        "ایمنی هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "54ee76ae9206d639",
+      "date": "2026-07-09",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-6",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "GPT-5.6: هوش مصنوعی پیشرو با قابلیت‌های مقیاس‌پذیر برای جاه‌طلبی‌های بزرگ",
+      "title_en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary_fa": "مدل هوش مصنوعی GPT-5.6 وعده می‌دهد که با افزایش هوشمندی از هر توکن، عملکرد بهتری را در ازای هر دلار فراهم آورد. این مدل همچنین توانایی‌های درخواستی بیشتری را برای انجام پیچیده‌ترین کارها ارائه می‌کند و مرزهای هوش مصنوعی را در رسیدگی به چالش‌های بزرگ گسترش می‌دهد.",
+      "tags": [
+        "GPT-5.6",
+        "هوش مصنوعی",
+        "مدل زبان بزرگ",
+        "کارایی",
+        "عملکرد"
+      ]
+    },
+    {
+      "id": "4740b2087d5dca54",
+      "date": "2026-06-02",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/chatgpt-sites",
+      "category": "توسعه نرم‌افزار با هوش مصنوعی",
+      "title_fa": "طراحی سریع وب‌سایت و اپلیکیشن‌های سبک با هوش مصنوعی Codex",
+      "title_en": "ChatGPT Sites",
+      "summary_fa": "Codex، مدل هوش مصنوعی توسعه‌یافته توسط OpenAI، قابلیت ساخت وب‌سایت‌ها و اپلیکیشن‌های سبک را فراهم می‌کند. این ابزار به کاربران امکان می‌دهد تا به سرعت و سادگی، سایت‌ها و برنامه‌های کاربردی کم‌حجم را طراحی و پیاده‌سازی کنند.",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "AI Code Generation",
+        "توسعه وب",
+        "ساخت اپلیکیشن"
+      ]
+    },
+    {
+      "id": "9da64821c60f866d",
+      "date": "2026-05-27",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "category": "کاربرد هوش مصنوعی در کسب‌وکار",
+      "title_fa": "کدکس OpenAI و دستیاران مالیاتی خودبهبوددهنده: انقلابی در دقت و سرعت امور مالیاتی",
+      "title_en": "Building self-improving tax agents with Codex",
+      "summary_fa": "اوپن‌ای‌آی با همکاری شرکت‌های Thrive و Crete، یک دستیار مالیاتی هوشمند و خودبهبوددهنده را با استفاده از مدل هوش مصنوعی Codex توسعه داده است. این عامل هوش مصنوعی قادر است فرآیندهای ثبت اظهارنامه‌های مالیاتی را به شکل خودکار انجام دهد. هدف از این پروژه، افزایش دقت و سرعت بخشیدن به گردش کار در امور مالیاتی است.",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "هوش مصنوعی",
+        "امور مالیاتی",
+        "اتوماسیون"
+      ]
+    },
+    {
+      "id": "bf8a0a3516a92df9",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "رد شایعات جدایی: OpenAI مدل GPT 5.6 را «موتور اصلی» Copilot 365 مایکروسافت اعلام کرد",
+      "title_en": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "summary_fa": "در میان گمانه‌زنی‌ها درباره‌ی احتمال جدایی یا کاهش همکاری‌ها، OpenAI رسماً اعلام کرد که مدل جدید خانواده GPT، یعنی GPT 5.6، به عنوان «مدل ترجیحی» برای محصولات Microsoft Copilot 365 مورد استفاده قرار خواهد گرفت. این بیانیه، تداوم همکاری‌های استراتژیک بین این دو غول فناوری در زمینه هوش مصنوعی مولد را تأیید می‌کند. در نتیجه، مدل‌های پیشرفته OpenAI همچنان نقش کلیدی را در تأمین قدرت و قابلیت‌های اپلیکیشن‌های بهره‌وری مایکروسافت ایفا خواهند کرد.",
+      "tags": [
+        "OpenAI",
+        "Microsoft",
+        "GPT",
+        "Copilot 365",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "ac681ce233d76765",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "کناره‌گیری معاون ارشد OpenAI: فیدجی سیمو در مقطعی حساس می‌رود",
+      "title_en": "Fidji Simo steps down from OpenAI’s no. 2 role",
+      "summary_fa": "فیدجی سیمو، معاون ارشد شرکت OpenAI، به دلیل طولانی‌تر شدن مرخصی درمانی خود از سمت تمام‌وقتش کناره‌گیری کرد. این خلاء رهبری در مقطعی حساس برای شرکت رخ می‌دهد، زیرا OpenAI همزمان در حال بررسی عرضه اولیه سهام (IPO) است و تلاش می‌کند در بازار سازمانی از رقیبش، Anthropic، پیشی بگیرد.",
+      "tags": [
+        "OpenAI",
+        "Fidji Simo",
+        "Anthropic",
+        "IPO",
+        "مدیریت"
+      ]
+    },
+    {
+      "id": "3ef0940f43a360f7",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "OpenAI از خانواده جدید مدل‌های هوش مصنوعی خود با پرچم‌داری GPT-5.6 رونمایی کرد",
+      "title_en": "OpenAI launches its new family of models with GPT-5.6",
+      "summary_fa": "شرکت OpenAI به تازگی از نسل جدید مدل‌های هوش مصنوعی خود رونمایی کرده است که GPT-5.6 برجسته‌ترین عضو آن به شمار می‌رود. این مدل‌ها نویدبخش بهبودهای قابل توجهی در حوزه‌های گوناگون کاربردی هستند. یکی از مهم‌ترین پیشرفت‌های وعده داده شده، افزایش توانمندی‌ها و کارایی در زمینه امنیت سایبری است که می‌تواند تحولات مهمی را رقم بزند.",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "هوش مصنوعی",
+        "امنیت سایبری"
+      ]
+    },
+    {
+      "id": "597e6a4c03568631",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "عامل هوش مصنوعی Lyzr ۱۰۰ میلیون دلار سرمایه برای شرکتش جذب کرد؛ اثباتی بر عملکرد محصول",
+      "title_en": "An AI agent startup just let its agent run its $100M fundraise",
+      "summary_fa": "استارتاپ Lyzr، توسعه‌دهنده‌ی عوامل هوش مصنوعی برای شرکت‌ها، با رویکردی نوآورانه از عامل هوش مصنوعی اختصاصی خود برای جذب سرمایه استفاده کرد. این شرکت توانست با کمک محصول خود، ۱۰۰ میلیون دلار سرمایه جمع‌آوری کند. این اقدام نه تنها یک موفقیت مالی بزرگ است، بلکه به عنوان یک اثبات عملی و قدرتمند از کارایی و قابلیت‌های عامل هوش مصنوعی Lyzr در دنیای واقعی به شمار می‌رود.",
+      "tags": [
+        "Lyzr",
+        "AI agent",
+        "Fundraising",
+        "استارتاپ",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "7a2d1d0f740ff8ae",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "پایان مرورگر اطلس OpenAI؛ اما جاه‌طلبی‌ها در هوش مصنوعی مرورگر ادامه دارد",
+      "title_en": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+      "summary_fa": "شرکت OpenAI پس از کمتر از یک سال فعالیت، مرورگر مبتنی بر هوش مصنوعی خود به نام اطلس را متوقف می‌کند. با این حال، این شرکت برخی از قابلیت‌های مرورگر هوشمند را به برنامه دسکتاپ و افزونه کروم خود منتقل خواهد کرد تا تمرکز بر ادغام عمیق‌تر هوش مصنوعی در ابزارهای اصلی باشد.",
+      "tags": [
+        "OpenAI",
+        "Atlas",
+        "AI browser",
+        "Chrome extension",
+        "توسعه محصول"
+      ]
+    },
+    {
+      "id": "1102606327ecac76",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "ایلان ماسک Mythos/Fable را تحسین کرد و به آنتروپیک وعده میزبانی بدون محدودیت داد",
+      "title_en": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "summary_fa": "ایلان ماسک، ضمن ستایش از پلتفرم Mythos/Fable، به شرکت هوش مصنوعی آنتروپیک قول داده است که در صورت میزبانی مدل‌هایش توسط پلتفرم‌های او، سرویس‌دهی به آن‌ها را متوقف نخواهد کرد. با این حال، پرسش اصلی این است که آیا آنتروپیک می‌تواند به ماسک اعتماد کند، خصوصاً با در نظر گرفتن رقابت موجود و درآمد بالقوه ۴۰ میلیارد دلاری. ماسک به صراحت تاکید می‌کند که آنتروپیک می‌تواند به این وعده اطمینان کند.",
+      "tags": [
+        "Elon Musk",
+        "Anthropic",
+        "Mythos/Fable",
+        "xAI",
+        "AI hosting"
+      ]
+    },
+    {
+      "id": "ffdf99aeb53cc141",
+      "date": "2026-07-09",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "Anthropic فضای پنهان پردازش مفاهیم در Claude را کشف کرد",
+      "title_en": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "summary_fa": "شرکت هوش مصنوعی Anthropic روشی نوین ابداع کرده است که به آن‌ها امکان می‌دهد برای اولین بار با وضوح بی‌سابقه‌ای به درون مدل‌های زبانی بزرگ (LLM) نگاه کنند. این تکنیک که \"لنز ژاکوبین\" نام دارد، نشان می‌دهد که هوش مصنوعی Claude چگونه به سوالات پاسخ داده و وظایف را انجام می‌دهد. یافته‌های آن‌ها طیفی از پدیده‌های روزمره تا نتایج نگران‌کننده را شامل می‌شود و بینشی عمیق از فرآیندهای فکری پنهان هوش مصنوعی ارائه می‌دهد.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "LLM",
+        "فهم‌پذیری هوش مصنوعی",
+        "Jacobian lens"
+      ]
+    },
+    {
+      "id": "701f122b333450b5",
+      "date": "2026-07-09",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "تنش در بازار تراشه: چین در پی پردازنده‌های قدرتمند Nvidia",
+      "title_en": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+      "summary_fa": "گزارش‌ها حاکی از آن است که چین به شدت به دنبال دستیابی به تراشه‌های پیشرفته شرکت Nvidia است. این تلاش‌ها در بحبوحه رقابت فزاینده تکنولوژیک و محدودیت‌های صادراتی از سوی ایالات متحده صورت می‌گیرد. دسترسی به این پردازنده‌های قدرتمند برای پیشبرد توسعه هوش مصنوعی و ابرکامپیوترها در چین حیاتی است.",
+      "tags": [
+        "Nvidia",
+        "China",
+        "AI chips",
+        "سخت‌افزار",
+        "رقابت تکنولوژیک"
+      ]
+    },
+    {
+      "id": "2abdc6f868264358",
+      "date": "2026-07-09",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
+      "category": "فناوری انرژی",
+      "title_fa": "دستیابی چهار راکتور هسته‌ای آمریکا به نقطه بحرانی: پیشرفتی مهم در تولید انرژی",
+      "title_en": "Four nuclear reactors hit a big milestone in the US",
+      "summary_fa": "ایالات متحده در تاریخ چهارم ژوئیه، شاهد دستیابی چهار راکتور هسته‌ای، از جمله سه میکرو راکتور جدید، به نقطه بحرانی بود. این دستاورد فنی مهم، نشان‌دهنده تحقق هدفی است که دولت ترامپ سال گذشته برای پیشبرد طرح‌های هسته‌ای خود تعیین کرده بود. رسیدن به نقطه بحرانی، یک شاخص کلیدی و اثبات‌کننده توانایی راکتور برای تولید پایدار انرژی است.",
+      "tags": [
+        "Nuclear Energy",
+        "Microreactors",
+        "Criticality",
+        "USA",
+        "Energy Policy"
+      ]
+    },
+    {
+      "id": "a8a2b098c664f76c",
+      "date": "2026-07-08",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+      "category": "فناوری‌های محیط زیست و پایداری",
+      "title_fa": "مبارزه کرم‌ها و میکروب‌ها با آلودگی کود دامی؛ راه‌حل‌های زیستی برای کشاورزی پایدار",
+      "title_en": "The Download: worms fight pollution, and geoengineering faces reality",
+      "summary_fa": "در جدیدترین رویکردهای فناورانه برای مبارزه با آلودگی، استفاده از کرم‌ها و میکروب‌ها به عنوان راه‌حلی موثر برای مدیریت آلودگی ناشی از کود دامی در حال گسترش است. این روش زیستی نوین، که توسط کشاورزان لبنی در کالیفرنیا نیز به کار گرفته می‌شود، جایگزینی پایدار برای دفع ضایعات کشاورزی فراهم می‌آورد. این تحولات در کنار بررسی‌های جدی درباره واقعیت‌های ژئومهندسی، نشان‌دهنده اهمیت نوآوری‌های زیست‌محیطی برای آینده سیاره ماست.",
+      "tags": [
+        "فناوری زیستی",
+        "آلودگی محیط زیست",
+        "کشاورزی پایدار",
+        "Geoengineering",
+        "Worms"
       ]
     }
   ]
