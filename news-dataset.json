@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-07-11",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 181
+    "total_articles": 195
   },
   "articles": [
     {
@@ -3074,6 +3074,242 @@
         "کشاورزی پایدار",
         "Geoengineering",
         "Worms"
+      ]
+    },
+    {
+      "id": "027b05f9d0faae18",
+      "date": "2026-07-10",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/deutsche-telekom",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "دویچه تلکام: بازتعریف صنعت مخابرات با هوش مصنوعی",
+      "title_en": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary_fa": "دویچه تلکام در حال تبدیل شدن به یک شرکت مخابراتی کاملاً مبتنی بر هوش مصنوعی است. این غول مخابراتی با همکاری OpenAI، هوش مصنوعی را در بخش‌های مختلفی از جمله خدمات مشتریان، فرآیندهای کاری کارکنان و عملیات شبکه خود به کار می‌گیرد. هدف این اقدام، تحول جامع در نحوه ارائه خدمات و شکل‌دهی آینده ارتباطات صوتی است.",
+      "tags": [
+        "Deutsche Telekom",
+        "AI",
+        "OpenAI",
+        "مخابرات",
+        "پذیرش سازمانی"
+      ]
+    },
+    {
+      "id": "b36c91942c4f0187",
+      "date": "2026-05-27",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/warp",
+      "category": "هوش مصنوعی و توسعه نرم‌افزار",
+      "title_fa": "گام بلند Warp: توسعه متن‌باز با هماهنگی عوامل کدنویسی GPT-5.5",
+      "title_en": "Warp’s big bet on building open source with GPT-5.5",
+      "summary_fa": "شرکت Warp سرمایه‌گذاری قابل توجهی بر روی حوزه توسعه نرم‌افزارهای متن‌باز با بهره‌گیری از هوش مصنوعی کرده است. این شرکت با استفاده از مدل‌های پیشرفته GPT-5.5 و سایر مدل‌های OpenAI، عوامل کدنویسی هوش مصنوعی را برای چرخه‌های کاری مختلف هماهنگ می‌کند. هدف این رویکرد، تسهیل و تسریع فرآیندهای توسعه در محیط‌های محلی، ابری و پروژه‌های متن‌باز است.",
+      "tags": [
+        "Warp",
+        "GPT-5.5",
+        "OpenAI",
+        "توسعه متن‌باز",
+        "عوامل هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "fae225528858b04c",
+      "date": "2026-05-27",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/election-safeguards-2026",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "انتخابات ۲۰۲۶ و هوش مصنوعی: تدابیر حفاظت از اطلاعات و افزایش شفافیت",
+      "title_en": "Election information and safeguards in 2026",
+      "summary_fa": "در آستانه انتخابات جهانی پیش‌رو در سال ۲۰۲۶، اقدامات گسترده‌ای برای تسهیل دسترسی مردم به اطلاعات صحیح، حمایت از مدافعان امنیت سایبری و افزایش شفافیت در کاربرد هوش مصنوعی در دستور کار قرار گرفته است. هدف این تدابیر، مقابله با تهدیدات اطلاعات نادرست و تقویت فرآیندهای دموکراتیک در برابر دستکاری‌های احتمالی با کمک هوش مصنوعی است.",
+      "tags": [
+        "انتخابات ۲۰۲۶",
+        "هوش مصنوعی",
+        "امنیت سایبری",
+        "اخبار جعلی",
+        "AI transparency"
+      ]
+    },
+    {
+      "id": "ed9f6061321c89ed",
+      "date": "2026-05-25",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ai-first-hire-small-business",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "هوش مصنوعی، اولین استخدام میلیون‌ها کسب‌وکار کوچک: کاهش هزینه‌ها و تسریع رشد",
+      "title_en": "AI is becoming a first hire for small businesses",
+      "summary_fa": "بر اساس یک پژوهش جدید، هوش مصنوعی در حال تبدیل شدن به اولین انتخاب کارآفرینان برای شروع کسب‌وکار است. این تحقیق نشان می‌دهد که حدود ۴ میلیون آمریکایی از ابزارهایی مانند ChatGPT برای راه‌اندازی، اداره و توسعه کسب‌وکارهای کوچک خود بهره می‌برند. استفاده از هوش مصنوعی نه تنها فرایند کارآفرینی را تسهیل می‌کند، بلکه به شکل چشمگیری هزینه‌های اولیه و عملیاتی را کاهش می‌دهد و به رشد سریع‌تر شرکت‌های نوپا کمک می‌کند.",
+      "tags": [
+        "هوش مصنوعی",
+        "کسب‌وکارهای کوچک",
+        "کارآفرینی",
+        "ChatGPT",
+        "کاهش هزینه"
+      ]
+    },
+    {
+      "id": "2958e44acb3bbf99",
+      "date": "2026-05-25",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "category": "هوش مصنوعی و رسانه",
+      "title_fa": "اخبار برزیل در ChatGPT: همکاری استراتژیک OpenAI با غول‌های رسانه‌ای",
+      "title_en": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "summary_fa": "OpenAI با اعلام همکاری استراتژیک با Grupo Folha و Grupo UOL، دو گروه رسانه‌ای برجسته برزیلی، قصد دارد محتوای خبری معتبر این کشور را به پلتفرم ChatGPT بیاورد. هدف از این مشارکت، گسترش دسترسی کاربران به روزنامه‌نگاری قابل اعتماد از طریق هوش مصنوعی است. این اقدام با تاکید بر شفافیت و ذکر دقیق منبع انجام می‌شود تا اطلاعات با اعتبار کامل به دست کاربران برسد.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Grupo Folha",
+        "Grupo UOL",
+        "اخبار"
+      ]
+    },
+    {
+      "id": "ef1db9edff97d09f",
+      "date": "2026-05-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی از سوی گارتنر، پیشتاز عامل‌های کدنویسی هوش مصنوعی سازمانی",
+      "title_en": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary_fa": "شرکت اوپن‌ای‌آی در گزارش 'Gartner Magic Quadrant' سال ۲۰۲۶ برای عامل‌های کدنویسی هوش مصنوعی سازمانی، به عنوان یک رهبر شناخته شد. این دستاورد بر اساس نوآوری و توانایی استقرار گسترده ابزارهایی مانند Codex در مقیاس سازمانی صورت گرفته است.",
+      "tags": [
+        "OpenAI",
+        "Gartner",
+        "عامل‌های کدنویسی هوش مصنوعی",
+        "هوش مصنوعی سازمانی",
+        "Codex"
+      ]
+    },
+    {
+      "id": "d325e170b88005a0",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "category": "اخلاق هوش مصنوعی",
+      "title_fa": "پس از واکنش‌های منفی، متا قابلیت هوش مصنوعی جنجالی اینستاگرام را حذف کرد",
+      "title_en": "Meta removes controversial AI feature on Instagram after backlash",
+      "summary_fa": "شرکت متا اعلام کرد که قابلیت هوش مصنوعی جنجالی خود را از اینستاگرام حذف کرده است. به گفته متا، هدف از ارائه این ابزار، کمک به خلاقیت کاربران و کنترل بر محتوای عمومی‌شان بود، اما بازخوردها نشان داد که این ویژگی به انتظارات نرسیده است. به همین دلیل، این قابلیت دیگر در دسترس نخواهد بود.",
+      "tags": [
+        "Meta",
+        "Instagram",
+        "AI",
+        "اخلاق هوش مصنوعی",
+        "بازخورد کاربران"
+      ]
+    },
+    {
+      "id": "9970ed3bedc63c5d",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "اتهام سرقت اسرار تجاری: اپل از OpenAI شکایت کرد",
+      "title_en": "Apple sues OpenAI over alleged trade secret theft",
+      "summary_fa": "شرکت اپل مدعی شده که OpenAI اسرار تجاری این شرکت را سرقت کرده است. طبق ادعای اپل، این تخلف با هدایت رهبری ارشد OpenAI، از جمله یک کارمند سابق باسابقه اپل که اکنون در OpenAI فعالیت می‌کند، صورت گرفته است.",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "اسرار تجاری",
+        "دعوای حقوقی"
+      ]
+    },
+    {
+      "id": "c6175885a6472482",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "هوش مصنوعی متن‌باز در اوج شکوفایی؛ تاکید Hugging Face بر اهمیت بی‌سابقه آن",
+      "title_en": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
+      "summary_fa": "کلم دلانگ، مدیرعامل Hugging Face، معتقد است که هوش مصنوعی متن‌باز (Open Source AI) در حال رونق بی‌سابقه‌ای است و نقشی کلیدی در آینده تکنولوژی ایفا می‌کند. شرکت او در سال‌های اخیر به پلتفرمی شبیه به گیت‌هاب برای توسعه‌دهندگان هوش مصنوعی تبدیل شده است، جایی که مدل‌ها و مجموعه‌داده‌های باز به اشتراک گذاشته می‌شوند و مورد استفاده قرار می‌گیرند. این پلتفرم اکنون توسط تقریباً نیمی از شرکت‌های فهرست فورچون ۵۰۰ استفاده می‌شود، که نشان‌دهنده پذیرش گسترده و اهمیت رو به رشد هوش مصنوعی متن‌باز در صنعت است.",
+      "tags": [
+        "Hugging Face",
+        "Open source AI",
+        "Clem Delangue",
+        "مدل‌های هوش مصنوعی",
+        "پذیرش هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "18141515c38cf587",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "رونق بی‌سابقه تراشه‌های هوش مصنوعی: SK Hynix بزرگترین عرضه اولیه خارجی تاریخ آمریکا را رقم زد؛ درخواست برای ساخت کارخانه‌های جدید در خاک آمریکا",
+      "title_en": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+      "summary_fa": "رونق بی‌سابقه در بازار تراشه‌های هوش مصنوعی، بزرگترین لحظه وال‌استریت را برای این صنعت رقم زده است. شرکت SK Hynix، با جذب ۲۶.۵ میلیارد دلار، رکورد بزرگترین عرضه اولیه سهام خارجی (IPO) در تاریخ آمریکا را شکست. در پی این موفقیت، اکنون از SK Hynix و همچنین سامسونگ خواسته شده است تا کارخانه‌های جدید تولید تراشه را در ایالات متحده احداث کنند تا نیازهای رو به رشد را برطرف سازند.",
+      "tags": [
+        "SK Hynix",
+        "Samsung",
+        "AI chips",
+        "IPO",
+        "تولید تراشه"
+      ]
+    },
+    {
+      "id": "33cb29d0b7daaef7",
+      "date": "2026-07-10",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "مدیرعامل Hugging Face: چرا شرکت‌ها دیگر به اجاره هوش مصنوعی بسنده نمی‌کنند؟",
+      "title_en": "Hugging Face’s CEO on why companies are done renting their AI",
+      "summary_fa": "کلم دلانگ، مدیرعامل Hugging Face، از رونق چشمگیر هوش مصنوعی متن‌باز خبر می‌دهد و معتقد است شرکت‌ها در حال رویگردانی از مدل‌های هوش مصنوعی «اجاره‌ای» و اختصاصی هستند. Hugging Face که در سالیان اخیر به پلتفرمی مشابه GitHub برای هوش مصنوعی تبدیل شده و امکان اشتراک‌گذاری و دانلود مدل‌ها و مجموعه‌داده‌های باز را فراهم می‌کند، اکنون توسط نیمی از شرکت‌های Fortune 500 مورد استفاده قرار می‌گیرد. به گفته دلانگ، این روند نشان می‌دهد که شرکت‌ها به دنبال کنترل بیشتر و انعطاف‌پذیری هوش مصنوعی متن‌باز هستند.",
+      "tags": [
+        "Hugging Face",
+        "Open-source AI",
+        "Clem Delangue",
+        "پذیرش سازمانی هوش مصنوعی",
+        "مدل‌های هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "3f57361220fd71e6",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "معمای ۳ تریلیون دلاری: آیا هوش مصنوعی سرمایه گذاری سوددهی است؟",
+      "title_en": "Can AI answer the $3 trillion question?",
+      "summary_fa": "بحث داغ پیرامون بازگشت سرمایه (ROI) هوش مصنوعی بار دیگر در کانون توجه قرار گرفته است. این بار، ارقام مالی درگیر به مراتب بزرگتر بوده و به طبع آن، پیامدهای احتمالی – چه اقتصادی و چه غیرآن – نیز ابعاد گسترده‌تری یافته‌اند. همین امر، پرسش از ارزش واقعی هوش مصنوعی را حیاتی‌تر از همیشه کرده است.",
+      "tags": [
+        "هوش مصنوعی",
+        "بازگشت سرمایه",
+        "اقتصاد هوش مصنوعی",
+        "سرمایه‌گذاری AI"
+      ]
+    },
+    {
+      "id": "a3538fdfdde0b289",
+      "date": "2026-07-10",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "کشف آنتروپیک: نگاهی بی‌سابقه به چگونگی تفکر مدل هوش مصنوعی Claude",
+      "title_en": "The Download: Claude’s inner workings and OpenAI’s “super app”",
+      "summary_fa": "شرکت هوش مصنوعی Anthropic به تازگی به وضوح بی‌سابقه‌ای از عملکرد درونی مدل‌های زبان بزرگ دست یافته است. آن‌ها توانسته‌اند «فضایی پنهان» را در مدل Claude شناسایی کنند که این هوش مصنوعی در آن به پردازش و درک مفاهیم می‌پردازد. این کشف، بهترین دیدگاه تاکنون را از فرآیندهای فکری درون LLM‌ها ارائه می‌دهد و راه را برای درک عمیق‌تر و بهبود این مدل‌ها هموار می‌کند.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "LLM",
+        "پژوهش هوش مصنوعی",
+        "معماری هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "4f92d76f801de6cd",
+      "date": "2026-07-10",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/",
+      "category": "فناوری پزشکی و اخلاق",
+      "title_fa": "اخلاق و باروری: درخواست محدودیت برای اهداکنندگان اسپرم در اروپا",
+      "title_en": "Sperm donors need limits, says a European fertility group",
+      "summary_fa": "یک گروه باروری اروپایی خواستار وضع محدودیت‌های جدید برای اهداکنندگان اسپرم شده است. این درخواست در پی مشکلات افراد متولدشده از اهدای اسپرم بی‌نام مطرح می‌شود، مانند مورد «تایس فان در میر» که پس از تخریب سوابق اهداکنندگان در پی ممنوعیت اهدای بی‌نام در هلند (۲۰۰۴)، از تعداد خواهر و برادران خود بی‌خبر مانده است. این موضوع چالش‌های اخلاقی و اجتماعی اهدای اسپرم بی‌نام و نیاز به تنظیم‌گری دقیق‌تر در این حوزه را برجسته می‌کند.",
+      "tags": [
+        "Sperm Donation",
+        "Fertility Ethics",
+        "Medical Regulation",
+        "Bioethics",
+        "Netherlands"
       ]
     }
   ]
