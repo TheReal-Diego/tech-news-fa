@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-11",
+    "last_updated": "2026-07-12",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 195
+    "total_articles": 197
   },
   "articles": [
     {
@@ -3310,6 +3310,40 @@
         "Medical Regulation",
         "Bioethics",
         "Netherlands"
+      ]
+    },
+    {
+      "id": "85a3fdb43c804c3b",
+      "date": "2026-05-21",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/adventhealth",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "AdventHealth: ارتقاء مراقبت جامع از بیمار با هوش مصنوعی OpenAI",
+      "title_en": "AdventHealth advances whole-person care with OpenAI",
+      "summary_fa": "AdventHealth، یکی از پیشگامان ارائه‌دهنده خدمات درمانی، با بهره‌گیری از ChatGPT for Healthcare، محصولی از OpenAI، در حال بهبود فرآیندهای کاری خود است. این ابتکار با هدف بهینه‌سازی جریان‌های کاری، کاهش بارهای اداری و اختصاص زمان بیشتر به مراقبت مستقیم از بیماران انجام می‌شود. این حرکت به سازمان امکان می‌دهد تا مراقبت جامع و انسان‌محور را پیش ببرد.",
+      "tags": [
+        "AdventHealth",
+        "OpenAI",
+        "ChatGPT",
+        "هوش مصنوعی",
+        "مراقبت سلامت"
+      ]
+    },
+    {
+      "id": "6e69191c30c6a409",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "متا با Muse Spark 1.1 وارد گود رقابت هوش مصنوعی در کدنویسی شد",
+      "title_en": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "summary_fa": "متا با معرفی محصول جدید خود، Muse Spark 1.1، رسماً به جمع شرکت‌های فعال در حوزه کدنویسی با هوش مصنوعی پیوست. این ابزار جدید با هدف ارائه راهکارهای خودکارسازی به سازمان‌ها طراحی شده است. از قابلیت‌های برجسته آن می‌توان به مدیریت پروژه‌های بزرگ، رفع اشکالات نرم‌افزاری و کمک به انتقال و مهاجرت کدهای وسیع اشاره کرد که نیاز روزافزون شرکت‌ها به هوش مصنوعی را برآورده می‌کند.",
+      "tags": [
+        "Meta",
+        "Muse Spark 1.1",
+        "AI Coding",
+        "هوش مصنوعی",
+        "اتوماسیون"
       ]
     }
   ]
