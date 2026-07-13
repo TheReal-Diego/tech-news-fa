@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-12",
+    "last_updated": "2026-07-13",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 197
+    "total_articles": 209
   },
   "articles": [
     {
@@ -3344,6 +3344,210 @@
         "AI Coding",
         "هوش مصنوعی",
         "اتوماسیون"
+      ]
+    },
+    {
+      "id": "4ce39150a4dcc4b8",
+      "date": "2026-05-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/virgin-atlantic",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ویرجین آتلانتیک: تسریع توسعه و تضمین کیفیت اپلیکیشن با هوش مصنوعی Codex",
+      "title_en": "How Virgin Atlantic ships faster with Codex",
+      "summary_fa": "شرکت هواپیمایی ویرجین آتلانتیک برای تحویل به‌موقع نسخه بازطراحی‌شده اپلیکیشن موبایل خود در مهلت فشرده تعطیلات، از ابزار هوش مصنوعی Codex استفاده کرد. این پلتفرم به آن‌ها کمک کرد تا به پوشش تقریباً کامل تست‌های واحد دست یابند و هیچ نقص بحرانی (P1 defect) در محصول نهایی نداشته باشند، که نتیجه آن توسعه‌ای سریع‌تر و با کیفیت بالا بود.",
+      "tags": [
+        "Virgin Atlantic",
+        "Codex",
+        "Mobile app",
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "52bd1afbd88b0592",
+      "date": "2026-05-20",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "category": "کاربرد هوش مصنوعی در آموزش",
+      "title_fa": "فاز جدید برنامه آموزشی OpenAI: گسترش هوش مصنوعی در مدارس جهانی",
+      "title_en": "The next phase of OpenAI’s Education for Countries",
+      "summary_fa": "OpenAI با پیشبرد برنامه «آموزش برای کشورها»، قصد دارد پذیرش هوش مصنوعی را در مدارس سراسر جهان گسترش دهد. این ابتکار شامل مشارکت‌های جدید، آموزش معلمان و ارائه ابزارهای نوین برای بهبود نتایج یادگیری در سطح بین‌المللی است.",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "آموزش",
+        "مدارس",
+        "آموزش معلمان"
+      ]
+    },
+    {
+      "id": "7f625f66633806e0",
+      "date": "2026-05-20",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "پیشرفت چشمگیر هوش مصنوعی: مدل OpenAI یک حدس کلیدی در هندسه گسسته را نقض کرد",
+      "title_en": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary_fa": "مدلی از هوش مصنوعی OpenAI موفق به حل «مسئله فاصله واحد» شد، یک مسئله ۸۰ ساله در ریاضیات. این دستاورد علمی، منجر به نقض یک حدس مهم و مرکزی در حوزه هندسه گسسته شده است. این موفقیت نقطه عطفی مهم در قابلیت‌های هوش مصنوعی برای حل مسائل پیچیده و پیشبرد مرزهای ریاضیات محسوب می‌شود.",
+      "tags": [
+        "OpenAI",
+        "هوش مصنوعی",
+        "ریاضیات",
+        "هندسه گسسته",
+        "پژوهش AI"
+      ]
+    },
+    {
+      "id": "cb920945cfca046c",
+      "date": "2026-05-20",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ramp",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Ramp: هوش مصنوعی Codex بازبینی کد را از ساعت‌ها به دقیقه رساند",
+      "title_en": "How Ramp engineers accelerate code review with Codex",
+      "summary_fa": "مهندسان شرکت Ramp با به‌کارگیری هوش مصنوعی Codex (بر پایه GPT-5.5) توانسته‌اند فرایند بازبینی کد را به طرز چشمگیری بهبود بخشند. این ابزار به آن‌ها امکان می‌دهد تا به‌جای ساعت‌ها انتظار، بازخوردهای تخصصی و عمیق را تنها در چند دقیقه دریافت کنند.",
+      "tags": [
+        "Ramp",
+        "Codex",
+        "GPT-5.5",
+        "بازبینی کد",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "e0640ad0320ce67f",
+      "date": "2026-05-19",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-openai-for-singapore",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "OpenAI در سنگاپور: رونمایی از همکاری بلندمدت هوش مصنوعی",
+      "title_en": "Introducing OpenAI for Singapore",
+      "summary_fa": "برنامه «OpenAI برای سنگاپور» یک همکاری چندساله در حوزه هوش مصنوعی را آغاز کرده است. هدف این مشارکت، گسترش بکارگیری هوش مصنوعی در سطح کشور، پرورش استعدادهای بومی در این زمینه و پشتیبانی از کسب‌وکارها و خدمات عمومی با استفاده از فناوری‌های هوش مصنوعی است.",
+      "tags": [
+        "OpenAI",
+        "Singapore",
+        "هوش مصنوعی",
+        "همکاری تکنولوژی",
+        "توسعه استعداد"
+      ]
+    },
+    {
+      "id": "4f1431164463c271",
+      "date": "2026-05-19",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advancing-content-provenance",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "شفافیت و اعتماد در هوش مصنوعی: گام‌های OpenAI برای شناسایی محتوای تولیدی AI",
+      "title_en": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "summary_fa": "OpenAI در راستای افزایش شفافیت و اعتماد در اکوسیستم هوش مصنوعی، اقداماتی را برای بهبود اعتبار و منبع محتوای تولید شده توسط AI آغاز کرده است. این شرکت با معرفی ابزارهایی نظیر Content Credentials و SynthID، و همچنین یک ابزار راستی‌آزمایی، به دنبال کمک به کاربران برای شناسایی و اطمینان از صحت رسانه‌های تولید شده با هوش مصنوعی است.",
+      "tags": [
+        "OpenAI",
+        "Content Credentials",
+        "SynthID",
+        "شفافیت هوش مصنوعی",
+        "محتوای تولیدی هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "e7fba57de10c4cc9",
+      "date": "2026-07-11",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "استراتژی خانواده‌محور OpenAI: ChatGPT به قلب خانوارها می‌رود",
+      "title_en": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "summary_fa": "بر اساس آگهی استخدام جدید، شرکت OpenAI قصد دارد یک مدیر محصول اختصاصی برای توسعه تجربه‌های کاربری ChatGPT ویژه خانواده‌ها استخدام کند. این اقدام نشان‌دهنده استراتژی جدید OpenAI برای نفوذ عمیق‌تر به خانوارها و ارائه خدمات به گروه‌هایی مانند مراقبان و سالمندان است. هدف این پروژه، طراحی قابلیت‌هایی است که ChatGPT را به ابزاری کاربردی برای زندگی روزمره خانوادگی تبدیل کند.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "هوش مصنوعی خانگی",
+        "استراتژی محصول",
+        "پذیرش هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "9ffafa51e70c0ef3",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "نیویورک تایمز: OpenAI در پرونده کپی‌رایت چت‌جی‌پی‌تی مدارک کلیدی را مخفی کرده است",
+      "title_en": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "summary_fa": "ناشران خبری، از جمله نیویورک تایمز، ادعا می‌کنند که OpenAI ابزارها و مجموعه‌داده‌هایی را پنهان کرده است که می‌توانستند محتوای روزنامه‌نگاری دارای حق نشر را در خروجی‌های ChatGPT شناسایی کنند. این اقدام به اتهام آن‌ها مبنی بر نقض کپی‌رایت توسط OpenAI شدت بخشیده و در پرونده قضایی خود، درخواست تحریم‌های جدیدی را علیه این شرکت مطرح کرده‌اند.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "New York Times",
+        "کپی‌رایت",
+        "پرونده قضایی"
+      ]
+    },
+    {
+      "id": "5de0e4ce09169490",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "شفافیت بیشتر گوگل: افشای محتوای تولیدی با هوش مصنوعی در تمامی تبلیغات الزامی شد",
+      "title_en": "Google will now disclose which ads are made with AI",
+      "summary_fa": "گوگل سیاستی جدید را برای افزایش شفافیت در تبلیغات خود اعلام کرده است. بر اساس این سیاست، از این پس تمامی تبلیغ‌کنندگان موظفند استفاده از محتوای تولیدی یا تغییریافته توسط هوش مصنوعی را در تبلیغات خود افشا کنند. این الزام که پیش‌تر تنها برای تبلیغات انتخاباتی اعمال می‌شد، اکنون به تمامی آگهی‌ها تسری یافته تا از گمراهی احتمالی کاربران جلوگیری شود.",
+      "tags": [
+        "Google",
+        "AI",
+        "تبلیغات",
+        "شفافیت",
+        "سیاست‌گذاری"
+      ]
+    },
+    {
+      "id": "319e1890fcfabc5a",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "استارتاپ هوش مصنوعی صوتی Gradium با حمایت Nvidia، ۱۰۰ میلیون دلار سرمایه اولیه جذب کرد",
+      "title_en": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+      "summary_fa": "شرکت Gradium، فعال در زمینه هوش مصنوعی صوتی و مستقر در پاریس، موفق به جذب ۱۰۰ میلیون دلار سرمایه اولیه با پشتیبانی شرکت انویدیا شد. این استارتاپ قصد دارد از این سرمایه برای افتتاح دفتری در منطقه خلیج (Bay Area) و رقابت برای جذب استعدادهای برتر استفاده کند. هدف Gradium از این اقدام، تقویت موقعیت خود در قلب اکوسیستم پیشرو هوش مصنوعی جهان است.",
+      "tags": [
+        "Gradium",
+        "Nvidia",
+        "سرمایه‌گذاری",
+        "استارتاپ",
+        "هوش مصنوعی صوتی"
+      ]
+    },
+    {
+      "id": "a36412eeb0d57859",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "ابهام در فرآیند تایید ایمنی مدل‌های هوش مصنوعی پیشرفته توسط دولت",
+      "title_en": "How did the government decide OpenAI’s frontier model was safe to release?",
+      "summary_fa": "بحث‌های گسترده‌ای پیرامون چگونگی ارزیابی و تایید ایمنی مدل‌های هوش مصنوعی پیشرفته توسط نهادهای دولتی در جریان است. با وجود اهمیت این مدل‌ها، جزئیات دقیق گفت‌وگوها و روندهای نظارتی میان دولت و شرکت‌های پیشرو مانند OpenAI و Anthropic برای اعطای مجوز انتشار مدل‌های مرزی آنها، همچنان در هاله‌ای از ابهام قرار دارد. این عدم شفافیت سوالاتی را درباره پروتکل‌های ایمنی و مسئولیت‌پذیری در این حوزه ایجاد کرده است.",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "مدل‌های مرزی هوش مصنوعی",
+        "نظارت دولتی",
+        "ایمنی هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "a94643fcf81efd22",
+      "date": "2026-07-09",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "category": "حریم خصوصی",
+      "title_fa": "اینستاگرام: چگونه مانع استفاده هوش مصنوعی متا از عکس‌هایتان شوید؟",
+      "title_en": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+      "summary_fa": "ابزار هوش مصنوعی Muse Image امکان تولید تصاویر جدید را با بهره‌گیری از عکس‌های موجود در حساب‌های عمومی اینستاگرام فراهم کرده است. این قابلیت به کاربران اجازه می‌دهد تا با تگ کردن یک پروفایل عمومی، تصاویر آن را به عنوان ورودی برای تولید محتوای هوش مصنوعی به کار گیرند. در نتیجه، هر تصویری که در حساب‌های عمومی اینستاگرام منتشر شود، می‌تواند توسط این ابزار برای ساخت تولیدات هوش مصنوعی مورد استفاده قرار گیرد.",
+      "tags": [
+        "Instagram",
+        "Meta",
+        "هوش مصنوعی",
+        "حریم خصوصی",
+        "Muse Image"
       ]
     }
   ]
