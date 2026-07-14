@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-13",
+    "last_updated": "2026-07-14",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 209
+    "total_articles": 223
   },
   "articles": [
     {
@@ -3548,6 +3548,244 @@
         "هوش مصنوعی",
         "حریم خصوصی",
         "Muse Image"
+      ]
+    },
+    {
+      "id": "2c539797fe263ec5",
+      "date": "2026-07-10",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/getting-started",
+      "category": "آموزش و کاربرد هوش مصنوعی",
+      "title_fa": "ChatGPT: راهنمای جامع شروع به کار و بهره‌برداری از هوش مصنوعی",
+      "title_en": "Getting started with ChatGPT",
+      "summary_fa": "این خبر یک راهنمای کاربردی برای شروع استفاده از ChatGPT ارائه می‌دهد. در آن، مراحل آغاز اولین مکالمه با این هوش مصنوعی را می‌آموزید و با روش‌های ساده‌ای برای نگارش، ایده‌پردازی و حل مسائل مختلف به کمک AI آشنا می‌شوید.",
+      "tags": [
+        "ChatGPT",
+        "AI",
+        "راهنمای کاربری",
+        "تولید محتوا",
+        "حل مسئله"
+      ]
+    },
+    {
+      "id": "210c7a7c78264981",
+      "date": "2026-05-18",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "همکاری OpenAI و Dell برای استقرار هوش مصنوعی کدنویس در محیط‌های سازمانی",
+      "title_en": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary_fa": "OpenAI و Dell با هدف ارائه عامل‌های کدنویس هوش مصنوعی به شرکت‌ها، همکاری جدیدی را آغاز کرده‌اند. این مشارکت امکان استقرار ابزار هوش مصنوعی Codex را در محیط‌های ترکیبی (Hybrid) و داخلی (On-premise) سازمان‌ها فراهم می‌کند. هدف اصلی، کمک به کسب‌وکارها برای استفاده امن و یکپارچه از عامل‌های کدنویس هوش مصنوعی در سراسر داده‌ها و فرآیندهای کاریشان است.",
+      "tags": [
+        "OpenAI",
+        "Dell",
+        "Codex",
+        "هوش مصنوعی",
+        "کاربرد سازمانی"
+      ]
+    },
+    {
+      "id": "f0106247dee486f0",
+      "date": "2026-05-16",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "همکاری اوپن‌ای‌آی و مالت: ChatGPT پلاس برای همه شهروندان در دسترس قرار می‌گیرد",
+      "title_en": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "summary_fa": "اوپن‌ای‌آی و دولت مالت برای گسترش دسترسی به هوش مصنوعی در این کشور با یکدیگر همکاری می‌کنند. بر اساس این تفاهم‌نامه، خدمات ChatGPT Plus و همچنین دوره‌های آموزشی مرتبط با هوش مصنوعی در اختیار تمامی شهروندان مالتی قرار خواهد گرفت. هدف این برنامه، کمک به شهروندان برای کسب مهارت‌های عملی در زمینه هوش مصنوعی و استفاده مسئولانه از این فناوری است.",
+      "tags": [
+        "OpenAI",
+        "Malta",
+        "ChatGPT Plus",
+        "هوش مصنوعی",
+        "دسترسی عمومی"
+      ]
+    },
+    {
+      "id": "c64312c3121cafd6",
+      "date": "2026-05-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/databricks",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Databricks: توانمندسازی عامل‌های هوشمند سازمانی با مدل GPT-5.5",
+      "title_en": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "summary_fa": "شرکت Databricks در حال ادغام مدل پیشرفته هوش مصنوعی GPT-5.5 در فرآیندهای اتوماسیون عامل‌های هوشمند سازمانی خود است. این اقدام پس از آن صورت می‌گیرد که GPT-5.5 در بنچمارک OfficeQA Pro به عملکردی بی‌سابقه و در حد «پیشرفته‌ترین سطح هنری» دست یافت که راه را برای کاربردهای جدید در اتوماسیون کسب‌وکار هموار می‌کند.",
+      "tags": [
+        "Databricks",
+        "GPT-5.5",
+        "Enterprise AI",
+        "AI Agents",
+        "Automation"
+      ]
+    },
+    {
+      "id": "248b5ff0699922b2",
+      "date": "2026-05-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ChatGPT Work: چگونه تیم‌های فروش را از آمادگی جلسات تا احیای معاملات متحول می‌کند",
+      "title_en": "How sales teams use ChatGPT Work",
+      "summary_fa": "ChatGPT Work به تیم‌های فروش امکان می‌دهد تا با بهره‌گیری از داده‌های واقعی، مجموعه‌ای از فعالیت‌های کلیدی را بهینه‌سازی کنند. این ابزار قادر است خلاصه‌های خط لوله فروش، بسته‌های آمادگی برای جلسات، و بررسی‌های دقیق پیش‌بینی‌ها را تولید کند. علاوه بر این، در تدوین برنامه‌های جامع مشتری و تحلیل و تشخیص دلایل توقف معاملات نیز کاربرد موثری دارد.",
+      "tags": [
+        "ChatGPT Work",
+        "هوش مصنوعی",
+        "فروش",
+        "بهره‌وری",
+        "کسب‌وکار"
+      ]
+    },
+    {
+      "id": "ada6c1425188ba30",
+      "date": "2026-05-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/personal-finance-chatgpt",
+      "category": "کاربرد هوش مصنوعی در امور مالی",
+      "title_fa": "ChatGPT در قامت دستیار مالی شخصی: نگاهی به قابلیت جدید برای کاربران پرو",
+      "title_en": "A new personal finance experience in ChatGPT",
+      "summary_fa": "قابلیت جدید مدیریت مالی شخصی برای کاربران پرو ChatGPT در آمریکا به زودی فعال می‌شود. این امکان به کاربران اجازه می‌دهد تا حساب‌های مالی خود را به صورت امن متصل کرده و از بینش‌ها و راهنمایی‌های مبتنی بر هوش مصنوعی که با توجه به وضعیت مالی، اهداف و اولویت‌هایشان شخصی‌سازی شده، بهره‌مند شوند.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "مالی شخصی",
+        "هوش مصنوعی",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "f1a3905ea961908f",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "تب هوش مصنوعی: چرا بزرگان تکنولوژی دوباره وارد گود می‌شوند؟",
+      "title_en": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "summary_fa": "غول‌های تکنولوژی و سرمایه‌گذارانی که پیش از این موفقیت‌های چشمگیری در دنیای فناوری کسب کرده‌اند، اکنون دوباره با شور و حرارت زیاد وارد صحنه شده‌اند. به نظر می‌رسد این تلاش مضاعف ناشی از ترس از دست دادن فرصت بی‌بدیل هوش مصنوعی و همچنین وسوسه کسب ثروت‌های نجومی بیشتر است. آن‌ها نمی‌خواهند از این موج جدید فناوری عقب بمانند و جایگاه خود را در آینده تکنولوژی تثبیت کنند.",
+      "tags": [
+        "AI",
+        "صنعت تکنولوژی",
+        "سرمایه گذاری",
+        "FOMO",
+        "غول‌های تکنولوژی"
+      ]
+    },
+    {
+      "id": "ec0c60c1ed967987",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "آینده اوبر از زبان مدیر محصول: تاکسی‌های خودران، هتل‌ها و هوش مصنوعی در مسیر کاربران",
+      "title_en": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+      "summary_fa": "ساچین کانسال، مدیر ارشد محصول اوبر، در گفت‌وگو با تک‌کرانچ، برنامه‌های شرکت در زمینه خدمات مالی و همچنین روابط پیچیده‌تر با ویمو را تشریح کرد. او به عملیات جدید داده‌ای AV Labs اشاره کرده و توضیح داد که چگونه هوش مصنوعی به روش‌هایی ملموس برای مسافران و رانندگان اوبر در حال نمود پیدا کردن است. این رویکرد نشان می‌دهد اوبر قصد ندارد «همه چیز برای همه کس» باشد و بر استراتژی محصولی متمرکز تأکید دارد.",
+      "tags": [
+        "Uber",
+        "AI",
+        "Robotaxis",
+        "Waymo",
+        "Product Strategy"
+      ]
+    },
+    {
+      "id": "a3fd26bed813e731",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "PixVerse، استارتاپ تولید ویدئو، با جذب ۴۳۹ میلیون دلار به باشگاه شرکت‌های ۲ میلیارد دلاری پیوست",
+      "title_en": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "summary_fa": "استارتاپ PixVerse با تکیه بر این سرمایه چشمگیر، قصد دارد پیشنهاد «مدل جهانی» خود را گسترش داده و دامنه دسترسی به مشتریان را در مناطق جغرافیایی مختلف افزایش دهد. این جذب سرمایه، ارزش شرکت را به بیش از ۲ میلیارد دلار رسانده است.",
+      "tags": [
+        "PixVerse",
+        "تولید ویدئو با هوش مصنوعی",
+        "سرمایه‌گذاری",
+        "استارتاپ",
+        "AI"
+      ]
+    },
+    {
+      "id": "49dbfe7fe12df344",
+      "date": "2026-07-13",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "Nous Research، خالق عامل Hermes، در آستانه جذب سرمایه جدید با ارزش‌گذاری ۱.۵ میلیارد دلاری",
+      "title_en": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "summary_fa": "شرکت Nous Research، سازنده عامل هوش مصنوعی Hermes، در حال مذاکره برای جذب دور جدید سرمایه است. این شرکت قصد دارد حداقل ۷۵ میلیون دلار سرمایه جذب کند که توسط Robot Ventures هدایت می‌شود. با مشارکت سرمایه‌گذاران برجسته‌ای چون USV، ارزش‌گذاری این شرکت به ۱.۵ میلیارد دلار خواهد رسید.",
+      "tags": [
+        "Nous Research",
+        "Hermes agent",
+        "سرمایه‌گذاری",
+        "هوش مصنوعی",
+        "Robot Ventures"
+      ]
+    },
+    {
+      "id": "2eaf2286673ab539",
+      "date": "2026-07-13",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "هشدار تکان‌دهنده ساتیا نادلا: شرکت‌ها مراقب اسب‌های تروای هوش مصنوعی باشند!",
+      "title_en": "Satya Nadella has issued a shocking warning to companies using AI",
+      "summary_fa": "ساتیا نادلا، مدیرعامل مایکروسافت، هشداری مهم درباره خطرات بالقوه استفاده از هوش مصنوعی صادر کرده است. او به نگرانی فزاینده‌ای در میان کارشناسان سیلیکون ولی اشاره می‌کند که شرکت‌های بزرگ سازنده مدل‌های هوش مصنوعی اختصاصی، ممکن است همچون «اسب تروآ» عمل کنند. این نگرانی بر این متمرکز است که استفاده از این مدل‌ها می‌تواند به وابستگی‌های ناخواسته یا خطرات پنهانی برای شرکت‌ها منجر شود.",
+      "tags": [
+        "Satya Nadella",
+        "Microsoft",
+        "AI Risks",
+        "Proprietary AI",
+        "Silicon Valley"
+      ]
+    },
+    {
+      "id": "795d17f139aa9349",
+      "date": "2026-07-13",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "اتهامات حیرت‌انگیز اپل علیه OpenAI: از شوخی کارکنان تا درخواست سخت‌افزار در مصاحبه",
+      "title_en": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "summary_fa": "شکایت اپل علیه OpenAI به اتهام نقض اسرار تجاری، شامل ادعاهای غیرمعمولی است. این اتهامات از شوخی کارکنان OpenAI در مورد دسترسی غیرمجاز به سیستم‌های اپل تا درخواست از نامزدهای شغلی برای آوردن سخت‌افزار اپل به مصاحبه‌ها را در بر می‌گیرد. این دعوای حقوقی جزئیات خیره‌کننده‌ای از مناقشه بین دو غول فناوری را آشکار می‌کند.",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "Lawsuit",
+        "Trade Secrets",
+        "AI Industry"
+      ]
+    },
+    {
+      "id": "942c07d3c6daf924",
+      "date": "2026-07-13",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "کشف جدید Anthropic در هوش مصنوعی: آنچه می‌گوید و آنچه نمی‌گوید",
+      "title_en": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "summary_fa": "شرکت Anthropic، از پیشروان حوزه هوش مصنوعی که به تحقیقات عمیق و گاه بحث‌برانگیز شهرت دارد، جدیدترین یافته خود را در این زمینه منتشر کرده است. این کشف تازه که به بررسی قابلیت‌ها و محدودیت‌های مدل‌های AI می‌پردازد، توجه بسیاری را به خود جلب کرده است. این گزارش به تحلیل دقیق این یافته و آنچه که در مورد هوش مصنوعی نشان می‌دهد یا نمی‌دهد، می‌پردازد.",
+      "tags": [
+        "Anthropic",
+        "AI research",
+        "هوش مصنوعی",
+        "مدل‌های زبانی بزرگ",
+        "اخلاق هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "4a314e3952d9941f",
+      "date": "2026-07-13",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
+      "category": "سیاست و تنظیم‌گری",
+      "title_fa": "نشریه The Download: از سقف اهدای اسپرم تا مدل‌های جهانی هوش مصنوعی",
+      "title_en": "The Download: a donor conception cap and world models for AI",
+      "summary_fa": "یک گروه فعال در حوزه باروری در اروپا خواستار وضع محدودیت‌هایی برای تعداد دفعات اهدای اسپرم شده است. این اقدام با هدف جلوگیری از تولد تعداد زیادی فرزند بیولوژیکی از یک اهداکننده و پیامدهای اخلاقی و اجتماعی آن صورت می‌گیرد. به عنوان نمونه، فردی ۴۷ ساله که خود از طریق اهدای اسپرم به دنیا آمده، از تعداد دقیق خواهر و برادرهای ناتنی خود بی‌خبر است و این موضوع چالش‌های هویتی و خانوادگی را برجسته می‌کند.",
+      "tags": [
+        "اهدای اسپرم",
+        "باروری",
+        "اخلاق پزشکی",
+        "تنظیم‌گری",
+        "World Models for AI"
       ]
     }
   ]
