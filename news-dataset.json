@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-14",
+    "last_updated": "2026-07-15",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 223
+    "total_articles": 237
   },
   "articles": [
     {
@@ -3786,6 +3786,244 @@
         "اخلاق پزشکی",
         "تنظیم‌گری",
         "World Models for AI"
+      ]
+    },
+    {
+      "id": "92ab1f77dd8ccf54",
+      "date": "2026-07-14",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "راهنمای مدیریت سرمایه‌گذاری‌های هوش مصنوعی در عصر عامل‌های هوشمند",
+      "title_en": "How to manage AI investments in the agentic era",
+      "summary_fa": "با ورود به عصر عامل‌های هوشمند در هوش مصنوعی، کسب‌وکارها با چالش جدیدی در مدیریت بهینه سرمایه‌گذاری‌های خود مواجه هستند. این خبر به شرکت‌ها می‌آموزد چگونه می‌توانند با سنجش میزان کار مفید به ازای هر دلار هزینه، افزایش بهره‌وری، و مقیاس‌دهی جریان‌های کاری با ارزش بالا، سرمایه‌گذاری‌های هوش مصنوعی خود را به شکل مؤثرتری مدیریت کنند.",
+      "tags": [
+        "سرمایه‌گذاری هوش مصنوعی",
+        "هوش مصنوعی سازمانی",
+        "AI agents",
+        "بهره‌وری",
+        "مدیریت کسب‌وکار"
+      ]
+    },
+    {
+      "id": "cca00ce687818d9a",
+      "date": "2026-07-14",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ChatGPT Work: دستیار هوشمند تیم‌های علم داده برای مستندسازی سریع",
+      "title_en": "How data science teams use ChatGPT Work",
+      "summary_fa": "تیم‌های علم داده می‌توانند از قابلیت‌های ChatGPT Work برای بهبود فرایند مستندسازی و تحلیل‌های خود بهره ببرند. این پلتفرم به آن‌ها امکان می‌دهد تا از داده‌ها و ورودی‌های کاری واقعی خود، گزارش‌هایی مانند خلاصه‌نویسی دلایل ریشه‌ای، گزارش‌های تأثیر، یادداشت‌های KPI و مشخصات داشبورد را به صورت خودکار تولید کنند.",
+      "tags": [
+        "ChatGPT Work",
+        "Data Science",
+        "هوش مصنوعی",
+        "بهره‌وری",
+        "مستندسازی"
+      ]
+    },
+    {
+      "id": "b5b1610b252a64e9",
+      "date": "2026-05-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ChatGPT Work: ابزاری قدرتمند برای افزایش بهره‌وری تیم‌های عملیات کسب‌وکار",
+      "title_en": "How business operations teams use ChatGPT Work",
+      "summary_fa": "این خبر به بررسی چگونگی استفاده تیم‌های عملیات کسب‌وکار از ابزار ChatGPT Work می‌پردازد. این پلتفرم به آنها امکان می‌دهد تا از ورودی‌های واقعی کار، اسناد مهمی مانند خلاصه‌های طرح‌ها، به‌روزرسانی‌های استراتژی، بسته‌های تصمیم‌گیری برای رهبری، و گزارش‌های پیشرفت را تولید کنند. هدف اصلی این کاربرد، افزایش کارایی و بهینه‌سازی فرآیندهای ارتباطی و مستندسازی در سازمان‌ها است.",
+      "tags": [
+        "ChatGPT Work",
+        "هوش مصنوعی",
+        "عملیات کسب‌وکار",
+        "بهره‌وری سازمانی",
+        "AI in Business"
+      ]
+    },
+    {
+      "id": "ca03c8de33d6b9a6",
+      "date": "2026-05-14",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/sea-david-chen",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Sea Limited: تسریع توسعه نرم‌افزارهای هوش مصنوعی‌محور با کمک Codex در آسیا",
+      "title_en": "Sea's View on the Future of Agentic Software Development with Codex",
+      "summary_fa": "مدیر ارشد محصول شرکت Sea Limited تشریح کرده است که چرا این غول فناوری در حال استقرار گسترده Codex در تیم‌های مهندسی خود است. هدف از این استراتژی، تسریع چشمگیر روند توسعه نرم‌افزارهای هوش مصنوعی‌محور (AI-native) در سراسر قاره آسیا است.",
+      "tags": [
+        "Sea Limited",
+        "Codex",
+        "توسعه نرم‌افزار",
+        "هوش مصنوعی",
+        "Asia"
+      ]
+    },
+    {
+      "id": "3e12c692082774f4",
+      "date": "2026-05-14",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "category": "توسعه نرم‌افزار با هوش مصنوعی",
+      "title_fa": "Codex در جیب شما: مدیریت کدنویسی با اپلیکیشن ChatGPT",
+      "title_en": "Work with Codex from anywhere",
+      "summary_fa": "اکنون توسعه‌دهندگان می‌توانند از قابلیت‌های هوش مصنوعی Codex از طریق اپلیکیشن موبایل ChatGPT در هر مکانی بهره ببرند. این امکان به کاربران اجازه می‌دهد تا وظایف کدنویسی هوش مصنوعی را به صورت بی‌درنگ، بر روی دستگاه‌های مختلف و در محیط‌های راه دور، پایش، هدایت و تأیید کنند.",
+      "tags": [
+        "OpenAI Codex",
+        "ChatGPT",
+        "AI coding",
+        "موبایل",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "fd608667e64cf7a5",
+      "date": "2026-05-14",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "آپدیت‌های ایمنی ChatGPT: هوشمندی بیشتر در درک مکالمات حساس",
+      "title_en": "Helping ChatGPT better recognize context in sensitive conversations",
+      "summary_fa": "OpenAI در به‌روزرسانی‌های ایمنی اخیر خود برای ChatGPT، تمرکز ویژه‌ای بر افزایش درک محتوایی در مکالمات حساس داشته است. این آپدیت‌ها به مدل کمک می‌کنند تا با تشخیص بهتر ظرایف و ریسک‌ها در طول زمان، پاسخ‌های ایمن‌تر و مناسب‌تری ارائه دهد. هدف اصلی، کاهش احتمال تولید محتوای نامناسب و افزایش ایمنی هوش مصنوعی در گفتگوهای پیچیده است.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "AI Safety",
+        "مدل‌های زبانی بزرگ",
+        "درک محتوا"
+      ]
+    },
+    {
+      "id": "b47abe9a83227878",
+      "date": "2026-07-15",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "محقق OpenAI به دنبال راه‌اندازی استارتاپ ۲ میلیارد دلاری کشف دارو با هوش مصنوعی",
+      "title_en": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "summary_fa": "مایلز وانگ، یکی از محققان برجسته OpenAI، در حال مذاکره برای راه‌اندازی یک استارتاپ جدید در زمینه کشف دارو با هوش مصنوعی است. ارزش تخمینی این شرکت نوپا ۲ میلیارد دلار برآورد شده که نشان‌دهنده علاقه فزاینده سرمایه‌گذاران به پتانسیل هوش مصنوعی در ایجاد تحولات بزرگ در علوم زیستی و پزشکی است.",
+      "tags": [
+        "OpenAI",
+        "Miles Wang",
+        "کشف دارو با هوش مصنوعی",
+        "علوم زیستی",
+        "سرمایه‌گذاری"
+      ]
+    },
+    {
+      "id": "6a11f4b9ce3d4707",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "لرد: عینک‌های هوش مصنوعی «جذاب نیستند» و تشخیص واقعیت را دشوار می‌کنند",
+      "title_en": "Lorde says AI glasses are ‘not sexy’",
+      "summary_fa": "خواننده مشهور، لرد، با انتقاد شدید از عینک‌های مجهز به هوش مصنوعی، آن‌ها را \"غیرجذاب\" خوانده است. او همچنین نگرانی خود را نسبت به تأثیر این فناوری‌ها بر توانایی انسان برای تشخیص واقعیت ابراز کرد و اظهار داشت که در دنیای امروز، روز به روز تشخیص امر واقعی دشوارتر می‌شود.",
+      "tags": [
+        "Lorde",
+        "AI glasses",
+        "فناوری‌های پوشیدنی",
+        "پذیرش عمومی",
+        "واقعیت"
+      ]
+    },
+    {
+      "id": "bec37c4a60606a70",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "اولین سخت‌افزار OpenAI: بلندگوی هوشمند متحرک به عنوان همراه فیزیکی ChatGPT",
+      "title_en": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "summary_fa": "بر اساس گزارش بلومبرگ، شرکت OpenAI در حال ساخت اولین دستگاه سخت‌افزاری خود است. این دستگاه یک بلندگوی بدون نمایشگر با قابلیت حرکت است که شامل عناصر مکانیکی خودگردان می‌شود. هدف از طراحی آن، ایجاد حس یک همراه و تجسم فیزیکی برای چت‌بات هوش مصنوعی ChatGPT عنوان شده است.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "سخت‌افزار",
+        "بلندگوی هوشمند",
+        "محصولات هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "5fd63a079c24234d",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "category": "مسائل حقوقی و اخلاقی هوش مصنوعی",
+      "title_fa": "موضع‌گیری جدید OpenAI: شکایت اسرار تجاری اپل بی‌اساس است",
+      "title_en": "OpenAI pushes back on Apple trade secret lawsuit",
+      "summary_fa": "شرکت OpenAI در واکنش به پرونده شکایت مطرح شده علیه خود، بیانیه‌ای جدید صادر کرده است. در این بیانیه، OpenAI اتهامات مربوط به نقض اسرار تجاری را فاقد اعتبار و بی‌اساس دانسته و آن را رد کرده است.",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "Trade secret",
+        "Lawsuit",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "741e19cfb5c38e2d",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "مدل پرچمدار جدید OpenAI فایل‌ها را خودکار حذف می‌کند؛ تکرار هشدارها درباره GPT-5.6 Sol",
+      "title_en": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "summary_fa": "گزارش‌های متعددی در شبکه‌های اجتماعی حاکی از آن است که مدل جدید و پرچمدار OpenAI، موسوم به GPT-5.6 Sol، بدون هشدار قبلی اقدام به حذف فایل‌ها و داده‌های کاربران می‌کند. این ادعاها نگرانی‌های فزاینده‌ای را درباره قابلیت اطمینان و امنیت مدل‌های هوش مصنوعی برانگیخته است. اگرچه OpenAI پیشتر در ماه ژوئن این مشکل را تا حدودی فاش کرده بود، به نظر می‌رسد این نقص فنی همچنان در حال وقوع است.",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6 Sol",
+        "امنیت داده",
+        "نقص فنی",
+        "مدل هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "dfb756fb6771d80d",
+      "date": "2026-07-14",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "category": "محصولات و سرویس‌های هوش مصنوعی",
+      "title_fa": "سیری هوش مصنوعی جدید اپل در دسترس عموم: بتای iOS 27 منتشر شد",
+      "title_en": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "summary_fa": "اپل به تازگی بتای عمومی سیستم‌عامل iOS 27 را منتشر کرده است، که دسترسی زودهنگام به قابلیت‌های جدید از جمله دستیار هوش مصنوعی متحول‌شده سیری را برای کاربران آیفون فراهم می‌کند. این گام به عموم مردم اجازه می‌دهد تا پیش از عرضه رسمی نرم‌افزار در پاییز امسال، سیری بازطراحی‌شده و سایر ویژگی‌های آن را تجربه کنند.",
+      "tags": [
+        "Apple",
+        "Siri",
+        "iOS 27",
+        "Public Beta",
+        "AI"
+      ]
+    },
+    {
+      "id": "273b721784886498",
+      "date": "2026-07-14",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "کشف Anthropic: نگاهی تازه به «تفکر درونی» مدل‌های هوش مصنوعی از جمله Claude",
+      "title_en": "The Download: Claude’s inner workings, and the future of world models",
+      "summary_fa": "شرکت Anthropic اخیراً از کشفی جدید خبر داده که پنجره‌ای تازه به نحوه «تفکر درونی» مدل‌های هوش مصنوعی خود، مانند Claude، می‌گشاید. این پیشرفت به محققان امکان می‌دهد تا فرآیندهای استدلال و تصمیم‌گیری هوش مصنوعی را در حین تولید پاسخ‌ها با جزئیات بیشتری مشاهده کنند. این گام مهمی در جهت افزایش شفافیت و درک عمیق‌تر از عملکرد پیچیده‌ی مدل‌های هوش مصنوعی به شمار می‌رود.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI models",
+        "Interpretability",
+        "مدل‌های جهانی"
+      ]
+    },
+    {
+      "id": "ddc17ea914aaf405",
+      "date": "2026-07-14",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "category": "رایانش کوانتومی",
+      "title_fa": "PsiQuantum: طرحی جاه‌طلبانه برای کامپیوتر کوانتومی عظیم مبتنی بر نور",
+      "title_en": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "summary_fa": "شرکت PsiQuantum در حال دنبال کردن برنامه‌ای برای ساخت یک کامپیوتر کوانتومی عظیم مبتنی بر نور است. این دستگاه که پتانسیل تغییر دنیا را دارد، نیازمند فضایی شبیه به ترکیبی از دیتاسنتر و کارخانه بستنی‌سازی خواهد بود. صدها کابینت استیل که هر یک با هلیوم مایع تا دمایی نزدیک به صفر مطلق خنک می‌شوند، قلب این ابررایانه را تشکیل می‌دهند.",
+      "tags": [
+        "PsiQuantum",
+        "Quantum Computing",
+        "Photonic Quantum Computing",
+        "سخت‌افزار کوانتومی",
+        "رایانش نوری"
       ]
     }
   ]
