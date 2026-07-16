@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 237
+    "total_articles": 244
   },
   "articles": [
     {
@@ -4024,6 +4024,125 @@
         "Photonic Quantum Computing",
         "سخت‌افزار کوانتومی",
         "رایانش نوری"
+      ]
+    },
+    {
+      "id": "1e97faa490facd0c",
+      "date": "2026-07-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "پیشنهاد اوپن‌ای‌آی برای تدوین قوانین ایمنی هوش مصنوعی: 'فدرالیسم معکوس' در آمریکا",
+      "title_en": "The US is advancing AI safety through state and federal action",
+      "summary_fa": "شرکت اوپن‌ای‌آی رویکردی با عنوان «فدرالیسم معکوس» را برای حکمرانی هوش مصنوعی مطرح کرده است. بر اساس این طرح، قوانین و مقررات ایالتی می‌توانند به تدریج مبنایی برای ایجاد یک چارچوب ملی جهت توسعه هوش مصنوعی ایمن و دموکراتیک در ایالات متحده فراهم آورند. هدف این ابتکار، پیشبرد ایمنی هوش مصنوعی از طریق هماهنگی اقدامات در سطوح ایالتی و فدرال است.",
+      "tags": [
+        "OpenAI",
+        "AI governance",
+        "AI safety",
+        "US",
+        "تنظیم‌گری هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "ee230258f27f8a0d",
+      "date": "2026-07-15",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "GPT-Red: راهکار خودکار OpenAI برای افزایش ایمنی و پایداری هوش مصنوعی",
+      "title_en": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "summary_fa": "GPT-Red، سیستم خودکار OpenAI برای انجام تست‌های امنیتی (red teaming) و ارتقای ایمنی هوش مصنوعی است. این ابزار با بهره‌گیری از قابلیت خودبازی (self-play)، به طور مداوم مقاومت مدل‌ها را در برابر آسیب‌پذیری‌هایی مانند تزریق پرامپت (prompt injection) افزایش می‌دهد. هدف نهایی آن، دستیابی به همسویی بیشتر و عملکردی پایدارتر در سیستم‌های هوش مصنوعی است.",
+      "tags": [
+        "OpenAI",
+        "GPT-Red",
+        "AI Safety",
+        "Prompt Injection",
+        "Red Teaming"
+      ]
+    },
+    {
+      "id": "5502a50a46d6e39e",
+      "date": "2026-05-13",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-codex-windows-sandbox",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "سندباکس امن: راهکار OpenAI برای فعال‌سازی Codex روی ویندوز",
+      "title_en": "Building a safe, effective sandbox to enable Codex on Windows",
+      "summary_fa": "اوپن‌ای‌آی (OpenAI) با توسعه‌ی یک جعبه شنی (sandbox) امن و کارآمد، امکان فعال‌سازی مدل هوش مصنوعی Codex را روی سیستم‌عامل ویندوز فراهم کرده است. این راهکار، دسترسی به فایل‌ها و محدودیت‌های شبکه را به صورت کنترل‌شده‌ای مدیریت می‌کند تا از اجرای ایمن و محافظت‌شده‌ی Codex اطمینان حاصل شود.",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Windows",
+        "Sandbox",
+        "ایمنی هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "49432bd70e0887aa",
+      "date": "2026-05-13",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "category": "امنیت سایبری",
+      "title_fa": "واکنش OpenAI به حمله زنجیره تامین TanStack: تشریح تدابیر امنیتی و هشدار به کاربران مک",
+      "title_en": "Our response to the TanStack npm supply chain attack",
+      "summary_fa": "OpenAI جزئیات پاسخ خود را به حمله زنجیره تامین «Mini Shai-Hulud» که از طریق بسته npm TanStack صورت گرفته بود، منتشر کرد. این شرکت تدابیر حفاظتی اتخاذ شده برای تامین امنیت سیستم‌ها و گواهی‌های امضا را تشریح کرده است. همچنین OpenAI توضیح داد که چرا کاربران سیستم‌عامل macOS باید برنامه‌های این شرکت را تا تاریخ ۱۲ ژوئن ۲۰۲۶ بروزرسانی کنند. این اقدامات در راستای تقویت دفاع در برابر تهدیدات رو به تکامل زنجیره تامین نرم‌افزار صورت می‌گیرد.",
+      "tags": [
+        "OpenAI",
+        "TanStack",
+        "Supply Chain Attack",
+        "Cybersecurity",
+        "macOS"
+      ]
+    },
+    {
+      "id": "7d12c750a4ea6f38",
+      "date": "2026-05-12",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "ChatGPT Work: ابزاری قدرتمند برای تحول عملیات مالی و حسابداری",
+      "title_en": "How finance teams use ChatGPT Work",
+      "summary_fa": "ChatGPT Work به تیم‌های مالی این امکان را می‌دهد که با استفاده از داده‌های واقعی، فرآیندهای پیچیده‌ای مانند تهیه گزارش‌های ماهانه کسب‌وکار (MBR)، بسته‌های گزارش‌گیری، تحلیل واریانس‌ها، بررسی مدل‌ها و سناریوهای برنامه‌ریزی را بهینه‌سازی کنند. این ابزار با خودکارسازی و هوشمندسازی این وظایف، کارایی و دقت را در عملیات مالی سازمان‌ها به طور چشمگیری افزایش می‌دهد و به تصمیم‌گیری‌های استراتژیک سرعت می‌بخشد.",
+      "tags": [
+        "ChatGPT Work",
+        "هوش مصنوعی",
+        "تیم‌های مالی",
+        "اتوماسیون مالی",
+        "گزارش‌دهی مالی"
+      ]
+    },
+    {
+      "id": "6498bc3d305077ce",
+      "date": "2026-05-12",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/nvidia",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "کدکس در انویدیا: ابزاری برای تسریع توسعه و پژوهش",
+      "title_en": "How NVIDIA engineers and researchers build with Codex",
+      "summary_fa": "تیم‌های انویدیا از ابزار کدکس در کنار GPT-5.5 استفاده می‌کنند. این ابزار به آن‌ها کمک می‌کند تا سیستم‌های عملیاتی را به بازار عرضه کرده و ایده‌های تحقیقاتی خود را به آزمایش‌های قابل اجرا تبدیل کنند.",
+      "tags": [
+        "NVIDIA",
+        "Codex",
+        "GPT-5.5",
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "eadd13f004af7ec3",
+      "date": "2026-07-15",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "PsiQuantum و برنامه‌ای برای ساخت یک کامپیوتر کوانتومی عظیم مبتنی بر نور",
+      "title_en": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "summary_fa": "در جدیدترین خبرنامه «The Download»، به طرح جاه‌طلبانه شرکت PsiQuantum برای تحول در محاسبات کوانتومی پرداخته شده است. این شرکت قصد دارد با استفاده از نور (فوتون‌ها)، یک کامپیوتر کوانتومی عظیم و مقیاس‌پذیر بسازد. این دستگاه قدرتمند که پتانسیل تغییر دنیا را دارد، قرار است در فضایی شبیه به یک مرکز داده نگهداری شود.",
+      "tags": [
+        "PsiQuantum",
+        "Quantum Computing",
+        "کامپیوتر کوانتومی",
+        "محاسبات نوری",
+        "سخت‌افزار کوانتومی"
       ]
     }
   ]
