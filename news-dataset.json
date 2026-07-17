@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-07-17",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 244
+    "total_articles": 256
   },
   "articles": [
     {
@@ -4143,6 +4143,209 @@
         "کامپیوتر کوانتومی",
         "محاسبات نوری",
         "سخت‌افزار کوانتومی"
+      ]
+    },
+    {
+      "id": "8fe39edff791751d",
+      "date": "2026-07-16",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "دسترسی ایمن نوجوانان به هوش مصنوعی: ضرورت و رویکردهای نوین",
+      "title_en": "Why teens deserve access to safe AI",
+      "summary_fa": "شرکت OpenAI با هدف ایمن‌سازی ChatGPT برای نوجوانان، رویکردهای جدیدی را در پیش گرفته است. این رویکردها شامل محافظت‌های متناسب با سن، ابزارهای آموزشی، کنترل‌های والدین و همکاری با متخصصان می‌شود تا محیطی امن و مفید برای کاربران جوان فراهم آورد.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "نوجوانان",
+        "ایمنی هوش مصنوعی",
+        "کنترل والدین"
+      ]
+    },
+    {
+      "id": "6f16a999c8ddd889",
+      "date": "2026-07-16",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/cars24",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Cars24: تحول در تعامل با مشتری و شتاب‌بخشی به فرآیندها با هوش مصنوعی OpenAI",
+      "title_en": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary_fa": "شرکت Cars24 با بهره‌گیری از عوامل صوتی و چت مبتنی بر هوش مصنوعی OpenAI، توانسته است بیش از یک میلیون دقیقه مکالمه ماهانه را مدیریت کند. این اقدام به بازیابی ۱۲ درصد از مشتریان بالقوه از دست رفته منجر شده و گردش‌های کاری هوشمند را در تمام بخش‌های شرکت پیاده‌سازی کرده است.",
+      "tags": [
+        "Cars24",
+        "OpenAI",
+        "هوش مصنوعی",
+        "خدمات مشتری",
+        "تحول دیجیتال"
+      ]
+    },
+    {
+      "id": "8a196e8c3ae2cd2b",
+      "date": "2026-05-12",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/autoscout24",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "AutoScout24: سرعت بخشیدن به توسعه و ارتقاء کیفیت مهندسی با هوش مصنوعی",
+      "title_en": "AutoScout24 scales engineering with AI-powered workflows",
+      "summary_fa": "گروه AutoScout24 با به‌کارگیری ابزارهای هوش مصنوعی مانند Codex و ChatGPT، فرآیندهای مهندسی خود را متحول کرده است. هدف از این اقدام، شتاب بخشیدن به چرخه‌های توسعه نرم‌افزار، ارتقاء کیفیت کدنویسی و گسترش پذیرش هوش مصنوعی در سراسر شرکت است. این رویکرد به آن‌ها کمک می‌کند تا مقیاس عملیات مهندسی خود را افزایش دهند.",
+      "tags": [
+        "AutoScout24",
+        "ChatGPT",
+        "Codex",
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار"
+      ]
+    },
+    {
+      "id": "ee5564e4d43f9040",
+      "date": "2026-05-11",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "category": "آموزش و ترویج هوش مصنوعی",
+      "title_fa": "فراخوان اوپن‌ای‌آی برای دانشجویان: پیوستن به شبکه جهانی باشگاه‌های هوش مصنوعی",
+      "title_en": "OpenAI Campus Network: Student club interest form",
+      "summary_fa": "اوپن‌ای‌آی از طرح «شبکه پردیس اوپن‌ای‌آی» رونمایی کرده است که هدف آن ایجاد ارتباط بین باشگاه‌های دانشجویی سراسر جهان است. این شبکه به دانشجویان امکان می‌دهد تا به ابزارهای هوش مصنوعی دسترسی پیدا کنند و رویدادهایی را با پشتیبانی اوپن‌ای‌آی برگزار کنند. هدف نهایی این ابتکار، تقویت و توسعه جامعه‌های هوش مصنوعی محور در محیط‌های دانشگاهی است.",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "Students",
+        "University",
+        "Community building"
+      ]
+    },
+    {
+      "id": "c590dbac4bda22ef",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "category": "تولید محتوای هوش مصنوعی",
+      "title_fa": "گوگل Vids شما را به ستاره ویدیوهای هوش مصنوعی شخصی‌تان تبدیل می‌کند",
+      "title_en": "Google Vids now lets you star in your own AI videos",
+      "summary_fa": "گوگل ویدز (Google Vids) قابلیت‌های جدید هوش مصنوعی را معرفی کرده است که به کاربران اجازه می‌دهد با آواتارهای شخصی‌سازی‌شده، خود را ستاره ویدیوهایشان کنند. این ابزارها که از قدرت Gemini Omni بهره می‌برند، امکان تولید و ویرایش ویدیو را از طریق دستورات متنی و تصاویر مرجع فراهم می‌کنند.",
+      "tags": [
+        "Google Vids",
+        "AI Avatars",
+        "Gemini Omni",
+        "تولید ویدیوی هوش مصنوعی",
+        "شخصی‌سازی"
+      ]
+    },
+    {
+      "id": "adccbcc7cd5ec36b",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "category": "کاربردهای هوش مصنوعی در سرگرمی و بازی",
+      "title_fa": "روبلاکس قابلیت ساخت بازی با هوش مصنوعی را به اپلیکیشن موبایل خود آورد",
+      "title_en": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "summary_fa": "شرکت روبلاکس به‌تازگی قابلیت جدید «Build» را در اپلیکیشن موبایل خود عرضه کرده است. این ویژگی به کاربران اجازه می‌دهد تنها با وارد کردن یک دستور متنی ساده (Text Prompt)، بازی‌های پایه و ابتدایی بسازند. هدف این ابزار، آسان‌سازی و دموکراتیزه کردن ساخت محتوا برای میلیون‌ها کاربر پلتفرم روبلاکس است.",
+      "tags": [
+        "Roblox",
+        "AI",
+        "ساخت بازی",
+        "Generative AI",
+        "اپلیکیشن موبایل"
+      ]
+    },
+    {
+      "id": "a15138565feb7197",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "category": "محصولات و قابلیت‌های هوش مصنوعی",
+      "title_fa": "هوش مصنوعی گوگل: تعامل مستقیم با اپلیکیشن‌ها برای انجام کارها",
+      "title_en": "Google’s AI Mode now lets you link and interact with select apps",
+      "summary_fa": "با به‌روزرسانی جدید، گوگل حالت هوش مصنوعی خود را از صرف پاسخ‌گویی به سوالات فراتر برده است. این قابلیت تازه به کاربران امکان می‌دهد تا از طریق هوش مصنوعی، کارهای روزمره خود را مستقیماً در اپلیکیشن‌های محبوبشان انجام دهند. این گام، هوش مصنوعی گوگل را به ابزاری عملی‌تر برای تکمیل وظایف در محیط اپلیکیشن‌ها تبدیل می‌کند و تجربه کاربری را بهبود می‌بخشد.",
+      "tags": [
+        "Google",
+        "AI Mode",
+        "هوش مصنوعی",
+        "اپلیکیشن",
+        "Productivity"
+      ]
+    },
+    {
+      "id": "e4aa83d83a757a27",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "توپ بسکتبال با برند ChatGPT: نخستین گام اوپن‌ای‌آی در بازار سخت‌افزار؟",
+      "title_en": "Why is OpenAI selling a ChatGPT basketball?",
+      "summary_fa": "اوپن‌ای‌آی اخیراً نخستین محصول سخت‌افزاری خود را عرضه کرده است. در میان خبرهای مرتبط با این اقدام، رونمایی از یک توپ بسکتبال با برند ChatGPT بسیاری را غافلگیر کرده است. این محصول غیرمنتظره نشان‌دهنده ورود احتمالی اوپن‌ای‌آی به حوزه سخت‌افزار یا تلاشی برای بازاریابی خلاقانه است.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "سخت‌افزار",
+        "محصول جدید"
+      ]
+    },
+    {
+      "id": "728270827619beac",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "ارزش‌گذاری سرسام‌آور ۳۰۰ میلیون دلاری برای استارتاپ هوش مصنوعی بصری یک محقق سابق دیپ‌مایند، پیش از عرضه محصول",
+      "title_en": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "summary_fa": "اندرو دای، محقق سابق دیپ‌مایند که بیش از یک دهه در توسعه سیستم‌های هوش مصنوعی تأثیرگذار (از جمله پژوهش‌های موثر بر ChatGPT) نقش داشته، پیش از عرضه محصول، موفق به جذب سرمایه اولیه ۳۰۰ میلیون دلاری برای استارتاپ خود شده است. او معتقد است هوش مصنوعی بصری مرز بزرگ بعدی در این حوزه خواهد بود. این سرمایه‌گذاری چشمگیر، اهمیت تجربه او و پتانسیل بالای ایده محوری‌اش را نشان می‌دهد.",
+      "tags": [
+        "DeepMind",
+        "Visual AI",
+        "استارتاپ هوش مصنوعی",
+        "سرمایه‌گذاری اولیه",
+        "Andrew Dai"
+      ]
+    },
+    {
+      "id": "72a6f4eb7a4460c3",
+      "date": "2026-07-16",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "آشنایی با GPT-Red: هکر هوش مصنوعی OpenAI برای افزایش ایمنی مدل‌ها",
+      "title_en": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+      "summary_fa": "شرکت OpenAI از یک مدل زبان بزرگ (LLM) جدید به نام GPT-Red رونمایی کرده است. این مدل به عنوان یک «هکر فوق‌العاده» طراحی شده و هدف آن شناسایی نقاط ضعف و آسیب‌پذیری‌ها در مدل‌های هوش مصنوعی دیگر این شرکت است. با استفاده از GPT-Red به عنوان یک شریک مبارزه، OpenAI قصد دارد ایمنی و استحکام سیستم‌های هوش مصنوعی خود را به طور قابل توجهی افزایش دهد.",
+      "tags": [
+        "OpenAI",
+        "GPT-Red",
+        "LLM",
+        "ایمنی هوش مصنوعی",
+        "هک هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "67564e95148d4af5",
+      "date": "2026-07-16",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
+      "category": "فناوری انرژی و بهره‌وری",
+      "title_fa": "پمپ‌های حرارتی: فناوری محبوب و کارآمدی که همچنان بازار آمریکا را تسخیر کرده است",
+      "title_en": "Why heat pumps are still so hot in the US",
+      "summary_fa": "با وجود گرمای شدید تابستان، پمپ‌های حرارتی کماکان در آمریکا مورد توجه ویژه‌ای قرار دارند. این دستگاه‌ها که برای گرمایش و سرمایش از برق استفاده می‌کنند، به دلیل کارایی فوق‌العاده بالا و بهره‌وری انرژی، محبوبیت روزافزونی کسب کرده‌اند. افزایش تقاضا برای پمپ‌های حرارتی نشان‌دهنده‌ی روند رو به رشد استفاده از راهکارهای گرمایشی و سرمایشی کارآمد و برقی در ایالات متحده است.",
+      "tags": [
+        "Heat pump",
+        "انرژی کارآمد",
+        "ایالات متحده",
+        "گرمایش و سرمایش",
+        "فناوری سبز"
+      ]
+    },
+    {
+      "id": "10c6f2bd0dfe7f18",
+      "date": "2026-07-15",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "معرفی GPT-Red: هکر هوش مصنوعی OpenAI برای ارتقای امنیت مدل‌ها",
+      "title_en": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "summary_fa": "شرکت OpenAI از یک مدل زبان بزرگ (LLM) به نام GPT-Red رونمایی کرده که نقش یک «هکر فوق‌العاده» را ایفا می‌کند. این مدل با هدف آزمایش و تقویت دفاع سایبری سایر مدل‌های OpenAI، از جمله آخرین نسخه GPT-5.6، طراحی شده است. به گفته OpenAI، آموزش و مقابله با GPT-Red باعث شده تا GPT-5.6 به مقاوم‌ترین و امن‌ترین مدل عرضه‌شده توسط این شرکت تبدیل شود و آسیب‌پذیری‌های احتمالی آن پیش از انتشار شناسایی و برطرف شوند.",
+      "tags": [
+        "OpenAI",
+        "GPT-Red",
+        "LLM",
+        "AI Safety",
+        "Cybersecurity"
       ]
     }
   ]
