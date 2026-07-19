@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-18",
+    "last_updated": "2026-07-19",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 271
+    "total_articles": 283
   },
   "articles": [
     {
@@ -4600,6 +4600,209 @@
         "امنیت سایبری",
         "خرابکاری داده",
         "زیرساخت‌های حیاتی"
+      ]
+    },
+    {
+      "id": "288ea344bbe070b9",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "category": "امنیت سایبری",
+      "title_fa": "اوپن‌ای‌آی: GPT-5.5 و GPT-5.5-Cyber در خدمت امنیت سایبری و دفاع از زیرساخت‌ها",
+      "title_en": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "summary_fa": "شرکت اوپن‌ای‌آی در راستای تقویت امنیت سایبری، برنامه «دسترسی قابل اعتماد سایبری» خود را گسترش داده است. این برنامه با بهره‌گیری از مدل‌های جدید هوش مصنوعی GPT-5.5 و GPT-5.5-Cyber، به مدافعان و متخصصان امنیت سایبری کمک می‌کند. هدف از این اقدام، تسریع در پژوهش‌های آسیب‌پذیری و حفاظت از زیرساخت‌های حیاتی در برابر تهدیدات سایبری است.",
+      "tags": [
+        "OpenAI",
+        "GPT-5.5",
+        "Cybersecurity",
+        "امنیت سایبری",
+        "زیرساخت‌های حیاتی"
+      ]
+    },
+    {
+      "id": "e41b9b9c2133078d",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/parloa",
+      "category": "کاربرد هوش مصنوعی در خدمات مشتری",
+      "title_fa": "Parloa: توسعه دستیاران هوش مصنوعی مکالمه‌ای برای جلب رضایت مشتریان",
+      "title_en": "Parloa builds service agents customers want to talk to",
+      "summary_fa": "شرکت Parloa با بهره‌گیری از مدل‌های پیشرفته OpenAI، دستیاران هوش مصنوعی صوتی را برای خدمات مشتریان توسعه می‌دهد. این پلتفرم به شرکت‌ها امکان می‌دهد تا تعاملات مقیاس‌پذیر، لحظه‌ای و کاملاً قابل اعتماد را با مشتریان خود طراحی، شبیه‌سازی و پیاده‌سازی کنند. هدف Parloa ارتقاء تجربه کاربری و افزایش رضایت مشتری از طریق مکالمات هوشمند و طبیعی است.",
+      "tags": [
+        "Parloa",
+        "OpenAI",
+        "خدمات مشتری",
+        "هوش مصنوعی مکالمه‌ای",
+        "دستیار صوتی AI"
+      ]
+    },
+    {
+      "id": "4ba89a634a8ba847",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "OpenAI مدل‌های صوتی بلادرنگ جدیدی با قابلیت استدلال و ترجمه به API خود اضافه کرد",
+      "title_en": "Advancing voice intelligence with new models in the API",
+      "summary_fa": "شرکت OpenAI مجموعه‌ای از مدل‌های صوتی بلادرنگ جدید را به API خود معرفی کرده است. این مدل‌ها توانایی استدلال، ترجمه و رونویسی گفتار را دارند و تجربه تعاملات صوتی را طبیعی‌تر و هوشمندانه‌تر می‌کنند.",
+      "tags": [
+        "OpenAI",
+        "API",
+        "هوش صوتی",
+        "Speech Recognition",
+        "Speech Translation"
+      ]
+    },
+    {
+      "id": "de2ca3d7578dd51c",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "OpenAI آزمایش تبلیغات در ChatGPT را آغاز کرد",
+      "title_en": "Testing ads in ChatGPT",
+      "summary_fa": "OpenAI آزمایش تبلیغات را در ChatGPT آغاز کرده است. هدف از این اقدام، حمایت از دسترسی رایگان به این چت‌بات هوش مصنوعی است. این شرکت بر برچسب‌گذاری شفاف تبلیغات، استقلال پاسخ‌ها از محتوای تبلیغاتی، حفاظت قوی از حریم خصوصی و کنترل کاربر تاکید دارد.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "تبلیغات",
+        "مدل کسب و کار"
+      ]
+    },
+    {
+      "id": "fe948365c4d6a69e",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "ChatGPT با قابلیت 'تماس مورد اعتماد' از کاربران در برابر خودآزاری محافظت می‌کند",
+      "title_en": "Introducing Trusted Contact in ChatGPT",
+      "summary_fa": "اوپن‌ای‌آی (OpenAI) قابلیت جدید و اختیاری «تماس مورد اعتماد» (Trusted Contact) را به ChatGPT اضافه کرده است. این ویژگی امنیتی در صورت تشخیص علائم جدی خودآزاری توسط هوش مصنوعی در مکالمات کاربر، فرد مورد اعتمادی را که قبلاً توسط کاربر تعیین شده است، باخبر می‌کند. هدف از این اقدام، افزایش ایمنی کاربران و ارائه یک لایه حمایتی جدید در مواقع بحرانی است.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "AI Safety",
+        "Trusted Contact",
+        "سلامت روان"
+      ]
+    },
+    {
+      "id": "eed85cf61ed43c59",
+      "date": "2026-05-07",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/simplex",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "سیمپلکس: تحول در توسعه نرم‌افزار با هوش مصنوعی Codex و ChatGPT Enterprise",
+      "title_en": "Simplex rethinks software development with Codex",
+      "summary_fa": "شرکت Simplex برای تسریع و بهبود فرآیندهای توسعه نرم‌افزار خود، به سراغ ابزارهای پیشرفته هوش مصنوعی رفته است. این شرکت با بهره‌گیری از ChatGPT Enterprise و Codex، توانسته زمان مورد نیاز برای طراحی، ساخت و تست نرم‌افزار را به شکل قابل توجهی کاهش دهد. هدف نهایی Simplex، مقیاس‌دهی به جریان‌های کاری مبتنی بر هوش مصنوعی و ایجاد تحول در رویکرد توسعه نرم‌افزار است.",
+      "tags": [
+        "Simplex",
+        "Codex",
+        "ChatGPT Enterprise",
+        "توسعه نرم‌افزار",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "80ddfeeeb7a4a3e9",
+      "date": "2026-07-18",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "Kimi، هوش مصنوعی جدید چین، و نگرانی‌ها از «کمونیسم کامل هوش مصنوعی»",
+      "title_en": "Kimi: Threat or menace?",
+      "summary_fa": "شرکت چینی Moonshot AI این هفته نسخه‌ی جدیدی از مدل هوش مصنوعی خود به نام Kimi را منتشر کرد. انتشار این مدل بلافاصله موجی از نگرانی‌ها را در مورد پدیده‌ای که «کمونیسم کامل هوش مصنوعی» نامیده می‌شود، برانگیخته است.",
+      "tags": [
+        "Kimi",
+        "Moonshot AI",
+        "China AI",
+        "AI communism",
+        "مدل هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "a9707de9bbe1591b",
+      "date": "2026-07-17",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "category": "مسائل حقوقی و رقابت",
+      "title_fa": "شکایت اپل از OpenAI: برنامه‌های عرضه اولیه سهام در معرض خطر",
+      "title_en": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+      "summary_fa": "شرکت اپل جمعه گذشته از OpenAI به دلیل سرقت اسرار تجاری شکایت کرد. این شکایت اتهاماتی جدی از جمله سوءرفتار و استخدام بیش از ۴۰۰ کارمند سابق اپل توسط OpenAI را مطرح می‌کند. واکنش OpenAI تاکنون محتاطانه بوده و زمان این شکایت با توجه به برنامه‌های احتمالی این شرکت برای عرضه اولیه سهام (IPO) بسیار نامناسب ارزیابی می‌شود که می‌تواند برنامه‌های مالی آن را مختل کند.",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "IPO",
+        "اسرار تجاری",
+        "دعوای حقوقی"
+      ]
+    },
+    {
+      "id": "dd84412d94a8e748",
+      "date": "2026-07-17",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "پاترئون به جای درخواست، ربات‌های هوش مصنوعی جمع‌آوری‌کننده محتوا را مسدود می‌کند",
+      "title_en": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+      "summary_fa": "پاترئون در اقدامی جدید برای محافظت از محتوای سازندگان، دفاعیات خود را در برابر جمع‌آوری داده توسط هوش مصنوعی تقویت کرده است. این شرکت با همکاری Cloudflare، شروع به مسدودسازی ربات‌هایی کرده است که بدون اجازه، از محتوای هنرمندان برای آموزش مدل‌های هوش مصنوعی استفاده می‌کنند. این رویکرد، تغییری اساسی از اتکا به فایل robots.txt به سمت مسدودسازی فعال آموزش‌های غیرمجاز هوش مصنوعی محسوب می‌شود.",
+      "tags": [
+        "Patreon",
+        "Cloudflare",
+        "AI scraping",
+        "حقوق محتوا",
+        "robots.txt"
+      ]
+    },
+    {
+      "id": "5aa23fd14c114456",
+      "date": "2026-07-17",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "شکایت اپل از OpenAI به اتهام سرقت اسرار تجاری: چالش جدید در مسیر عرضه اولیه سهام",
+      "title_en": "Apple’s lawsuit couldn’t come at a worse time for OpenAI",
+      "summary_fa": "شرکت اپل اخیراً شکایتی رسمی علیه OpenAI ثبت کرده است که در آن اتهام سرقت اسرار تجاری و سوءرفتار را مطرح می‌کند. این دعوی قضایی به جذب بیش از ۴۰۰ کارمند سابق اپل توسط OpenAI اشاره دارد و بر نقش مدیر ارشد سخت‌افزار این شرکت نیز تأکید دارد. این شکایت در بدترین زمان ممکن برای OpenAI رخ داده است، زیرا این شرکت در حال برنامه‌ریزی برای عرضه اولیه سهام خود (IPO) است و با پاسخی محتاطانه به این اتهامات واکنش نشان داده است.",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "دعوی قضایی",
+        "اسرار تجاری",
+        "IPO"
+      ]
+    },
+    {
+      "id": "2861dc09b67c80d8",
+      "date": "2026-07-17",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "موج جدید سرمایه‌گذاری در هوش مصنوعی: گرایش سرمایه‌گذاران GPU به تراشه‌های استنتاجی در معامله‌ای ۴۰۰ میلیون دلاری",
+      "title_en": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+      "summary_fa": "یک وام ۴۰۰ میلیون دلاری با پشتوانه تراشه، نشان‌دهنده موج جدیدی از معاملات در زیرساخت هوش مصنوعی است. این معامله حاکی از آن است که سرمایه‌گذارانی که پیشتر بر تراشه‌های GPU برای آموزش مدل‌های هوش مصنوعی تمرکز داشتند، اکنون به سمت تراشه‌های استنتاجی متمایل شده‌اند.",
+      "tags": [
+        "تراشه‌های استنتاجی",
+        "GPU",
+        "سرمایه‌گذاری",
+        "زیرساخت هوش مصنوعی",
+        "سخت‌افزار هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "8e1ba79a18969c30",
+      "date": "2026-07-16",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "category": "کاربرد هوش مصنوعی",
+      "title_fa": "DoorDash برای عوامل هوش مصنوعی: سفارش مستقیم از خط فرمان با ابزار dd-cli",
+      "title_en": "Yes, you can now order DoorDash from the command line",
+      "summary_fa": "DoorDash به تازگی نسخه‌ی آزمایشی محدودی از ابزار dd-cli را عرضه کرده است. این ابزار خط فرمان به توسعه‌دهندگان و عوامل هوش مصنوعی این امکان را می‌دهد که فروشگاه‌ها را جستجو کنند، سبد خرید بسازند و سفارش‌های خود را مستقیماً از ترمینال ثبت کنند. این اقدام گامی مهم در جهت توسعه‌ی نرم‌افزارهایی است که نه فقط برای انسان‌ها، بلکه برای عوامل هوش مصنوعی نیز طراحی شده‌اند و افق‌های جدیدی را در تعامل AI با سرویس‌های روزمره می‌گشاید.",
+      "tags": [
+        "DoorDash",
+        "dd-cli",
+        "AI agents",
+        "خط فرمان",
+        "توسعه‌دهندگان"
       ]
     }
   ]
