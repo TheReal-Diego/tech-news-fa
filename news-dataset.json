@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-19",
+    "last_updated": "2026-07-20",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 283
+    "total_articles": 293
   },
   "articles": [
     {
@@ -4803,6 +4803,176 @@
         "AI agents",
         "خط فرمان",
         "توسعه‌دهندگان"
+      ]
+    },
+    {
+      "id": "9195cc0cde7d7074",
+      "date": "2026-05-06",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "category": "حریم خصوصی",
+      "title_fa": "چت‌جی‌پی‌تی چگونه با رعایت حریم خصوصی کاربران، دانش خود را گسترش می‌دهد؟",
+      "title_en": "How ChatGPT learns about the world while protecting privacy",
+      "summary_fa": "این خبر به بررسی رویکرد چت‌جی‌پی‌تی در تضمین حریم خصوصی کاربران می‌پردازد. توضیح می‌دهد که چگونه این مدل هوش مصنوعی با کاهش استفاده از داده‌های شخصی در فرایند آموزش و اعطای کنترل به کاربران برای مشارکت مکالماتشان، به یادگیری خود ادامه می‌دهد.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "حریم خصوصی",
+        "حفاظت داده",
+        "آموزش هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "8665a96e70ff0510",
+      "date": "2026-05-06",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/uber",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "اوبر و OpenAI: هوش مصنوعی برای درآمد بیشتر رانندگان و رزرو سریع‌تر مسافران",
+      "title_en": "Uber uses OpenAI to help people earn smarter and book faster",
+      "summary_fa": "اوبر با بهره‌گیری از فناوری‌های OpenAI، دستیارهای هوش مصنوعی و قابلیت‌های صوتی جدیدی را به پلتفرم خود آورده است. این ابزارها به رانندگان کمک می‌کنند تا درآمد هوشمندانه‌تری کسب کنند و به مسافران امکان می‌دهند تا سرویس‌های مورد نظر خود را در این بازار جهانی لحظه‌ای، سریع‌تر رزرو کنند. هدف نهایی، بهینه‌سازی تجربه کاربری و افزایش کارایی در سراسر اکوسیستم اوبر است.",
+      "tags": [
+        "Uber",
+        "OpenAI",
+        "AI",
+        "اشتراک‌گذاری سفر",
+        "کاربرد هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "94a93b54a777d726",
+      "date": "2026-05-06",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/singular-bank",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "بانک سینگولار با هوش مصنوعی، بهره‌وری بانکداران را تا ۹۰ دقیقه در روز افزایش می‌دهد",
+      "title_en": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "summary_fa": "بانک سینگولار یک دستیار داخلی مبتنی بر هوش مصنوعی به نام «سینگولاریتی» (Singularity) توسعه داده است. این دستیار با استفاده از مدل‌های ChatGPT و Codex، به بانکداران کمک می‌کند تا در فعالیت‌های روزانه خود، مانند آماده‌سازی جلسات، تحلیل پرتفوی و پیگیری امور، بین ۶۰ تا ۹۰ دقیقه در زمانشان صرفه‌جویی کنند. هدف این ابزار، افزایش چشمگیر بهره‌وری و کارایی عملیات بانکی است.",
+      "tags": [
+        "Singular Bank",
+        "ChatGPT",
+        "Codex",
+        "هوش مصنوعی در بانکداری",
+        "بهره‌وری سازمانی"
+      ]
+    },
+    {
+      "id": "bdecd9008a33c651",
+      "date": "2026-05-06",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "category": "کاربردها و تأثیرات هوش مصنوعی",
+      "title_fa": "معرفی 'آینده‌سازان ChatGPT'؛ کلاس ۲۰۲۶ و تحول‌آفرینی با هوش مصنوعی",
+      "title_en": "Introducing ChatGPT Futures: Class of 2026",
+      "summary_fa": "OpenAI برنامه «آینده‌سازان ChatGPT» (ChatGPT Futures) را برای سال ۲۰۲۶ معرفی کرده است. در این برنامه، ۲۶ دانشجوی نوآور از هوش مصنوعی برای ساخت، تحقیق و ایجاد تأثیرات واقعی در جهان استفاده می‌کنند. این نسل جدید با کمک ChatGPT در حال بازتعریف مفاهیمی چون یادگیری، خلاقیت و فرصت‌ها در عرصه‌های مختلف هستند.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "هوش مصنوعی",
+        "دانشجو",
+        "نوآوری"
+      ]
+    },
+    {
+      "id": "94f58b450581f2c9",
+      "date": "2026-05-06",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-b2b-signals",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "پیشتازی شرکت‌های پیشرو با هوش مصنوعی: یافته‌های تحقیق OpenAI",
+      "title_en": "How frontier firms are pulling ahead",
+      "summary_fa": "تحقیقات جدید دپارتمان B2B Signals شرکت OpenAI نشان می‌دهد که چگونه شرکت‌های پیشرو در صنعت (Frontier Enterprises) با عمیق‌تر کردن پذیرش هوش مصنوعی، در حال کسب برتری هستند. این شرکت‌ها با مقیاس‌دهی به جریان‌های کاری مبتنی بر هوش مصنوعی با قابلیت عاملیت (مانند مدل Codex)، فرآیندهای خود را بهینه می‌کنند. در نتیجه، آن‌ها نه تنها کارایی عملیاتی خود را افزایش می‌دهند، بلکه مزیت رقابتی پایداری برای خود ایجاد می‌کنند که آن‌ها را در بازار از سایرین متمایز می‌سازد.",
+      "tags": [
+        "OpenAI",
+        "پذیرش هوش مصنوعی",
+        "مزیت رقابتی",
+        "هوش مصنوعی سازمانی",
+        "Codex"
+      ]
+    },
+    {
+      "id": "a654fb66813e953f",
+      "date": "2026-05-05",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/mrc-supercomputer-networking",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "OpenAI پروتکل جدید MRC را برای ابررایانه‌های هوش مصنوعی معرفی کرد: افزایش پایداری و عملکرد در مقیاس وسیع",
+      "title_en": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "summary_fa": "شرکت OpenAI پروتکل جدید شبکه با نام MRC (Multipath Reliable Connection) را رونمایی کرده است. این پروتکل که از طریق OCP (Open Compute Project) منتشر شده، برای افزایش پایداری و بهبود عملکرد در خوشه‌های عظیم آموزش هوش مصنوعی و ابررایانه‌ها طراحی شده است. MRC نویدبخش کارایی بالاتر در زیرساخت‌های محاسباتی پیشرفته برای توسعه هوش مصنوعی است.",
+      "tags": [
+        "OpenAI",
+        "MRC",
+        "AI training",
+        "Supercomputer",
+        "پروتکل شبکه"
+      ]
+    },
+    {
+      "id": "18b4e5bf120fe99f",
+      "date": "2026-07-19",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "پس از سفر جنسن هوانگ به ژاپن: قراردادهای کلان و چشم‌انداز آینده همکاری‌ها",
+      "title_en": "What to watch for after Jensen Huang’s Japan visit",
+      "summary_fa": "جنسن هوانگ، مدیرعامل NVIDIA، پس از پایان سفر خود به توکیو، ژاپن را با مجموعه‌ای از قراردادهای استراتژیک ترک کرد. این توافقات گسترده، بخش‌های مختلف اکوسیستم فناوری ژاپن را پوشش می‌دهد و نشانه‌ای از تقویت همکاری‌ها بین NVIDIA و شرکت‌های ژاپنی است. تحلیلگران منتظرند تا پیامدهای بلندمدت این بازدید و قراردادهای منعقد شده را ارزیابی کنند.",
+      "tags": [
+        "Jensen Huang",
+        "NVIDIA",
+        "Japan",
+        "AI",
+        "Tech deals"
+      ]
+    },
+    {
+      "id": "94f3c8d716243267",
+      "date": "2026-07-19",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "دعوای اپل: آیا جاه‌طلبی‌های سخت‌افزاری و عرضه عمومی OpenAI را به خطر می‌اندازد؟",
+      "title_en": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "summary_fa": "در تازه‌ترین قسمت پادکست Equity، تحلیلگران درباره تأثیر دعوای حقوقی اخیر اپل بر آینده OpenAI به بحث و تبادل نظر پرداخته‌اند. محور اصلی این گفتگو، این است که آیا این پرونده قضایی می‌تواند بر برنامه‌های بلندپروازانه OpenAI برای ورود به بازار سخت‌افزار و عرضه عمومی سهام آن سایه افکند. این موضوع چالش بزرگی را پیش روی جاه‌طلبی‌های این شرکت قرار می‌دهد.",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "Lawsuit",
+        "Hardware",
+        "IPO"
+      ]
+    },
+    {
+      "id": "66f92f75ad32b91d",
+      "date": "2026-07-19",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "کریستوفر نولان هوش مصنوعی را «اسب تروای آشکار» می‌خواند",
+      "title_en": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "summary_fa": "کریستوفر نولان، کارگردان صاحب‌نام هالیوود، با تشبیه هوش مصنوعی به «اسب تروا»، نگرانی عمیق خود را از خطرات پنهان آن ابراز کرده است. به گفته او، درست مانند داستان اسب تروا که همگان از حضور یونانی‌ها در درون آن باخبر بودند، جامعه نیز از ریسک‌ها و پیامدهای بالقوه هوش مصنوعی آگاهی دارد، حتی اگر در ظاهر جذاب به نظر برسد.",
+      "tags": [
+        "Christopher Nolan",
+        "AI",
+        "اسب تروا",
+        "خطرات هوش مصنوعی",
+        "اخلاق هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "c4619a8d04328df7",
+      "date": "2026-07-19",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "category": "دسترسی و فراگیری هوش مصنوعی",
+      "title_fa": "Current AI: رؤیای ساخت «وب جهانی هوش مصنوعی» رایگان و فراگیر برای تمام فرهنگ‌ها",
+      "title_en": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "summary_fa": "سازمان غیرانتفاعی Current AI با چشم‌انداز ایجاد هوش مصنوعی که هیچ فرهنگی را نادیده نگیرد، در حال رقابت برای ساخت یک «وب جهانی هوش مصنوعی» است. هدف این پروژه بلندپروازانه ارائه دسترسی رایگان و فراگیر به فناوری‌های هوش مصنوعی برای همگان است. این سازمان در مسیر خود، پیشرفت‌های چشمگیری در پلتفرم‌های مختلف، از جمله چت‌های هوش مصنوعی و سازگاری با دستگاه‌ها، به دست آورده است.",
+      "tags": [
+        "Current AI",
+        "AI Platforms",
+        "Accessible AI",
+        "Non-profit",
+        "Cultural Inclusivity"
       ]
     }
   ]
