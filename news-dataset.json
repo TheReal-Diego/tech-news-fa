@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-20",
+    "last_updated": "2026-07-21",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 293
+    "total_articles": 308
   },
   "articles": [
     {
@@ -4973,6 +4973,261 @@
         "Accessible AI",
         "Non-profit",
         "Cultural Inclusivity"
+      ]
+    },
+    {
+      "id": "d4ff9ec891b78868",
+      "date": "2026-07-20",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی: درس‌هایی از ایمنی و همسوسازی مدل‌های هوش مصنوعی طولانی‌مدت",
+      "title_en": "Safety and alignment in an era of long-horizon models",
+      "summary_fa": "شرکت OpenAI تجربیات و درس‌های آموخته خود را از استقرار مدل‌های هوش مصنوعی با عملکرد طولانی‌مدت منتشر کرده است. این گزارش به بررسی ریسک‌های ایمنی جدید و خطاهای مشاهده‌شده در این مدل‌ها می‌پردازد. همچنین، OpenAI چگونگی بهبود تدابیر حفاظتی و ایمنی را از طریق رویکرد استقرار تکرارشونده تشریح می‌کند تا از همسویی بهتر مدل‌ها با اهداف انسانی اطمینان حاصل شود.",
+      "tags": [
+        "OpenAI",
+        "AI Safety",
+        "AI Alignment",
+        "مدل‌های هوش مصنوعی",
+        "استقرار هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "e9800213f3cd4b8c",
+      "date": "2026-05-05",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-5-instant",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "GPT-5.5 Instant: چت‌جی‌پی‌تی هوشمندتر و شخصی‌تر می‌شود",
+      "title_en": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "summary_fa": "مدل پیش‌فرض ChatGPT با به‌روزرسانی جدید GPT-5.5 Instant ارتقا یافته است. این نسخه جدید پاسخ‌های هوشمندانه‌تر و دقیق‌تری ارائه می‌دهد و به طور قابل توجهی خطاهای ناشی از «توهم» (hallucination) را کاهش می‌دهد. علاوه بر این، کاربران کنترل‌های شخصی‌سازی بهبودیافته‌ای را تجربه خواهند کرد.",
+      "tags": [
+        "GPT-5.5 Instant",
+        "ChatGPT",
+        "OpenAI",
+        "هوش مصنوعی",
+        "مدل زبان بزرگ"
+      ]
+    },
+    {
+      "id": "76cbe027f6a80fda",
+      "date": "2026-05-05",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "GPT-5.5 Instant در راه است: اوپن‌ای‌آی «کارت سیستم» مدل جدید خود را منتشر کرد",
+      "title_en": "GPT-5.5 Instant System Card",
+      "summary_fa": "اوپن‌ای‌آی «کارت سیستم» (System Card) مربوط به مدل جدید خود، GPT-5.5 Instant، را منتشر کرد. این سند شامل جزئیات جامعی درباره قابلیت‌ها، محدودیت‌ها، و اقدامات ایمنی مدل است. انتشار این کارت، معمولاً پیش‌زمینه‌ای برای عرضه عمومی یک مدل جدید هوش مصنوعی محسوب می‌شود و بر تعهد اوپن‌ای‌آی به توسعه مسئولانه تاکید دارد.",
+      "tags": [
+        "OpenAI",
+        "GPT-5.5",
+        "System Card",
+        "AI Safety",
+        "مدل‌های زبانی بزرگ"
+      ]
+    },
+    {
+      "id": "c885d324429eab0f",
+      "date": "2026-05-05",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "category": "کسب‌وکار و هوش مصنوعی",
+      "title_fa": "گسترش تبلیغات در ChatGPT: ابزار مدیریت سلف‌سرویس OpenAI معرفی شد",
+      "title_en": "New ways to buy ChatGPT ads",
+      "summary_fa": "OpenAI با راه‌اندازی نسخه بتای ابزار 'Ads Manager' خود به نام 'سلف‌سرویس'، امکانات تبلیغاتی ChatGPT را گسترش داده است. این سیستم جدید شامل مدل قیمت‌گذاری هزینه به ازای کلیک (CPC) و ابزارهای اندازه‌گیری پیشرفته است. OpenAI تاکید کرده که این ابزار با هدف حفظ حریم خصوصی کاربران و جدا نگه داشتن مکالمات از محتوای تبلیغاتی طراحی شده است.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Ads Manager",
+        "تبلیغات",
+        "حریم خصوصی"
+      ]
+    },
+    {
+      "id": "cc69235e023ba5a2",
+      "date": "2026-05-05",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advancing-youth-safety-in-emea",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "OpenAI: برنامه‌های جدید برای ایمنی و سلامت جوانان در اروپا، خاورمیانه و آفریقا",
+      "title_en": "Advancing youth safety and wellbeing in EMEA",
+      "summary_fa": "شرکت OpenAI از برنامه‌های جدیدی برای افزایش ایمنی و رفاه جوانان در منطقه اروپا، خاورمیانه و آفریقا (EMEA) پرده‌برداری کرده است. این برنامه‌ها شامل \"نقشه راه ایمنی جوانان اروپا\" (European Youth Safety Blueprint) و کمک‌هزینه‌هایی با عنوان \"کمک‌هزینه‌های جوانان و رفاه EMEA\" (EMEA Youth & Wellbeing Grants) می‌شود. هدف اصلی این اقدامات، پیشبرد هوش مصنوعی ایمن و مسئولانه برای نوجوانان، خانواده‌ها و مربیان است.",
+      "tags": [
+        "OpenAI",
+        "AI Safety",
+        "جوانان",
+        "Responsible AI",
+        "EMEA"
+      ]
+    },
+    {
+      "id": "9807ae0752f785d8",
+      "date": "2026-05-04",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "OpenAI و PwC: بازآفرینی دفتر مدیر مالی با هوش مصنوعی در شرکت‌ها",
+      "title_en": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "summary_fa": "شرکت‌های OpenAI و PwC با هدف تحول در بخش امور مالی، همکاری جدیدی را آغاز کرده‌اند. این مشارکت بر کمک به شرکت‌ها برای به‌کارگیری عامل‌های هوش مصنوعی (AI Agents) متمرکز است. با استفاده از این فناوری، فرایندهای مالی خودکار شده، پیش‌بینی‌ها دقیق‌تر می‌شوند و کنترل‌های داخلی نیز تقویت خواهند شد که در نهایت به نوسازی کامل عملکرد مدیران مالی (CFO) منجر می‌شود.",
+      "tags": [
+        "OpenAI",
+        "PwC",
+        "هوش مصنوعی",
+        "امور مالی",
+        "CFO"
+      ]
+    },
+    {
+      "id": "758b6cd17183575f",
+      "date": "2026-07-21",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "تایید توافق ۱.۵ میلیارد دلاری Anthropic در پرونده کپی‌رایت",
+      "title_en": "Anthropic’s landmark $1.5B copyright settlement is approved",
+      "summary_fa": "توافق ۱.۵ میلیارد دلاری شرکت Anthropic در پرونده نقض حق کپی‌رایت به تایید نهایی رسید. این مصالحه به یکی از دعاوی حقوقی مهم در این زمینه خاتمه می‌دهد، اما موضوع گسترده‌تر استفاده از آثار دارای حق تکثیر برای آموزش مدل‌های هوش مصنوعی را حل نمی‌کند و بحث‌ها پیرامون آن همچنان ادامه دارد.",
+      "tags": [
+        "Anthropic",
+        "کپی‌رایت",
+        "هوش مصنوعی",
+        "حقوق مالکیت فکری",
+        "AI copyright settlement"
+      ]
+    },
+    {
+      "id": "764b04b08ab9c3b6",
+      "date": "2026-07-20",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "استعفای زودهنگام مسئول هوش مصنوعی منصوب ترامپ",
+      "title_en": "Trump’s latest AI czar has already resigned",
+      "summary_fa": "نقش مدیر در مرکز استانداردها و نوآوری هوش مصنوعی (CAISI) به محلی برای رفت‌وآمد مداوم مدیران تبدیل شده است. این وضعیت پس از کناره‌گیری دیوید ساکس از سمت مسئول ارشد هوش مصنوعی آغاز شد و اکنون جدیدترین مسئول منصوب‌شده توسط دولت ترامپ نیز به سرعت استعفا داده است. این استعفا نشان‌دهنده چالش‌ها در ثبات رهبری این مرکز کلیدی در حوزه هوش مصنوعی است.",
+      "tags": [
+        "Trump",
+        "CAISI",
+        "سیاست‌گذاری هوش مصنوعی",
+        "دولت آمریکا",
+        "استعفا"
+      ]
+    },
+    {
+      "id": "a76ea83eb26d1f86",
+      "date": "2026-07-20",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "تراشه هوش مصنوعی جدید گوگل: کلید افزایش کارایی مدل‌های Gemini",
+      "title_en": "Google is working on a new AI chip designed to make Gemini more efficient",
+      "summary_fa": "بر اساس گزارش‌ها، آلفابت، شرکت مادر گوگل، در حال توسعه یک تراشه هوش مصنوعی جدید است. این سخت‌افزار اختصاصی با هدف بهینه‌سازی و افزایش چشمگیر کارایی مدل‌های هوش مصنوعی Gemini طراحی شده تا پردازش‌ها سریع‌تر و با مصرف انرژی کمتری صورت گیرد.",
+      "tags": [
+        "Google",
+        "AI chip",
+        "Gemini",
+        "Alphabet",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "72b5d5f105cbfc14",
+      "date": "2026-07-20",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "پروتکل کلیدی هوش مصنوعی: گامی به سوی سادگی بیشتر",
+      "title_en": "AI’s most important protocol is getting a little bit easier to use",
+      "summary_fa": "بر اساس سیستم جدید، پروتکل حیاتی هوش مصنوعی با اتخاذ رویکردی \"بدون حالت\" (stateless) نسبت به شناسه‌های جلسه در سمت سرور، کاربری خود را آسان‌تر خواهد کرد. این روش مشابه عملکرد اغلب وب‌سایت‌های معمولی است و فرایند تعامل با پروتکل را برای توسعه‌دهندگان و سیستم‌ها ساده‌تر می‌سازد.",
+      "tags": [
+        "هوش مصنوعی",
+        "پروتکل",
+        "stateless",
+        "توسعه هوش مصنوعی",
+        "زیرساخت هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "dc09e7342f944690",
+      "date": "2026-07-20",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "category": "اپلیکیشن‌ها و پلتفرم‌های دیجیتال",
+      "title_fa": "X اپلیکیشن اندروید خود را پس از یک سال بازطراحی کامل، دوباره عرضه کرد",
+      "title_en": "X relaunches a rebuilt Android app after year-long effort",
+      "summary_fa": "شرکت X اعلام کرد که نسخه بازسازی‌شده اپلیکیشن اندروید آن، که حاصل یک سال تلاش فشرده برای بازطراحی بوده، اکنون به صورت جهانی در دسترس قرار گرفته است. این به‌روزرسانی مهم تجربه کاربری را بهبود می‌بخشد.",
+      "tags": [
+        "X",
+        "Android",
+        "Mobile App",
+        "بازطراحی اپلیکیشن",
+        "به‌روزرسانی نرم‌افزار"
+      ]
+    },
+    {
+      "id": "84b84aa15243194a",
+      "date": "2026-07-20",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "چرا اوپن‌ای‌آی از مدل‌های هوش مصنوعی وزن‌باز می‌ترسد؟ چالش آمریکا در برابر رقبای چینی",
+      "title_en": "OpenAI is scared of open-weight models. Should the US be?",
+      "summary_fa": "اوپن‌ای‌آی نگران رشد فزاینده مدل‌های وزن‌باز هوش مصنوعی است. بحث‌ها درباره ممنوعیت احتمالی مدل‌های زبان بزرگ وزن‌باز ساخت چین، چالش‌های اساسی پیش روی تجاری‌سازی هوش مصنوعی و تبدیل آن به یک کسب‌وکار سودآور را آشکار می‌کند.",
+      "tags": [
+        "OpenAI",
+        "مدل‌های وزن‌باز",
+        "LLM",
+        "چین",
+        "رقابت هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "587acd4645a5a763",
+      "date": "2026-07-20",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "مدل‌های هوش مصنوعی چین، تیم مشاوران ترامپ را دچار تفرقه کرده است",
+      "title_en": "China’s AI models have Trump’s AI world at war with itself",
+      "summary_fa": "گزارش‌ها حاکی از بروز اختلافات جدی در میان مشاوران فعلی و سابق دونالد ترامپ در حوزه هوش مصنوعی است. این افراد به طور علنی به تبادل اتهام پرداخته و شرکت‌های پیشرو هوش مصنوعی آمریکا را مورد انتقاد قرار داده‌اند. این تنش‌ها که گفته می‌شود تحت تأثیر پیشرفت مدل‌های هوش مصنوعی چین قرار گرفته، نشان‌دهنده چالش‌های عمیق در سیاست‌گذاری هوش مصنوعی در دولت سابق آمریکاست.",
+      "tags": [
+        "Donald Trump",
+        "AI policy",
+        "China AI",
+        "US",
+        "David Sacks"
+      ]
+    },
+    {
+      "id": "61447b1b92cb179a",
+      "date": "2026-07-20",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "هشدار: هوش مصنوعی در فرآیند استخدام بیشتر از انسان‌ها مستعد سوگیری است",
+      "title_en": "The Download: AI hiring biases, and weather data sabotage",
+      "summary_fa": "بر اساس گزارش‌های جدید، سامانه‌های هوش مصنوعی که وظیفه بررسی رزومه‌های شغلی را بر عهده دارند، نسبت به انسان‌ها تمایل بیشتری به شکل‌گیری سوگیری و تبعیض در فرآیند استخدام از خود نشان می‌دهند. این امر می‌تواند چالش‌های جدی برای عدالت شغلی و فرصت‌های برابر کارجویان ایجاد کند.",
+      "tags": [
+        "هوش مصنوعی",
+        "استخدام",
+        "سوگیری",
+        "تبعیض",
+        "HR"
+      ]
+    },
+    {
+      "id": "64de9441356d6fb1",
+      "date": "2026-07-20",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "category": "ایمنی و خطرات هوش مصنوعی",
+      "title_fa": "تحقیق جدید: سوگیری هوش مصنوعی در استخدام، فراتر از تعصبات انسانی",
+      "title_en": "AI is more likely than humans to form biases when hiring",
+      "summary_fa": "هوش مصنوعی این روزها به ابزاری رایج برای بررسی رزومه‌های شغلی تبدیل شده است، اما تحقیقات جدید سوالاتی جدی درباره عدالت این فرآیند مطرح می‌کند. پژوهش‌ها نشان می‌دهد که مدل‌های زبان بزرگ (LLMs) نه تنها تعصبات انسانی را از داده‌های آموزشی خود جذب می‌کنند، بلکه قابلیت ایجاد سوگیری‌های جدیدی را نیز دارند. این یافته‌ها بر ضرورت بررسی دقیق‌تر و توسعه مسئولانه هوش مصنوعی در فرآیندهای حساس مانند استخدام تأکید می‌کند.",
+      "tags": [
+        "هوش مصنوعی",
+        "سوگیری AI",
+        "استخدام",
+        "LLM",
+        "Bias"
       ]
     }
   ]
