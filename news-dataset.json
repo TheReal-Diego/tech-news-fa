@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-21",
+    "last_updated": "2026-07-22",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 308
+    "total_articles": 319
   },
   "articles": [
     {
@@ -5228,6 +5228,193 @@
         "استخدام",
         "LLM",
         "Bias"
+      ]
+    },
+    {
+      "id": "40359dbf5a246645",
+      "date": "2026-07-21",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "category": "حکمرانی و رهبری هوش مصنوعی",
+      "title_fa": "دو چهره سرشناس به هیئت مدیره OpenAI پیوستند: تقویت با تخصص مالی و فناوری",
+      "title_en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "summary_fa": "دیوید ولز، موسس و مدیرعامل Nubank، و رابین وینس، مدیرعامل BNY Mellon، به هیئت مدیره OpenAI Foundation و OpenAI Group PBC پیوستند. این اقدام با هدف تقویت ساختار رهبری و راهبری OpenAI صورت گرفته است. با پیوستن این دو چهره، OpenAI از تخصص گسترده آن‌ها در حوزه‌های مالی جهانی، فناوری و حکمرانی بهره‌مند خواهد شد.",
+      "tags": [
+        "OpenAI",
+        "David Vélez",
+        "Robin Vince",
+        "هیئت مدیره",
+        "حکمرانی هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "d6581b92c87ef014",
+      "date": "2026-05-04",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "هوش مصنوعی صوتی OpenAI: معماری جدید برای پاسخگویی بی‌درنگ در مقیاس جهانی",
+      "title_en": "How OpenAI delivers low-latency voice AI at scale",
+      "summary_fa": "OpenAI برای ارائه هوش مصنوعی صوتی در زمان واقعی و با تأخیر بسیار کم، معماری زیرساخت WebRTC خود را از نو طراحی کرده است. این بازسازی مهندسی پیشرفته، امکان مقیاس‌پذیری جهانی و قابلیت مکالمه روان و بی‌درنگ را برای کاربران فراهم می‌آورد.",
+      "tags": [
+        "OpenAI",
+        "Voice AI",
+        "WebRTC",
+        "تأخیر کم",
+        "مقیاس‌پذیری"
+      ]
+    },
+    {
+      "id": "92f8ee26a85afd65",
+      "date": "2026-04-30",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advanced-account-security",
+      "category": "امنیت سایبری",
+      "title_fa": "معرفی امنیت پیشرفته حساب کاربری: سد محکم در برابر فیشینگ و سرقت اطلاعات",
+      "title_en": "Introducing Advanced Account Security",
+      "summary_fa": "یک سیستم امنیتی حساب کاربری پیشرفته معرفی شده که با هدف محافظت جامع از اطلاعات حساس کاربران طراحی شده است. این سیستم قابلیت‌هایی مانند ورود مقاوم در برابر حملات فیشینگ، گزینه‌های بازیابی قوی‌تر حساب کاربری و لایه‌های محافظتی بهبود یافته را ارائه می‌دهد. هدف نهایی، پیشگیری از سرقت حساب‌ها و تضمین امنیت داده‌های کاربران است.",
+      "tags": [
+        "امنیت حساب کاربری",
+        "فیشینگ",
+        "امنیت سایبری",
+        "Data Protection",
+        "Account Takeover"
+      ]
+    },
+    {
+      "id": "6ce07af346a49ef2",
+      "date": "2026-04-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/where-the-goblins-came-from",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "راز رفتارهای غیرمنتظره در مدل‌های هوش مصنوعی: 'گابلین‌ها' از کجا می‌آیند؟",
+      "title_en": "Where the goblins came from",
+      "summary_fa": "بررسی‌ها نشان می‌دهد چگونه خروجی‌های غیرمنتظره و گاه عجیب که به «گابلین» معروف شده‌اند، در مدل‌های هوش مصنوعی منتشر می‌شوند. این مطالعه به ریشه‌یابی و خط زمانی شیوع این رفتارهای شخصیتی عجیب در مدل GPT-5 می‌پردازد. محققان به دنبال کشف علل اصلی و ارائه راه‌حل‌هایی برای اصلاح این ناهنجاری‌ها هستند.",
+      "tags": [
+        "GPT-5",
+        "AI behavior",
+        "Model quirks",
+        "AI Safety",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "fedcdccad6a61158",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "شایعه داغ خرید 'Physical Intelligence' توسط 'Anthropic'؛ تب و تاب در توییتر هوش مصنوعی",
+      "title_en": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "summary_fa": "شایعات اخیر در مورد خرید احتمالی شرکت Physical Intelligence توسط Anthropic، فضای توییتر هوش مصنوعی را به شدت تحت تاثیر قرار داده است. این گمانه‌زنی‌ها در پی گزارش‌هایی منتشر شده‌اند که نشان می‌دهند شرکت‌های Anthropic و OpenAI هر دو در سال ۲۰۲۶ برنامه‌های گسترده‌ای برای تملک شرکت‌های دیگر در پیش دارند و همین امر به داغ شدن بازار شایعات کمک کرده است.",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "Physical Intelligence",
+        "Acquisition",
+        "صنعت هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "a74966828836169f",
+      "date": "2026-07-21",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+      "category": "کاربرد هوش مصنوعی در محصولات مصرفی",
+      "title_fa": "متا اپلیکیشن داستان‌گوی شبانه با هوش مصنوعی را برای 'برون‌سپاری تخیل' آزمایش می‌کند",
+      "title_en": "Meta is testing an AI bedtime story app for people with no imagination",
+      "summary_fa": "شرکت متا در حال آزمایش اپلیکیشنی مبتنی بر هوش مصنوعی است که قادر به تولید داستان‌های شبانه برای کاربران خواهد بود. این محصول به ویژه برای کسانی طراحی شده که علاقه‌ای به استفاده از تخیل خود برای قصه‌گویی ندارند. این گام از سوی یک شرکت بزرگ تکنولوژی، راهی برای برون‌سپاری یکی از قدیمی‌ترین و انسانی‌ترین سرگرمی‌ها، یعنی استفاده از قدرت تخیل، به هوش مصنوعی به شمار می‌رود.",
+      "tags": [
+        "Meta",
+        "AI",
+        "Bedtime stories",
+        "Mobile app",
+        "تخیل"
+      ]
+    },
+    {
+      "id": "7fe22c4a2154262e",
+      "date": "2026-07-21",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "رقابت جک دورسی با اسلک: معرفی پلتفرم چت تیمی Buzz با ادغام عامل‌های هوش مصنوعی",
+      "title_en": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+      "summary_fa": "جک دورسی، هم‌بنیان‌گذار توییتر و بلاک، پلتفرم چت گروهی جدیدی به نام Buzz را معرفی کرده است که هدف آن رقابت مستقیم با اسلک (Slack) است. ویژگی متمایز Buzz در قابلیت ادغام انسان‌ها با عامل‌های هوش مصنوعی آن‌ها در یک محیط گفتگوی مشترک برای تیم‌های کاری نهفته است. این پلتفرم سعی دارد تعاملات تیمی را با بهره‌گیری از هوش مصنوعی کارآمدتر و یکپارچه‌تر کند.",
+      "tags": [
+        "Jack Dorsey",
+        "Buzz",
+        "Slack",
+        "AI agents",
+        "ارتباطات سازمانی"
+      ]
+    },
+    {
+      "id": "16d2a505a31f6df8",
+      "date": "2026-07-21",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
+      "category": "کاربرد هوش مصنوعی در صنعت سرگرمی",
+      "title_fa": "هوش مصنوعی: محرک ظهور اپلیکیشن‌های سرگرمی همه‌کاره",
+      "title_en": "AI and the rise of the universal entertainment app",
+      "summary_fa": "در طول دهه گذشته، پلتفرم‌های استریمینگ برای تسلط بر فرمت‌های مشخصی چون موسیقی، ویدئو، پادکست و کتاب صوتی رقابت می‌کردند. اما اکنون، با پیشرفت هوش مصنوعی در تولید، سازماندهی و پیشنهاد محتوا، مرزهای این فرمت‌ها در حال کمرنگ شدن است. این تحول، شرکت‌هایی نظیر Spotify، Netflix، YouTube و TikTok را وادار می‌کند تا به مقصدهای سرگرمی جامع و همه‌کاره تبدیل شوند.",
+      "tags": [
+        "AI",
+        "Entertainment",
+        "Streaming Platforms",
+        "Spotify",
+        "Netflix"
+      ]
+    },
+    {
+      "id": "46f6c2801f0dd1aa",
+      "date": "2026-07-21",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
+      "category": "زیرساخت فناوری و انرژی",
+      "title_fa": "انفجار مصرف برق مراکز داده: نیاز به چهار برابر انرژی بیشتر تا سال ۲۰۳۵",
+      "title_en": "Data centers expected to use 4x more electricity by 2035",
+      "summary_fa": "بر اساس پیش‌بینی‌های جدید، مصرف برق مراکز داده تا سال ۲۰۳۵ به چهار برابر میزان کنونی خواهد رسید. این رشد چشمگیر به حدی است که مراکز داده‌ای که تنها تا سال ۲۰۳۳ ساخته می‌شوند، قادرند معادل کل مصرف برق فعلی کشور هند، انرژی مصرف کنند. این آمار نشان‌دهنده چالش‌های عمده‌ای در تامین انرژی و زیرساخت‌های الکتریکی در آینده است.",
+      "tags": [
+        "مراکز داده",
+        "مصرف انرژی",
+        "زیرساخت",
+        "AI",
+        "پایداری"
+      ]
+    },
+    {
+      "id": "0ab96485471e141f",
+      "date": "2026-07-21",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "جنگ داخلی در تیم هوش مصنوعی ترامپ: شکاف بر سر مدل‌های چینی",
+      "title_en": "The Download: Chinese AI divides the White House, and a record copyright payout",
+      "summary_fa": "هوش مصنوعی چین به کانون اختلاف و نزاع در میان مشاوران فعلی و پیشین دونالد ترامپ، رئیس‌جمهور سابق آمریکا تبدیل شده است. طی هفته گذشته، چندین نفر از این مشاوران علناً مدل‌های پیشرو هوش مصنوعی چین را مورد انتقاد شدید قرار دادند که به بروز یک جنگ داخلی در تیم هوش مصنوعی ترامپ منجر شده است.",
+      "tags": [
+        "هوش مصنوعی",
+        "چین",
+        "ایالات متحده",
+        "سیاست هوش مصنوعی",
+        "Donald Trump"
+      ]
+    },
+    {
+      "id": "4e01d28ba05e7343",
+      "date": "2026-07-21",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "علم مواد؛ پیشران پنهان هوش مصنوعی نسل آینده",
+      "title_en": "Advancing next-gen AI with materials science innovation",
+      "summary_fa": "بحث‌های هوش مصنوعی اغلب بر الگوریتم‌ها، قدرت پردازش و سرمایه‌گذاری‌های عظیم در کارخانه‌های تراشه و مراکز داده متمرکز است. اما آنچه این پیشرفت‌ها را ممکن می‌سازد، لایه‌ای از نوآوری در علم مواد پیشرفته است. هر نسل جدید از هوش مصنوعی نیازمند قدرت پردازش، حافظه و بهره‌وری انرژی بیشتری است که تحقق آن‌ها به پیشرفت‌های بنیادی در متریال‌ها و سخت‌افزار بستگی دارد.",
+      "tags": [
+        "هوش مصنوعی",
+        "علم مواد",
+        "سخت‌افزار",
+        "نیمه‌رسانا",
+        "بهره‌وری انرژی"
       ]
     }
   ]
