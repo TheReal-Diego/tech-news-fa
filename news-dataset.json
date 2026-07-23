@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-22",
+    "last_updated": "2026-07-23",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 319
+    "total_articles": 332
   },
   "articles": [
     {
@@ -5415,6 +5415,227 @@
         "سخت‌افزار",
         "نیمه‌رسانا",
         "بهره‌وری انرژی"
+      ]
+    },
+    {
+      "id": "bd6ce42035f55001",
+      "date": "2026-07-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "category": "زیرساخت و توسعه هوش مصنوعی",
+      "title_fa": "اوپن‌ای‌آی پروژه کامیلا را در جورجیا کلید زد: ساخت زیرساخت هوش مصنوعی با تعهدات اجتماعی و زیست‌محیطی",
+      "title_en": "Building AI infrastructure with the Effingham County community",
+      "summary_fa": "اوپن‌ای‌آی از پروژه جدید خود به نام \"کامیلا\" در شهرستان افینگهام، جورجیا، خبر داد. این پروژه با هدف توسعه زیرساخت‌های هوش مصنوعی، شامل تعهداتی برای استفاده مسئولانه از انرژی، سرمایه‌گذاری در جامعه محلی، ایجاد فرصت‌های شغلی جدید و فراهم آوردن دسترسی به مدل کدکس اوپن‌ای‌آی است. این اقدام نشان‌دهنده تمرکز شرکت بر توسعه مسئولانه فناوری و مشارکت با جوامع محلی است.",
+      "tags": [
+        "OpenAI",
+        "Project Camellia",
+        "AI infrastructure",
+        "Effingham County",
+        "انرژی پایدار"
+      ]
+    },
+    {
+      "id": "130e23c4bd2f87cb",
+      "date": "2026-07-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "هوش مصنوعی در خدمت رسانه‌ها: تقویت خبررسانی، توسعه مخاطب و بهبود عملیات",
+      "title_en": "How news organizations are using AI to advance their vital missions",
+      "summary_fa": "سازمان‌های خبری به منظور تقویت گزارشگری، افزایش مخاطبان و بهبود عملیات تجاری خود به طور فزاینده‌ای از هوش مصنوعی بهره می‌برند. این فناوری به روزنامه‌نگاران در سراسر جهان کمک می‌کند و ابزارهای OpenAI نیز نقش مهمی در حمایت از ناشران ایفا می‌کنند تا ماموریت‌های حیاتی خود را پیش ببرند.",
+      "tags": [
+        "هوش مصنوعی",
+        "رسانه‌های خبری",
+        "روزنامه‌نگاری",
+        "OpenAI",
+        "تحول دیجیتال"
+      ]
+    },
+    {
+      "id": "fc3528d001b5387a",
+      "date": "2026-07-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "category": "کاربرد هوش مصنوعی در علم",
+      "title_fa": "OpenAI: هوش مصنوعی، موتور محرکه نسل نوین علم در آمریکا",
+      "title_en": "Advancing the next era of national science",
+      "summary_fa": "شرکت OpenAI تعهد خود را برای پیشبرد علم ملی آمریکا اعلام کرده است. این شرکت قصد دارد با همکاری وزارت انرژی ایالات متحده و آزمایشگاه‌های ملی این کشور، از هوش مصنوعی پیشرفته (frontier AI) برای تسریع در کشفیات و نوآوری‌های علمی بهره‌برداری کند. هدف این مشارکت، گشودن افق‌های جدید در تحقیقات علمی و سرعت بخشیدن به فرآیند نوآوری با استفاده از قابلیت‌های قدرتمند هوش مصنوعی است.",
+      "tags": [
+        "OpenAI",
+        "هوش مصنوعی",
+        "علم آمریکا",
+        "وزارت انرژی آمریکا",
+        "Frontier AI"
+      ]
+    },
+    {
+      "id": "c54f46e53d48e304",
+      "date": "2026-07-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-openai-presence",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "OpenAI از «Presence» پرده برداشت: پلتفرم جدید دستیاران هوش مصنوعی برای سازمان‌ها",
+      "title_en": "Introducing OpenAI Presence",
+      "summary_fa": "شرکت OpenAI پلتفرم جدیدی با نام «Presence» را رونمایی کرده است. این سرویس به عنوان یک پلتفرم پیشرفته دستیار هوش مصنوعی سازمانی، برای کمک به سازمان‌ها در استقرار عامل‌های هوش مصنوعی صوتی و چت قابل اعتماد طراحی شده است. Presence با هدف بهبود تعامل با مشتریان و بهینه‌سازی فرآیندهای کاری داخلی شرکت‌ها توسعه یافته است.",
+      "tags": [
+        "OpenAI",
+        "Presence",
+        "هوش مصنوعی سازمانی",
+        "دستیار هوش مصنوعی",
+        "اتوماسیون کسب‌وکار"
+      ]
+    },
+    {
+      "id": "ce627deb992812da",
+      "date": "2026-07-22",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/ntt-data",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "NTT DATA: هوش مصنوعی، زمان تحلیل حوادث را به ۳۰ دقیقه رساند و بهره‌وری را افزایش داد",
+      "title_en": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "summary_fa": "گروه NTT DATA با بهره‌گیری از ChatGPT Enterprise و Codex، توانسته است کارهای ۹۰۰۰ کارمند خود را خودکارسازی کند. این رویکرد به کاهش چشمگیر زمان تحلیل حوادث به تنها ۳۰ دقیقه منجر شده است. هدف NTT DATA گسترش امن و مقیاس‌پذیر استفاده از هوش مصنوعی در سازمان است.",
+      "tags": [
+        "NTT DATA Group",
+        "ChatGPT Enterprise",
+        "Codex",
+        "هوش مصنوعی",
+        "بهره‌وری"
+      ]
+    },
+    {
+      "id": "d42362617c640879",
+      "date": "2026-07-21",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "category": "کاربرد هوش مصنوعی در کسب و کار",
+      "title_fa": "ChatGPT برای کسب‌وکارهای کوچک: برنامه جدید OpenAI برای شتاب‌دهی به رشد و بهره‌وری",
+      "title_en": "Introducing the ChatGPT for small business program",
+      "summary_fa": "اوپن‌ای‌آی برنامه «ChatGPT برای کسب‌وکارهای کوچک» را معرفی کرده است. این طرح با هدف کمک به کارآفرینان برای توسعه مهارت‌های هوش مصنوعی، خودکارسازی وظایف و تسریع رشد با استفاده از ChatGPT Work طراحی شده است. این برنامه پتانسیل زیادی برای تحول عملیات کسب‌وکارهای کوچک دارد.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "کسب‌وکارهای کوچک",
+        "هوش مصنوعی",
+        "کارآفرینی"
+      ]
+    },
+    {
+      "id": "ac40ec794b96ec3f",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "IBM: هوش مصنوعی مین‌فریم را از بین نمی‌برد، بودجه‌ها موقتاً جابجا شده‌اند",
+      "title_en": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+      "summary_fa": "سهام شرکت IBM هفته گذشته به دلیل هشدار درباره فروش ضعیف مین‌فریم‌ها سقوط کرد. مدیرعامل این شرکت توضیح داد که هوش مصنوعی موقتاً بودجه‌های سخت‌افزاری شرکت‌ها را دچار تغییر کرده است. به گفته او، این شرایط به معنای از بین رفتن مین‌فریم‌ها نیست و تنها جابجایی موقتی در هزینه‌هاست.",
+      "tags": [
+        "IBM",
+        "Mainframe",
+        "هوش مصنوعی",
+        "نتایج مالی",
+        "سخت‌افزار سازمانی"
+      ]
+    },
+    {
+      "id": "e99bcac5847abc12",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "رونق بی‌سابقه کسب‌وکار ابری گوگل: ثمره سرمایه‌گذاری‌های عظیم در هوش مصنوعی",
+      "title_en": "Google justifies its massive AI spending with a booming cloud business",
+      "summary_fa": "کسب‌وکار ابری گوگل با استقبال گسترده شرکت‌ها از خدمات هوش مصنوعی و زیرساخت‌های آن، رشد چشمگیری را تجربه کرده است. این موفقیت و سودآوری بی‌سابقه، سرمایه‌گذاری‌های هنگفت این غول فناوری در حوزه هوش مصنوعی را کاملاً توجیه می‌کند.",
+      "tags": [
+        "Google",
+        "AI",
+        "Google Cloud",
+        "سودآوری",
+        "زیرساخت ابری"
+      ]
+    },
+    {
+      "id": "d341226a8b131bf0",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "تهدید تحریم‌های آمریکا علیه شرکت چینی Moonshot در پی اتهام کپی‌برداری از هوش مصنوعی Anthropic",
+      "title_en": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+      "summary_fa": "کاخ سفید مدعی شده است که شرکت چینی Moonshot، مدل هوش مصنوعی 'Fable' متعلق به Anthropic را نسخه‌برداری یا از آن بهره‌برداری غیرمجاز کرده است. در پی این اتهام، وزارت خزانه‌داری آمریکا تهدید به وضع تحریم‌هایی علیه شرکت Moonshot کرده است. این ماجرا، بحث‌های گسترده‌ای را در واشنگتن پیرامون ورود فزاینده مدل‌های هوش مصنوعی متن‌باز چینی و پیامدهای امنیتی و اقتصادی آن تشدید کرده است.",
+      "tags": [
+        "Moonshot",
+        "Anthropic",
+        "تحریم‌های آمریکا",
+        "سیاست هوش مصنوعی",
+        "روابط آمریکا و چین"
+      ]
+    },
+    {
+      "id": "9002430dc555ad64",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "سرمایه‌گذاری عظیم ۱.۷ میلیارد دلاری در استارتاپ رباتیک تراویس کالانیک با رهبری a16z",
+      "title_en": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+      "summary_fa": "شرکت Atoms، استارتاپ رباتیک و هوش مصنوعی صنعتی متعلق به تراویس کالانیک (هم‌بنیان‌گذار اوبر)، موفق به جذب ۱.۷ میلیارد دلار سرمایه شده است. این دور عظیم سرمایه‌گذاری تحت رهبری شرکت Andreessen Horowitz (a16z) انجام شده و شرکت اوبر نیز در آن مشارکت دارد. Atoms هدف خود را مدرن‌سازی جهان از طریق کاربرد هوش مصنوعی صنعتی اعلام کرده است.",
+      "tags": [
+        "Travis Kalanick",
+        "Atoms",
+        "a16z",
+        "Uber",
+        "رباتیک"
+      ]
+    },
+    {
+      "id": "6a49c5af54424b33",
+      "date": "2026-07-22",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+      "category": "سرمایه‌گذاری و استارتاپ",
+      "title_fa": "Yope با ۱۲.۳ میلیون دلار سرمایه، شبکه‌ی اجتماعی خصوصی بدون الگوریتم و تبلیغات می‌سازد",
+      "title_en": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "summary_fa": "یوپ، یک اپلیکیشن اجتماعی در حال رشد که بر گروه‌های خصوصی دوستان و خانواده تمرکز دارد، ۱۲.۳ میلیون دلار سرمایه‌ی اولیه جذب کرده است. این استارتاپ به جای دنبال کردن تولیدکنندگان محتوا و فیدهای الگوریتمی، بر این باور است که آینده شبکه‌های اجتماعی در جوامع کوچک و خصوصی است. پلتفرم یوپ با بهره‌گیری از پیام‌رسانی، اشتراک‌گذاری عکس و قابلیت‌های هوش مصنوعی، قصد دارد روابط واقعی کاربران را تقویت کند.",
+      "tags": [
+        "Yope",
+        "شبکه‌ی اجتماعی",
+        "سرمایه‌گذاری استارتاپی",
+        "AI",
+        "حریم خصوصی"
+      ]
+    },
+    {
+      "id": "1eff5f363132e1ba",
+      "date": "2026-07-22",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "category": "فناوری و اکتشافات فضایی",
+      "title_fa": "پرتاب قریب‌الوقوع تلسکوپ فضایی نانسی گریس رومان: آینه‌های هوشمند در جستجوی سیارات فراخورشیدی",
+      "title_en": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "summary_fa": "تلسکوپ فضایی نانسی گریس رومان ناسا، مجهز به آینه‌های تغییرشکل‌دهنده، قرار است در اوایل ماه آینده پرتاب شود. این ابزار پیشرفته با هدف کشف سیارات فراخورشیدی مشابه مشتری‌های منظومه شمسی ما طراحی شده است تا دیدگاهی تازه از جهان‌های دوردست ارائه دهد.",
+      "tags": [
+        "NASA",
+        "Nancy Grace Roman Space Telescope",
+        "تلسکوپ فضایی",
+        "سیارات فراخورشیدی",
+        "فناوری فضایی"
+      ]
+    },
+    {
+      "id": "1ead83060cb95974",
+      "date": "2026-07-22",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "category": "فناوری فضایی و اکتشافات",
+      "title_fa": "تلسکوپ فضایی رومن ناسا با آینه‌های متغیر: گامی بلند برای کشف مشتری‌های فراخورشیدی",
+      "title_en": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "summary_fa": "تلسکوپ فضایی نانسی گریس رومن ناسا، که پرتاب آن اوایل ماه آینده برنامه‌ریزی شده است، اولین کرونوگراف فعال فضایی را با خود حمل خواهد کرد. این ابزار نوری پیشرفته می‌تواند بخش عمده‌ای از نور ستاره‌ها را حذف کند و با این «ترفند دقیق محو کردن»، به ستاره‌شناسان امکان می‌دهد تا سیارات فراخورشیدی، به ویژه مشتری‌هایی شبیه به سیاره خودمان را با دقت بی‌سابقه‌ای کشف و مشاهده کنند.",
+      "tags": [
+        "NASA",
+        "Nancy Grace Roman Space Telescope",
+        "Exoplanets",
+        "Coronagraph",
+        "تلسکوپ فضایی"
       ]
     }
   ]
