@@ -3,7 +3,7 @@
     "name": "آرشیو اخبار تکنولوژی و هوش مصنوعی",
     "description": "دیتاست خبرهای روزانه‌ی تکنولوژی و هوش مصنوعی، استخراج‌شده و ترجمه‌شده به فارسی، برای استفاده در تحلیل روند آینده‌ی فناوری",
     "created_at": "2026-06-27",
-    "last_updated": "2026-07-23",
+    "last_updated": "2026-07-24",
     "schema_version": 1,
     "sources": [
       "openai.com/news",
@@ -11,7 +11,7 @@
       "technologyreview.com",
       "theverge.com / techmeme.com"
     ],
-    "total_articles": 332
+    "total_articles": 348
   },
   "articles": [
     {
@@ -5636,6 +5636,274 @@
         "Exoplanets",
         "Coronagraph",
         "تلسکوپ فضایی"
+      ]
+    },
+    {
+      "id": "7569338ee0d35289",
+      "date": "2026-07-23",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/health-in-chatgpt",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "ChatGPT به میدان سلامت وارد می‌شود: اتصال به پرونده‌های پزشکی برای درک بهتر وضعیت فردی",
+      "title_en": "Launching Health in ChatGPT",
+      "summary_fa": "OpenAI قابلیت جدیدی را در ChatGPT معرفی کرده است که به کاربران واجد شرایط در ایالات متحده امکان می‌دهد تا به طور امن، سوابق پزشکی و داده‌های Apple Health خود را به این پلتفرم متصل کنند. این ویژگی به منظور ارائه بینش‌های شخصی‌سازی‌شده‌تر و درک عمیق‌تر کاربران از وضعیت سلامت خود طراحی شده است.",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "Apple Health",
+        "سلامت دیجیتال",
+        "سوابق پزشکی"
+      ]
+    },
+    {
+      "id": "20b0eb2d5c149974",
+      "date": "2026-07-21",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "category": "امنیت سایبری",
+      "title_fa": "افشای جزئیات اولیه از حادثه امنیتی در ارزیابی مدل‌های هوش مصنوعی توسط OpenAI و Hugging Face",
+      "title_en": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "summary_fa": "شرکت‌های OpenAI و Hugging Face یافته‌های اولیه خود را از یک حادثه امنیتی که حین ارزیابی مدل‌های هوش مصنوعی رخ داده بود، منتشر کرده‌اند. این حادثه نشان‌دهنده‌ی قابلیت‌های پیشرفته‌ی سایبری عاملان حمله است و درس‌هایی مهم برای متخصصان امنیت سایبری به همراه دارد.",
+      "tags": [
+        "OpenAI",
+        "Hugging Face",
+        "امنیت سایبری",
+        "هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "eeac6a04af4fa80e",
+      "date": "2026-07-16",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/codex-collaborator-creative-team",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "Codex: کاتالیزور خلاقیت و نوآوری در تیم OpenAI",
+      "title_en": "How Codex became a collaborator for OpenAI’s creative team",
+      "summary_fa": "تیم خلاق OpenAI از مدل هوش مصنوعی Codex برای پیشبرد پروژه‌های خود بهره می‌برد. این تیم با استفاده از Codex، قادر است ابزارهای خلاقانه سفارشی توسعه دهد، فرآیند ایده‌پردازی را شتاب بخشد و نمونه‌های اولیه را با سرعت بیشتری تولید کند. هوش مصنوعی متناسب با بستر (context-aware) Codex، نقش مهمی در تسهیل این فرآیندهای نوآورانه ایفا می‌کند.",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "هوش مصنوعی",
+        "خلاقیت",
+        "توسعه ابزار"
+      ]
+    },
+    {
+      "id": "0889e6f0be8e183a",
+      "date": "2026-04-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "category": "زیرساخت و محاسبات هوش مصنوعی",
+      "title_fa": "OpenAI با «Stargate» زیرساخت عصر هوش را می‌سازد",
+      "title_en": "Building the compute infrastructure for the Intelligence Age",
+      "summary_fa": "شرکت OpenAI با گسترش پروژه‌ی «Stargate»، در حال ساخت زیرساخت‌های محاسباتی عظیم مورد نیاز برای توسعه‌ی هوش عمومی مصنوعی (AGI) است. این گام بلند، با هدف تأمین توان پردازشی لازم برای نسل‌های آینده‌ی هوش مصنوعی و پاسخگویی به تقاضای فزاینده در این حوزه برداشته شده و شامل افزایش چشمگیر ظرفیت مراکز داده‌ی این شرکت می‌شود.",
+      "tags": [
+        "OpenAI",
+        "Stargate",
+        "AGI",
+        "زیرساخت محاسباتی",
+        "مرکز داده"
+      ]
+    },
+    {
+      "id": "6d737041e91d8e01",
+      "date": "2026-04-29",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "category": "امنیت سایبری",
+      "title_fa": "OpenAI و نقش هوش مصنوعی در امنیت سایبری: یک برنامه عملیاتی ۵ مرحله‌ای",
+      "title_en": "Cybersecurity in the Intelligence Age",
+      "summary_fa": "شرکت OpenAI اخیراً یک طرح عملیاتی پنج‌مرحله‌ای را برای تقویت امنیت سایبری در دوران هوش مصنوعی معرفی کرده است. این طرح با هدف دموکراتیک‌سازی ابزارهای دفاع سایبری مبتنی بر هوش مصنوعی و محافظت از سیستم‌های حیاتی، رویکردی جامع را برای مقابله با تهدیدات سایبری ارائه می‌دهد.",
+      "tags": [
+        "OpenAI",
+        "امنیت سایبری",
+        "هوش مصنوعی",
+        "AI-powered defense",
+        "سیستم‌های حیاتی"
+      ]
+    },
+    {
+      "id": "368128e6f2812923",
+      "date": "2026-04-28",
+      "source": "OpenAI News",
+      "source_url": "https://openai.com/index/openai-on-aws",
+      "category": "پذیرش سازمانی هوش مصنوعی",
+      "title_fa": "مدل‌های هوش مصنوعی OpenAI اکنون در AWS: توسعه هوش مصنوعی امن برای کسب‌وکارها",
+      "title_en": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "summary_fa": "مدل‌های پیشرفته هوش مصنوعی OpenAI، از جمله GPT و Codex، به همراه ابزارهای «نماینده مدیریت‌شده» (Managed Agents)، اکنون از طریق سرویس‌های ابری آمازون (AWS) در دسترس قرار گرفته‌اند.\nاین دسترسی جدید به شرکت‌ها امکان می‌دهد تا با استفاده از زیرساخت‌های ابری موجود خود در AWS، به طور امن و مؤثر به توسعه و پیاده‌سازی کاربردهای هوش مصنوعی بپردازند.\nهدف از این اقدام، فراهم کردن بستری مطمئن برای سازمان‌ها جهت نوآوری و بهره‌برداری از قابلیت‌های هوش مصنوعی پیشرفته در محیط‌های عملیاتی‌شان است.",
+      "tags": [
+        "OpenAI",
+        "AWS",
+        "GPT",
+        "هوش مصنوعی سازمانی",
+        "رایانش ابری"
+      ]
+    },
+    {
+      "id": "2a6bd5e0331119fb",
+      "date": "2026-07-24",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "category": "امنیت سایبری و هوش مصنوعی",
+      "title_fa": "محدودیت‌های هوش مصنوعی: مانعی برای محققان امنیت سایبری تهاجمی",
+      "title_en": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "summary_fa": "گفتگو با چندین متخصص امنیت سایبری تهاجمی نشان می‌دهد که محدودیت‌های اعمال‌شده توسط توسعه‌دهندگان مدل‌های هوش مصنوعی بزرگی مانند OpenAI و Anthropic، کار آن‌ها را با مشکل مواجه کرده است. این محققان که وظیفه‌شان کشف آسیب‌پذیری‌های ناشناخته و توسعه ابزارهای بهره‌برداری از آن‌هاست، معتقدند که این «حفاظ‌های هوش مصنوعی» مانع از انجام اثربخش تحقیقاتشان می‌شود و پتانسیل کشف آسیب‌پذیری‌های حیاتی را کاهش می‌دهد.",
+      "tags": [
+        "امنیت سایبری",
+        "هوش مصنوعی",
+        "OpenAI",
+        "Anthropic",
+        "محدودیت‌های هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "264c4ef28eb24c04",
+      "date": "2026-07-23",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "category": "سخت‌افزار و تراشه",
+      "title_fa": "AMD با سیستم هوش مصنوعی Helios به مصاف انویدیا می‌رود",
+      "title_en": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "summary_fa": "شرکت AMD با معرفی سیستم جدیدی در مقیاس رک به نام Helios AI، رقیب دیرینه‌اش، انویدیا را به چالش کشیده است. این سیستم جدید هوش مصنوعی که برای پردازش‌های سنگین طراحی شده، قرار است اواخر سال جاری میلادی برای مشتریان ارسال شود.",
+      "tags": [
+        "AMD",
+        "Nvidia",
+        "Helios",
+        "AI",
+        "سخت‌افزار هوش مصنوعی"
+      ]
+    },
+    {
+      "id": "4ee51e0aa60aedd2",
+      "date": "2026-07-23",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "category": "پژوهش و مدل‌های هوش مصنوعی",
+      "title_fa": "قابلیت‌های تازه در حالت صوتی Claude: برنامه‌ریزی و نگارش ایمیل با صدای شما",
+      "title_en": "Anthropic updates Claude voice mode with more capable models",
+      "summary_fa": "Anthropic مدل صوتی جدیدی برای Claude منتشر کرده است. این مدل پیشرفته‌تر به کاربران اجازه می‌دهد تا با استفاده از دستورات صوتی، قرارهای خود را دوباره تنظیم کنند. همچنین می‌توانند پیش‌نویس ایمیل‌ها را به سادگی از طریق صدا تهیه کنند.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Voice AI",
+        "AI Models"
+      ]
+    },
+    {
+      "id": "b23e90f9cfe35f1d",
+      "date": "2026-07-23",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "category": "امنیت سایبری",
+      "title_fa": "AegisAI: جذب ۳۶ میلیون دلار برای مبارزه با فیشینگ هوش مصنوعی توسط بنیان‌گذاران سابق گوگل",
+      "title_en": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "summary_fa": "شرکت AegisAI، که توسط مدیران سابق بخش امنیت گوگل تأسیس شده است، موفق به جذب سرمایه‌ای ۳۶ میلیون دلاری شد. هدف اصلی این استارتاپ، مقابله با حملات فیشینگ پیشرفته (spear phishing) است که به کمک هوش مصنوعی هدایت می‌شوند. فناوری AegisAI بر پایه عوامل هوش مصنوعی است که پیام‌ها را با دقتی مشابه انسان تحلیل کرده و ناهنجاری‌های ظریفی را کشف می‌کند که حتی از پیچیده‌ترین چک‌لیست‌ها نیز پنهان می‌مانند.",
+      "tags": [
+        "AegisAI",
+        "امنیت سایبری",
+        "spear phishing",
+        "هوش مصنوعی",
+        "سرمایه‌گذاری"
+      ]
+    },
+    {
+      "id": "9954135b2125f34a",
+      "date": "2026-07-23",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "category": "تحلیل صنعت هوش مصنوعی",
+      "title_fa": "Runway با «مدیا روتر»، انتخابی هوشمندانه در بازار شلوغ مدل‌های هوش مصنوعی مولد رسانه",
+      "title_en": "Runway launches AI model router as generative media gets crowded",
+      "summary_fa": "ابزار «مدیا روتر» که توسط Runway عرضه شده، یک سامانه هوشمند برای انتخاب خودکار بهینه‌ترین مدل هوش مصنوعی برای تولید تصویر، ویدئو یا صدا است. این ابزار به توسعه‌دهندگان کمک می‌کند تا بدون درگیری با پیچیدگی‌ها، مدل مناسب را بر اساس اولویت‌های خود مانند کیفیت، سرعت یا هزینه انتخاب کنند.",
+      "tags": [
+        "Runway",
+        "Media Router",
+        "Generative AI",
+        "AI models",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "fba0078191b23c36",
+      "date": "2026-07-23",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "OpenAI قابلیت سلامت ChatGPT را برای تمام کاربران آمریکایی عرضه کرد",
+      "title_en": "OpenAI makes ChatGPT Health available to all US users",
+      "summary_fa": "OpenAI قابلیت ChatGPT Health را برای تمامی کاربران در ایالات متحده فعال کرده است. این ویژگی جدید به کاربران اجازه می‌دهد تا داده‌های سلامت شخصی خود را از سرویس‌هایی مانند Apple Health، Function و MyFitnessPal به ChatGPT متصل کنند.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Health AI",
+        "Apple Health",
+        "MyFitnessPal"
+      ]
+    },
+    {
+      "id": "12d5b9e2ee6d115b",
+      "date": "2026-07-23",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "category": "فناوری در پزشکی",
+      "title_fa": "پیشرفت بزرگ در پیوند عضو: کلیه‌های فوق‌سرد، امیدی تازه برای افزایش زمان نگهداری",
+      "title_en": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "summary_fa": "در اهدای عضو، زمان عنصری حیاتی است؛ اندام‌ها به سرعت پس از خروج از بدن اهداکننده شروع به تخریب می‌کنند و جراحان تنها چند ساعت فرصت دارند تا آن‌ها را به بدن گیرنده منتقل کنند. اکنون، دانشمندان در یک دستاورد انقلابی، کلیه‌هایی را که با روش «فوق‌سرد» نگهداری شده بودند، با موفقیت به خوک‌ها پیوند زده‌اند. این موفقیت بزرگ، نویدبخش افزایش قابل توجه زمان نگهداری اندام‌های اهدایی و بهبود چشم‌انداز پیوندهای موفق در آینده است.",
+      "tags": [
+        "پیوند عضو",
+        "فناوری فوق‌سرد",
+        "حفظ اندام",
+        "پژوهش پزشکی"
+      ]
+    },
+    {
+      "id": "afcf89e18b0636b9",
+      "date": "2026-07-23",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "category": "سیاست و تنظیم‌گری هوش مصنوعی",
+      "title_fa": "تازه‌های تکنولوژی: از چالش‌های شبکه برق نیویورک تا تقابل آمریکا و هوش مصنوعی چین",
+      "title_en": "The Download: energy transmission and US threats against Chinese AI",
+      "summary_fa": "این نسخه از خبرنامه روزانه تکنولوژی \"The Download\" به بررسی تحولات مهم می‌پردازد. یکی از موضوعات اصلی، چالش‌های پیش روی خط انتقال برق جدیدی است که می‌تواند شبکه انرژی ایالت نیویورک را متحول کند. این خط انتقال که قرار است برق وارداتی از کانادا را تامین کند، با موانعی مواجه شده است. همچنین، این خبرنامه به بررسی تهدیدات ایالات متحده علیه هوش مصنوعی چین نیز می‌پردازد که نشان‌دهنده ابعاد ژئوپلیتیک فناوری است.",
+      "tags": [
+        "هوش مصنوعی",
+        "روابط آمریکا و چین",
+        "انتقال انرژی",
+        "شبکه برق",
+        "New York"
+      ]
+    },
+    {
+      "id": "b3ab14e8e0c20cf4",
+      "date": "2026-07-23",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "category": "کاربرد هوش مصنوعی در علم و پزشکی",
+      "title_fa": "هوش مصنوعی؛ شتاب‌دهنده طراحی و توسعه داروهای نسل جدید",
+      "title_en": "How AI helps scientists design the next generation of medicines",
+      "summary_fa": "فرآیند طراحی و توسعه داروهای جدید، پرهزینه، زمان‌بر و با ریسک بالای شکست همراه است؛ به‌گونه‌ای که بسیاری از نامزدهای دارویی هرگز به مرحله درمان بیماران نمی‌رسند. این چالش به ویژه در مورد داروهای بیولوژیک که از پروتئین‌های مهندسی‌شده ساخته می‌شوند، اهمیت بیشتری می‌یابد. اکنون هوش مصنوعی به کمک دانشمندان آمده تا با سرعت بخشیدن و افزایش دقت در این فرآیند، راه را برای تولید نسل جدیدی از داروها هموار کند.",
+      "tags": [
+        "هوش مصنوعی",
+        "کشف دارو",
+        "پزشکی",
+        "داروهای بیولوژیک"
+      ]
+    },
+    {
+      "id": "269073337775fd1f",
+      "date": "2026-07-23",
+      "source": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "category": "زیرساخت و انرژی",
+      "title_fa": "چالش‌ها بر سر راه خط انتقال برق تحول‌آفرین نیویورک",
+      "title_en": "The power line that could reshape New York’s grid is hitting snags",
+      "summary_fa": "در بحبوحه موج گرمای اخیر، ایالت نیویورک بخش قابل توجهی از برق مورد نیاز خود را، حدود ۹ درصد کل تقاضا، از کانادا و از طریق خط انتقال برق ۳۳۹ مایلی \"چمپلین هادسون پاور اکسپرس\" (CHPE) تأمین کرد. این خط که کبک را به کوئینز متصل می‌کند، پتانسیل بازشکل‌دهی اساسی شبکه برق نیویورک را دارد، اما گزارش‌ها حاکی از آن است که این پروژه اکنون با چالش‌ها و موانعی روبرو شده است.",
+      "tags": [
+        "Champlain Hudson Power Express",
+        "New York",
+        "زیرساخت انرژی",
+        "شبکه برق",
+        "کانادا"
       ]
     }
   ]
